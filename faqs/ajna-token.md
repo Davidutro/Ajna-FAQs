@@ -5,15 +5,11 @@ What is the total supply of AJNA tokens?\
 Can new tokens be minted?\
 How can I get AJNA tokens?
 
+### What are AJNA tokens and what are they used for?
+
+ccc
+
 ### What is the total supply of AJNA tokens?
-
-AAA
-
-### How is the native token distributed
-
-AAA
-
-### What is the purpose of the token?
 
 AAA
 
@@ -21,6 +17,6 @@ AAA
 
 AAA
 
-### QQQ
+### How can I get AJNA tokens?
 
 AAA
