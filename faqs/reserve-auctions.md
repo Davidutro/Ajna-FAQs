@@ -7,22 +7,22 @@ Who triggers reserve auctions, is there an incentive?\
 How do I participate in a reserve auction?\
 
 
+### What are reserves?
+
+ccc
+
 ### What is a reserve auction?
 
-AAA
+cc
 
-### QQQ
+### When do reserve auctions occur?
 
-AAA
+cc
 
-### QQQ
+### Who triggers reserve auctions, is there an incentive?
 
-AAA
+cc
 
-### QQQ
+### How do I participate in a reserve auction?
 
-AAA
-
-### QQQ
-
-AAA
+cc
