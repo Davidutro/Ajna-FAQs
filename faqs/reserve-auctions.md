@@ -9,7 +9,7 @@ How do I participate in a reserve auction?\
 
 ### What are reserves?
 
-ccc
+Reserves are a balance of quote tokens that are collected from Net Interest Margin and penalties. Each pool has a reserve.  Reserves act as insurance funds for covering bad debt but can also be used for reserve auctions if excess funds accumulate.
 
 ### What is a reserve auction?
 
