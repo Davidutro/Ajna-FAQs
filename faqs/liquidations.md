@@ -59,8 +59,11 @@ Bob has ETH, and would like to borrow some DAI. The APR to borrow is 1%.  He pla
 
 ### How do I participate in liquidation auctions?
 
-cc
+There are two ways to participate. The first as a loan kicker. This actor posts the liquidation bond and triggers loan liquidations. The second as an auction bidder. This actor can bid on collateral during liquidation auctions.\
+\
+Beginners could use the Ajna application to access this functionality. \
+Advanced users can develop their own preferred UIs or automations using our SDK.
 
 ### What if a liquidation auction clears below a loan's Threshold Price?
 
-xx
+If a liquidation fails to sell all the collateral at or above the threshold price, then the loan left over bad debt which is deducted from the pool's reserves. If the reserves are insufficient, quote token liquidity is taken from the highest price buckets, diluting LPB holders in those buckets.
