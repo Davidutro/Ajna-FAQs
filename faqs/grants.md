@@ -1,6 +1,6 @@
 # Grants
 
-What are grants at Ajna?\
+What is the Ajna grants program?\
 What is a grant proposal?\
 How do I vote on a proposal?\
 Why should I vote?\
