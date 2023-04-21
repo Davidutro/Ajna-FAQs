@@ -17,7 +17,7 @@ Can less than 10 proposals be selected?\
 Can a grantee return AJNA tokens to the protocol?\
 My proposal was approved, how do I claim the grant?
 
-### What are grants at Ajna?
+### What is the Ajna grants program?
 
 xxx
 
