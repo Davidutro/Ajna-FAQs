@@ -35,7 +35,7 @@ A delegate is an individual or group, identified by an Ethereum address, who rep
 
 ### Can I delegate to myself?
 
-Yes, you can self-delegate.This is expected to be done in order to earn delegate rewards.
+Yes, you can self-delegate. This is expected to be done in order to earn delegate rewards.
 
 ### Why should I vote?
 
@@ -63,7 +63,7 @@ No, you can only delegate to one at any given time.
 
 ### Can I cancel or modify my vote?
 
-No, votes are final once submitted.
+No, votes cannot be cancelled or modified. They are final once submitted.
 
 ### How much AJNA is granted every cycle?
 
@@ -75,10 +75,10 @@ Yes
 
 ### Can a grantee return AJNA tokens to the protocol?
 
-xxx
+Yes, they can send back tokens directly to the treasury contract address, `0x...`
 
 ### How does proposing a new slate of funded proposals work?
 
-Fund treaury method they can call to send back tokens.
+Fund treasury method they can call to send back tokens.
 
 \
