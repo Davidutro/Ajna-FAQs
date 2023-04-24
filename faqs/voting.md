@@ -28,9 +28,15 @@ Can a proposal be resubmitted?\
 
 The voting process will only involve the approval or disapproval of grant applications, which will determine whether payouts are made.
 
-### QQQ
+### How does the voting system work? 
 
-AAA
+### How are votes counted and is there a required quorum? 
+
+### Who is eligible to participate in the voting process? 
+
+### Can I delegate my voting power? 
+
+### How can I submit a proposal?
 
 
 
@@ -42,23 +48,21 @@ Quadratic voting is a system that allows individuals to express their preference
 
 AAA
 
-### QQQ
+### How often are votes held?
 
-AAA
+### &#x20;How long do participants have to cast their votes in the screening stage? 
 
-### QQQ
+### How long do participants have to cast their votes in the funding stage? 
 
-AAA
+### Can I change my vote after I've cast it? 
 
-### QQQ
+### Can participants propose changes to the voting system? 
 
-AAA
+### Are there any incentives for participating? 
 
-### QQQ
+### What happens if a proposal is passed but is not technically feasible? 
 
-AAA
+### Can the voting system be used to amend the protocol's smart contracts? 
 
-### QQQ
-
-AAA
+### Can a proposal be resubmitted?
 

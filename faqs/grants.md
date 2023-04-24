@@ -2,6 +2,7 @@
 
 What is the Ajna grants program?\
 What is a grant proposal?\
+How are grants selected?\
 How do I vote on a proposal?\
 Why should I vote?\
 What is a delegate?\
@@ -24,6 +25,42 @@ The grant program for the Ajna Protocol provides funding for growth and developm
 ### What is a grant proposal?
 
 An Ajna Grant Proposal is a document or set of documents that is submitted to an organization with the explicit intent of securing funding for a body of work. Proposals are promoted by community voting.
+
+### **How are grant proposals selected?**
+
+When assessing applications, the criteria below should be considered to guide decision making;\
+\
+Relevance \
+All funded projects should be applicable to Ajna.
+
+Benefit \
+The goal of this program is to increase the protocol's probability for success.
+
+* Does this project benefit Ajna and its users?
+* Will there be a real positive impact?&#x20;
+
+Feasibility \
+Ideas and discussions are great, but only realistic projects with tangible results should be funded.
+
+* Can the project really be accomplished? ‍
+* Are the objectives and success case realistic?&#x20;
+
+Execution \
+Applicants should provide a clear execution plan for completing the project and reaching the goals.
+
+* Is there a clear plan?
+* Will grantees report progress?&#x20;
+
+Qualification \
+Applicants should provide background or credentials to prove their capabilities.
+
+* Is the individual or team qualified to complete the project? &#x20;
+
+Cost \
+There is a sweet spot to attract high quality contributors with competitive funding without overspending.&#x20;
+
+* Is the funding amount within reasonable means?
+* Does it align with industry standards?
 
 ### How do I vote on a proposal?
 

@@ -9,6 +9,9 @@ When is it profitable to post a liquidation bond?\
 How is a loan's liquidation price set?\
 How do I participate in liquidation auctions?\
 What if a liquidation auction clears below a loan's Threshold Price?\
+In NFT-collection pools, can a borrower use multiple NFTs in a single position?\
+In NFT-collection pools, Do auctions happen per single NFT?\
+In NFT-collection pools, how do group liquidations work? is it all or nothing, can the NFTs get broken up, what's the default order?\
 
 
 ### What is a liquidation?
@@ -67,3 +70,10 @@ Advanced users can develop their own preferred UIs or automations using our SDK.
 ### What if a liquidation auction clears below a loan's Threshold Price?
 
 If a liquidation fails to sell all the collateral at or above the threshold price, then the loan left over bad debt which is deducted from the pool's reserves. If the reserves are insufficient, quote token liquidity is taken from the highest price buckets, diluting LPB holders in those buckets.
+
+### In NFT-collection pools, can a borrower use multiple NFTs in a single position?
+
+### &#x20;In NFT-collection pools, Do auctions happen per single NFT?
+
+### &#x20;In NFT-collection pools, how do group liquidations work? is it all or nothing, can the NFTs get broken up, what's the default order? 
+
