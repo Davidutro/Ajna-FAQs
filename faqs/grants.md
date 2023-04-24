@@ -20,11 +20,11 @@ My proposal was approved, how do I claim the grant?
 
 ### What is the Ajna grants program?
 
-The grant program for the Ajna Protocol provides funding for growth and development opportunities proposed by independent contractors and teams. The program aims to support the growth and success of the Ajna Protocol. Applicants must propose a feasible project that demonstrates potential impact on the protocol’s success. Funding may be provided for software development, growth, integrations, and research. Applications will be reviewed by AJNA tokenholders, professional delegates, and experts. Important factors include the strength of the proposal, its potential impact on protocol success, and its overall feasibility. Proposals will be granted based on the results of an on-chain vote.
+The Ajna grants program funds growth and development opportunities for the protocol, proposed by independent contractors and teams. Funding may be provided for software development, growth, integrations, and research.
 
 ### What is a grant proposal?
 
-An Ajna Grant Proposal is a document or set of documents that is submitted to an organization with the explicit intent of securing funding for a body of work. Proposals are promoted by community voting.
+A Grant Proposal is submitted to an organization as an explicit request to fund an individual or team to execute on a body of work. Proposals get published, refined, and are then submitted for voting.
 
 ### **How are grant proposals selected?**
 
