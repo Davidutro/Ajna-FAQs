@@ -2,6 +2,7 @@
 
 What is the Ajna grants program?\
 What is a grant proposal?\
+Where can I view grant proposals?\
 How are grants selected?\
 How do I vote on a proposal?\
 Why should I vote?\
@@ -20,11 +21,15 @@ My proposal was approved, how do I claim the grant?
 
 ### What is the Ajna grants program?
 
-The Ajna grants program funds growth and development opportunities for the protocol, proposed by independent contractors and teams. Funding may be provided for software development, growth, integrations, and research.
+The grant program for the Ajna Protocol provides funding for growth and development opportunities proposed by independent contractors and teams. Funding may be provided for an array of software development and growth related proposals. Applications are reviewed and voted on by AJNA tokenholders and professional delegates. Funds are granted programmatically based on the results of on-chain votes.
 
 ### What is a grant proposal?
 
 A Grant Proposal is submitted to an organization as an explicit request to fund an individual or team to execute on a body of work. Proposals get published, refined, and are then submitted for voting.
+
+### Where can I view grant proposals?
+
+https://forum.ajna.finance
 
 ### **How are grant proposals selected?**
 
@@ -112,10 +117,8 @@ Yes
 
 ### Can a grantee return AJNA tokens to the protocol?
 
-Yes, they can send back tokens directly to the treasury contract address, `0x...`
-
-### How does proposing a new slate of funded proposals work?
-
-Fund treasury method they can call to send back tokens.
+Yes, they can send back tokens directly to the treasury by calling `fundTreasury()` in a transaction to the contract address, `0x...`\
+\
+_**BEWARE**_ tokens cannot be sent to the contract address with a standard `transferFrom()` call.
 
 \
