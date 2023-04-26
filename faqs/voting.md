@@ -1,6 +1,6 @@
 # Voting
 
-What gets voted on in Ajna?\
+What gets voted on at Ajna?\
 How does the voting system work?\
 How are votes counted and is there a required quorum?\
 Who is eligible to participate in the voting process?\
@@ -17,6 +17,8 @@ Are there any incentives for participating?\
 What happens if a proposal is passed but is not technically feasible?\
 Can the voting system be used to amend the protocol's smart contracts?\
 Can a proposal be resubmitted?\
+What is the challenge period?\
+Can a new vote cycle start during the challenge period?\
 \
 \
 \>1 week slate challenge period\
@@ -24,11 +26,16 @@ Can a proposal be resubmitted?\
 \
 
 
-### What gets Voted on in Ajna?
+### What gets voted on at Ajna?
 
-The voting process will only involve the approval or disapproval of grant applications, which will determine whether payouts are made.
+Voting relates to the approval or disapproval of grant applications. That's it.
 
-### How does the voting system work? 
+### How does the voting system work?
+
+The voting system has two phases and a challenge period at the end of each cycle.\
+The first phase is screening.\
+The second phase is funding.\
+The challenge period allows anyone to propose an alternative option for payouts.
 
 ### How are votes counted and is there a required quorum? 
 
@@ -65,4 +72,8 @@ AAA
 ### Can the voting system be used to amend the protocol's smart contracts? 
 
 ### Can a proposal be resubmitted?
+
+### What is the challenge period?
+
+### &#x20;Can a new vote cycle start during the challenge period?
 
