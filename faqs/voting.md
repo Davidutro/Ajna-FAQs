@@ -18,13 +18,7 @@ What happens if a proposal is passed but is not technically feasible?\
 Can the voting system be used to amend the protocol's smart contracts?\
 Can a proposal be resubmitted?\
 What is the challenge period?\
-Can a new vote cycle start during the challenge period?\
-\
-\
-\>1 week slate challenge period\
-\> can a new vote cycle start during the challenge period?\
-\
-
+Can a new vote cycle start during the challenge period?
 
 ### What gets voted on at Ajna?
 
