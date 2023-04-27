@@ -57,7 +57,9 @@ PFM funding stage: Voting power is based upon a snapshot of an address' voting p
 \
 Quorum is only required in the EFM and depends on the amount of funds being asked for.
 
-### Who is eligible to participate in the voting process? 
+### Who is eligible to participate in the voting process?
+
+To vote one must either have AJNA tokens or be delegated AJNA tokens.
 
 ### Can I delegate my voting power? 
 
