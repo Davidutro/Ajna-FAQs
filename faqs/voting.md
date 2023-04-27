@@ -61,11 +61,14 @@ Quorum is only required in the EFM and depends on the amount of funds being aske
 
 To vote one must either have AJNA tokens or be delegated AJNA tokens.
 
-### Can I delegate my voting power? 
+### Can I delegate my voting power?
+
+Yes.
 
 ### How can I submit a proposal?
 
-
+1. Forum
+2. On-chain[Track package](https://www.amazon.com/progress-tracker/package/ref=ppx\_yo\_dt\_b\_track\_package?\_encoding=UTF8\&itemId=pnjimqhmpjpron\&orderId=114-3467708-1733014\&vt=YOUR\_ORDERS)
 
 ### What is Quadratic Voting?
 
@@ -77,17 +80,34 @@ AAA
 
 ### How often are votes held?
 
-### &#x20;How long do participants have to cast their votes in the screening stage? 
+Each cycle runs for 90 days and has two stages. \
+The first is a screening stage which runs for 80 days.\
+The second is a funding stage which runs for 10 days.\
+Votes can be submitted at at any time.
 
-### How long do participants have to cast their votes in the funding stage? 
+### &#x20;How long do participants have to cast their votes in the screening stage?
 
-### Can I change my vote after I've cast it? 
+80 days. Votes cannot be cancelled or modified.
 
-### Can participants propose changes to the voting system? 
+### How long do participants have to cast their votes in the funding stage?
 
-### Are there any incentives for participating? 
+10 days. Votes cannot be cancelled or modified.
 
-### What happens if a proposal is passed but is not technically feasible? 
+### Can I change my vote after I've cast it?
+
+No, votes cannot be cancelled or modified.
+
+### Can participants propose changes to the voting system?
+
+No.
+
+### Are there any incentives for participating?
+
+Yes, delegates earn 10% of the AJNA distribution per cycle.
+
+### What happens if a proposal is passed but is not technically feasible?
+
+
 
 ### Can the voting system be used to amend the protocol's smart contracts? 
 
