@@ -32,12 +32,31 @@ Voting relates to the approval or disapproval of grant applications. That's it.
 
 ### How does the voting system work?
 
-The voting system has two phases and a challenge period at the end of each cycle.\
-The first phase is screening.\
-The second phase is funding.\
-The challenge period allows anyone to propose an alternative option for payouts.
+Ajna has two voting mechanisms. \
+The Primary Funding Mechanism (PFM) and the Extraordinary Funding Mechanism (EFM)\
+\
+Under normal circumstances, the PFM is used.\
+Under extraordinary circumstances, the EFM is used. \
+\
+The PFM has two stages and a challenge period at the end of each cycle.\
+The first is the screening stage which runs for 80 days and uses uses 1 token 1 vote.\
+The second is the funding stage which runs for 10 days and uses a quadratic system.\
+The challenge period begins at the end of the funding stage, lasts 7 days, and allows anyone to propose an alternative option for payouts.\
+\
+The EFM has one phase. The submitted vote has one month to pass or fail.\
+Votes can only be cast in support of the proposal.\
+The amount of requested funds determines the required quorum.\
+\
+For more detail review sections 9.2.1 and 9.2.2 in the whitepaper.
 
-### How are votes counted and is there a required quorum? 
+### How are votes counted and is there a required quorum?
+
+Votes are counted in different ways depending on the voting mechanism and stage. \
+\
+PFM screening stage: Voting power is based upon a snapshot of an address' voting power 33 blocks prior to the screening stage’s start block, where one token is equal to one vote. \
+PFM funding stage: Voting power is based upon a snapshot of an address' voting power 33 blocks prior to the funding stage's starting block, and uses a quadratic system.\
+\
+Quorum is only required in the EFM and depends on the amount of funds being asked for.
 
 ### Who is eligible to participate in the voting process? 
 
