@@ -85,7 +85,7 @@ The first is a screening stage which runs for 80 days.\
 The second is a funding stage which runs for 10 days.\
 Votes can be submitted at at any time.
 
-### &#x20;How long do participants have to cast their votes in the screening stage?
+### How long do participants have to cast their votes in the screening stage?
 
 80 days. Votes cannot be cancelled or modified.
 
@@ -107,13 +107,19 @@ Yes, delegates earn 10% of the AJNA distribution per cycle.
 
 ### What happens if a proposal is passed but is not technically feasible?
 
+Then the AJNA tokens are still distributed and the protocol funded something it should not have funded. This would be a failure of due diligence on the part of voters.
 
+### Can the voting system be used to amend the protocol's smart contracts?
 
-### Can the voting system be used to amend the protocol's smart contracts? 
+No.
 
 ### Can a proposal be resubmitted?
 
+Proposals can be resubmitted, there is no limitation on how many times.
+
 ### What is the challenge period?
 
-### &#x20;Can a new vote cycle start during the challenge period?
+When the funding stage ends, an automatic calculation happens to determine the winning group of proposals. There may be more than one valid configuration of the final winners, therefore this challenge period allows anyone to propose a different grouping.
+
+### Can a new vote cycle start during the challenge period?
 
