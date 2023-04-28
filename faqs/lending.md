@@ -1,15 +1,15 @@
 # Lending
 
-How do I lend?\
-Where do I lend?\
-What can I lend?\
-What are the fees?\
-How do I decide on what price bucket to deposit into?\
-What do I need to do after depositing quote tokens?\
-What can go wrong?\
-In what scenario(s) can a lender lose their deposit?\
-Are there any notifications?\
-How much do I earn?
+[How do I lend?](lending.md#how-do-i-lend)\
+[Where do I lend?](lending.md#where-do-i-lend)\
+[What can I lend?](lending.md#what-can-i-lend)\
+[What are the fees?](lending.md#what-are-the-fees)\
+[How do I decide on what price bucket to deposit into?](lending.md#how-do-i-decide-what-price-bucket-to-deposit-into)\
+[What do I need to do after depositing quote tokens?](lending.md#what-do-i-need-to-do-after-depositing-quote-tokens)\
+[What can go wrong?](lending.md#what-can-go-wrong)\
+[In what scenario(s) can a lender lose their deposit?](lending.md#in-what-scenario-s-can-a-lender-lose-their-deposit)\
+[Are there any notifications?](lending.md#are-there-any-notifications)\
+[How much do I earn?](lending.md#how-much-do-i-earn)
 
 ## How do I lend?
 
