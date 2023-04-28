@@ -1,21 +1,21 @@
 # General
 
-What is the Ajna Protocol?\
-What assets can be lent and borrowed?\
-How does Ajna work?\
-Does Ajna use token governance to make changes to its smart contracts?\
-What chains are you going to deploy on and do you have any plans for deployment on an Ethereum L2?\
-When do you expect to deploy to a production chain?\
-How can I get involved?\
-Is Ajna custodial?\
-Has Ajna been audited?\
-Does Ajna have a bug bounty?\
-Does Ajna labs have admin control over the protocol?\
-Where can I get information about Ajna?\
-Where can I test the application? Will there be an Alpha version of the protocol?\
-What are price Oracles?\
-Why is it such a big deal that they are excluded in Ajna’s design?\
-What is governance in the context of a protocol?
+[What is the Ajna Protocol?](general.md#what-is-the-ajna-protocol)\
+[What assets can be lent and borrowed?](general.md#what-assets-can-be-lent-and-borrowed-on-ajna)\
+[How does Ajna work?](general.md#how-does-ajna-work)\
+[Does Ajna use token governance to make changes to its smart contracts?](general.md#does-ajna-use-token-governance-to-make-changes-to-its-smart-contracts)\
+[What networks are you going to deploy on and do you have any plans for deployment on an Ethereum L2?\
+](general.md#what-chains-are-you-going-to-deploy-on-and-do-you-have-any-plans-for-deployment-on-an-ethereum-l2)[When will the Ajna Protocol launch?](general.md#when-will-the-ajna-protocol-launch)\
+[How can I get involved?](general.md#how-can-i-get-involved)\
+[Is Ajna custodial?](general.md#is-ajna-custodial)\
+[Has Ajna been audited?](general.md#has-ajna-been-audited)\
+[Does Ajna have a bug bounty?](general.md#does-ajna-have-a-bug-bounty)\
+[Does Ajna labs have admin control over the protocol?](general.md#does-ajna-labs-have-admin-control-over-the-protocol)\
+[Where can I get information about Ajna?](general.md#where-can-i-get-information-about-ajna)\
+[Where can I test the application? ](general.md#where-can-i-test-the-application)\
+[What are price Oracles?](general.md#what-are-price-oracles)\
+[Why is it a big deal that Ajna’s design excludes price oracles?](general.md#why-is-it-a-big-deal-that-ajnas-design-excludes-price-oracles)\
+[What is governance in the context of a protocol?](general.md#what-is-governance-in-the-context-of-a-protocol)
 
 
 
@@ -35,11 +35,11 @@ Once a pairing of assets has been created, any user can come to the pool to lend
 
 No, Ajna is an immutable set of smart contracts that cannot be changed. If a new version of Ajna is deployed, existing liquidity will need to migrate to these new contracts.
 
-### What chains are you going to deploy on and do you have any plans for deployment on an Ethereum L2?
+### What networks are you going to deploy on and do you have any plans for deployment on an Ethereum L2?
 
 The protocol is written to work on any EVM (Ethereum Virtual Machine) compatible chain. The first launch will be on the Ethereum Mainnet chain with secondary launches on various L2s and compatible L1s.
 
-### When do you expect to deploy to a production chain?
+### When will the Ajna Protocol launch?
 
 Q2 2023.
 
@@ -67,15 +67,15 @@ No, Ajna Labs has no ability to change or manipulate the smart contracts once th
 
 The best way to get involved is to [learn](https://www.ajna.finance/eli5) about the system, [join](https://discord.gg/2YPNkzSH) the discord server, and [look out](https://twitter.com/ajnafi) for the upcoming launch.
 
-### Where can I test the application? Will there be an Alpha version of the protocol?
+### Where can I test the application?
 
 When released there will be testnet and mainnet versions. Links will be posted on [https://ajna.finance](https://ajna.finance/).
 
-### What are price Oracles?
+### What are price racles?
 
 Oracles provide external data to blockchain applications.
 
-### Why is it such a big deal that they are excluded in Ajna’s design?
+### Why is it a big deal that Ajna’s design excludes price oracles?
 
 Relying on oracles for pricing data in a DeFi application creates an external point of failure as they can be manipulated or compromised. Ajna uses an internal order book empowering lenders to set asset values. This reduces the attack surface of the protocol and makes lending and borrowing more secure.
 
