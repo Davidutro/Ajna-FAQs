@@ -67,7 +67,7 @@ Yes.
 ### How can I submit a proposal?
 
 1. Forum
-2. On-chain[Track package](https://www.amazon.com/progress-tracker/package/ref=ppx\_yo\_dt\_b\_track\_package?\_encoding=UTF8\&itemId=pnjimqhmpjpron\&orderId=114-3467708-1733014\&vt=YOUR\_ORDERS)
+2. On-chain
 
 ### What is Quadratic Voting?
 
