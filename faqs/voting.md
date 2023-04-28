@@ -1,24 +1,24 @@
 # Voting
 
-What gets voted on at Ajna?\
-How does the voting system work?\
-How are votes counted and is there a required quorum?\
-Who is eligible to participate in the voting process?\
-Can I delegate my voting power?\
-How can I submit a proposal?\
-What is Quadratic Voting?\
-Why is Quadratic Voting only used in the Funding Stage and not the Screening Stage as well?\
-How often are votes held?\
-How long do participants have to cast their votes in the screening stage?\
-How long do participants have to cast their votes in the funding stage?\
-Can I change my vote after I've cast it?\
-Can participants propose changes to the voting system?\
-Are there any incentives for participating?\
-What happens if a proposal is passed but is not technically feasible?\
-Can the voting system be used to amend the protocol's smart contracts?\
-Can a proposal be resubmitted?\
-What is the challenge period?\
-Can a new vote cycle start during the challenge period?
+[What gets voted on at Ajna?](voting.md#what-gets-voted-on-at-ajna)\
+[How does the voting system work?](voting.md#how-does-the-voting-system-work)\
+[How are votes counted and is there a required quorum?](voting.md#how-are-votes-counted-and-is-there-a-required-quorum)\
+[Who is eligible to participate in the voting process?](voting.md#who-is-eligible-to-participate-in-the-voting-process)\
+[Can I delegate my voting power?](voting.md#can-i-delegate-my-voting-power)\
+[How can I submit a proposal?](voting.md#how-can-i-submit-a-proposal)\
+[What is Quadratic Voting?](voting.md#what-is-quadratic-voting)\
+[Why is Quadratic Voting only used in the Funding Stage and not the Screening Stage as well?](voting.md#why-is-quadratic-voting-only-used-in-the-funding-round-and-not-the-screening-stage-as-well)\
+[How often are votes held?](voting.md#how-often-are-votes-held)\
+[How long do participants have to cast their votes in the screening stage?](voting.md#how-long-do-participants-have-to-cast-their-votes-in-the-screening-stage)\
+[How long do participants have to cast their votes in the funding stage?](voting.md#how-long-do-participants-have-to-cast-their-votes-in-the-funding-stage)\
+[Can I change my vote after it’s been cast?](voting.md#can-i-change-my-vote-after-its-been-cast)\
+[Can participants propose changes to the voting system?](voting.md#can-participants-propose-changes-to-the-voting-system)\
+[Are there any incentives for participating?](voting.md#are-there-any-incentives-for-participating)\
+[What happens if a proposal is passed but is not technically feasible?](voting.md#what-happens-if-a-proposal-is-passed-but-is-not-technically-feasible)\
+[Can the voting system be used to amend the protocol's smart contracts?](voting.md#can-the-voting-system-be-used-to-amend-the-protocols-smart-contracts)\
+[Can a proposal be resubmitted?](voting.md#can-a-proposal-be-resubmitted)\
+[What is the challenge period?](voting.md#what-is-the-challenge-period)\
+[Can a new vote cycle start during the challenge period?](voting.md#can-a-new-vote-cycle-start-during-the-challenge-period)
 
 ### What gets voted on at Ajna?
 
@@ -87,7 +87,7 @@ Votes can be submitted at at any time.
 
 10 days. Votes cannot be cancelled or modified.
 
-### Can I change my vote after I've cast it?
+### Can I change my vote after it’s been cast?
 
 No, votes cannot be cancelled or modified.
 
