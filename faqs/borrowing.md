@@ -1,23 +1,23 @@
 # Borrowing
 
-How do I borrow?\
-Where do I borrow?\
-What can I borrow?\
-Can I borrow NFTs?\
-What are the fees?\
-Is there a minimum or maximum I can borrow?\
-How much would I pay in interest?\
-How are interest rates determined?\
-Can I borrow at a fixed rate?\
-When do I need to pay back the loan?\
-Can I repay my loan early, and if so, are there any penalties?\
-What can go wrong?\
-What happens if the collateral value drops below the debt amount?\
-What happens if my loan gets liquidated?\
-What is the penalty for getting liquidated?\
-How do I know my loan's liquidation price?\
-How is the liquidation price set?\
-How does Ajna determine if my loan is insufficiently collateralized?\
+[How do I borrow?](borrowing.md#how-do-i-borrow)\
+[Where do I borrow?](borrowing.md#where-do-i-borrow)\
+[What can I borrow?](borrowing.md#what-can-i-borrow)\
+[Can I borrow NFTs?](borrowing.md#can-i-borrow-nfts)\
+[What are the fees?](borrowing.md#what-are-the-fees)\
+[Is there a minimum or maximum I can borrow?](borrowing.md#is-there-a-minimum-or-maximum-i-can-borrow)\
+[How much would I pay in interest?](borrowing.md#how-much-would-i-pay-in-interest)\
+[How are interest rates determined?](borrowing.md#how-are-interest-rates-determined)\
+[Can I borrow at a fixed rate?](borrowing.md#can-i-borrow-at-a-fixed-rate)\
+[When do I need to pay back the loan?](borrowing.md#when-do-i-need-to-pay-back-the-loan)\
+[Can I repay my loan early, and if so, are there any penalties?](borrowing.md#can-i-repay-my-loan-early-and-if-so-are-there-any-penalties)\
+[What can go wrong?](borrowing.md#what-can-go-wrong)\
+[What happens if the collateral value drops below the debt amount?](borrowing.md#what-happens-if-the-collateral-value-drops-below-the-debt-amount)\
+[What happens if my loan gets liquidated?](borrowing.md#what-happens-if-my-loan-gets-liquidated)\
+[What is the penalty for getting liquidated?](borrowing.md#what-is-the-penalty-for-getting-liquidated)\
+[How do I know my loan's liquidation price?](borrowing.md#how-do-i-know-my-loans-liquidation-price)\
+[How is the liquidation price set?](borrowing.md#how-is-the-liquidation-price-set)\
+[How does Ajna determine if my loan is insufficiently collateralized?](borrowing.md#how-does-ajna-determine-if-my-loan-is-insufficiently-collateralized)\
 
 
 ### How do I borrow?
