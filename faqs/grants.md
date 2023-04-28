@@ -9,15 +9,15 @@
 [What is a delegate?](grants.md#what-is-a-delegate)\
 [Can I delegate to myself?](grants.md#can-i-delegate-to-myself)\
 [Why should I delegate?](grants.md#why-should-i-delegate)\
-Can I earn rewards for delegating? > Eligibility for rewards \
-Can I earn rewards for voting?\
-How much do delegates earn?\
-Can I delegate partially to multiple parties?\
-How much AJNA is granted every cycle?\
-How many proposals can be funded per cycle?\
-Can less than 10 proposals be selected?\
-Can a grantee return AJNA tokens to the protocol?\
-My proposal was approved, how do I claim the grant?
+[Can I earn rewards for delegating?](grants.md#can-i-earn-rewards-for-delegating)\
+[Can I earn rewards for voting?](grants.md#can-i-earn-rewards-for-voting)\
+[How much do delegates earn?](grants.md#how-much-do-delegates-earn)\
+[Can I delegate partially to multiple parties?](grants.md#can-i-delegate-partially-to-multiple-parties)\
+[How much AJNA is granted every cycle?](grants.md#how-much-ajna-is-granted-every-cycle)\
+[How many grants can be funded per cycle?](grants.md#how-many-grants-can-be-funded-per-cycle)\
+[Can less than 10 proposals be selected?](grants.md#can-less-than-10-proposals-be-selected)\
+[Can a grantee return AJNA tokens to the protocol?](grants.md#can-a-grantee-return-ajna-tokens-to-the-protocol)\
+[My proposal was approved, how do I claim the grant?](grants.md#my-proposal-was-approved-how-do-i-claim-the-grant)
 
 ### What is the Ajna grants program?
 
@@ -111,6 +111,10 @@ No, votes cannot be cancelled or modified. They are final once submitted.
 
 2% of the treasury is the maximum AJNA granted per cycle. The treasury began with 30% of the total AJNA supply, a total of 300,000,000 AJNA tokens. The first grants distribution will be capped at 6,000,000 AJNA across 10 proposals.
 
+### How many grants can be funded per cycle?
+
+A maximum of 10 grants can be funded every cycle.
+
 ### Can less than 10 proposals be selected?
 
 Yes
@@ -120,5 +124,9 @@ Yes
 Yes, they can send back tokens directly to the treasury by calling `fundTreasury()` in a transaction to the contract address, `0x...`\
 \
 _**BEWARE**_ tokens cannot be sent to the contract address with a standard `transferFrom()` call.
+
+### My proposal was approved, how do I claim the grant?
+
+Grants can be claimed here, or by doing a manual transaction calling `something` on the treasury contract
 
 \
