@@ -1,14 +1,14 @@
 # Grants
 
-What is the Ajna grants program?\
-What is a grant proposal?\
-Where can I view grant proposals?\
-How are grants selected?\
-How do I vote on a proposal?\
-Why should I vote?\
-What is a delegate?\
-Can I delegate to myself?\
-Why should I delegate?\
+[What is the Ajna grants program?](grants.md#what-is-the-ajna-grants-program)\
+[What is a grant proposal?](grants.md#what-is-a-grant-proposal)\
+[Where can I view grant proposals?](grants.md#where-can-i-view-grant-proposals)\
+[How are grants selected?](grants.md#how-are-grant-proposals-selected)\
+[How do I vote on a proposal?](grants.md#how-do-i-vote-on-a-proposal)\
+[Why should I vote?](grants.md#why-should-i-vote)\
+[What is a delegate?](grants.md#what-is-a-delegate)\
+[Can I delegate to myself?](grants.md#can-i-delegate-to-myself)\
+[Why should I delegate?](grants.md#why-should-i-delegate)\
 Can I earn rewards for delegating? > Eligibility for rewards \
 Can I earn rewards for voting?\
 How much do delegates earn?\
@@ -31,7 +31,7 @@ A Grant Proposal is submitted to an organization as an explicit request to fund 
 
 https://forum.ajna.finance
 
-### **How are grant proposals selected?**
+### **How are grant selected?**
 
 When assessing applications, the criteria below should be considered to guide decision making;\
 \
