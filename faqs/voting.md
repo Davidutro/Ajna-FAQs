@@ -7,7 +7,7 @@
 [Can I delegate my voting power?](voting.md#can-i-delegate-my-voting-power)\
 [How can I submit a proposal?](voting.md#how-can-i-submit-a-proposal)\
 [What is Quadratic Voting?](voting.md#what-is-quadratic-voting)\
-[Why is Quadratic Voting only used in the Funding Stage and not the Screening Stage as well?](voting.md#why-is-quadratic-voting-only-used-in-the-funding-round-and-not-the-screening-stage-as-well)\
+[Why is Quadratic Voting only used in the Funding Round?](voting.md#why-is-quadratic-voting-only-used-in-the-funding-round)\
 [How often are votes held?](voting.md#how-often-are-votes-held)\
 [How long do participants have to cast their votes in the screening stage?](voting.md#how-long-do-participants-have-to-cast-their-votes-in-the-screening-stage)\
 [How long do participants have to cast their votes in the funding stage?](voting.md#how-long-do-participants-have-to-cast-their-votes-in-the-funding-stage)\
@@ -22,7 +22,7 @@
 
 ### What gets voted on at Ajna?
 
-Voting relates to the approval or disapproval of grant applications. That's it.
+Grant applications. That's it.
 
 ### How does the voting system work?
 
@@ -32,15 +32,13 @@ The Primary Funding Mechanism (PFM) and the Extraordinary Funding Mechanism (EFM
 Under normal circumstances, the PFM is used.\
 Under extraordinary circumstances, the EFM is used. \
 \
-The PFM has two stages and a challenge period at the end of each cycle.\
+The PFM has two stages and a challenge period.\
 The first is a screening stage which runs for 80 days and counts 1 token = 1 vote.\
-The second is a funding stage which runs for 10 days and uses a quadratic system that counts votes according to the graphic below.\
+The second is a funding stage which runs for 10 days and uses a quadratic system that counts votes according to the graphic below.
 
-
-insert image>
-
+insert image>\
 \
-The challenge period begins at the end of the funding stage, lasts 7 days, and allows anyone to propose a different configuration for payouts.\
+The challenge period begins at the end of the funding stage, lasts 7 days, and allows anyone to propose a different configuration of payouts.\
 \
 The EFM has one phase which runs for one month and counts 1 token = 1 vote.\
 Votes can only be cast in support of the proposal. The amount of requested funds determines the required quorum. The result is pass or fail.\
@@ -58,7 +56,7 @@ Quorum is only required in the EFM and depends on the amount of funds being aske
 
 ### Who is eligible to participate in the voting process?
 
-To vote one must either have AJNA tokens or be delegated AJNA tokens.
+One must either have AJNA tokens or be delegated AJNA tokens to vote.
 
 ### Can I delegate my voting power?
 
@@ -66,16 +64,15 @@ Yes.
 
 ### How can I submit a proposal?
 
-1. Forum
-2. On-chain
+One way to submit a proposal is through the Ajna Voting App.
 
 ### What is Quadratic Voting?
 
-Quadratic voting is a system that allows individuals to express their preferences using a budget of voting points. Unlike traditional "one person, one vote" systems, individuals can allocate their voting points based on the importance of the issue to them, giving more weight to their individual opinions. The allocation of voting points follows a quadratic function, which means that the cost of allocating additional voting points to a single issue increases as more voting points are allocated to that issue. This system incentivizes people to vote on the issues they care about most and can lead to a more accurate and nuanced representation of individual preferences, particularly on complex or controversial issues.
+Quadratic voting is a system that allows individuals to express their preferences using a budget of voting points. Unlike traditional "one person, one vote" systems, individuals can allocate their voting points based on the importance of the issue to them, giving more weight to their individual opinions. The allocation of voting points follows a quadratic function, which means that the number of voting points increases as more items are voted on. This system incentivizes people to vote on all items and can lead to a more accurate and nuanced representation of individual opinions.
 
-### Why is Quadratic Voting only used in the Funding Round and not the Screening Stage as well?
+### Why is Quadratic Voting only used in the Funding Round?
 
-AAA
+The screening stage allows unlimited entries, which breaks quadratic voting due to the way voting credit is counted.
 
 ### How often are votes held?
 
@@ -121,4 +118,6 @@ Proposals can be resubmitted, there is no limitation on how many times.
 When the funding stage ends, an automatic calculation happens to determine the winning group of proposals. There may be more than one valid configuration of the final winners, therefore this challenge period allows anyone to propose a different grouping.
 
 ### Can a new vote cycle start during the challenge period?
+
+TBD
 
