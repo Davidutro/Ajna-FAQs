@@ -73,7 +73,15 @@ If a liquidation fails to sell all the collateral at or above the threshold pric
 
 ### In NFT-collection pools, can a borrower use multiple NFTs in a single position?
 
-### &#x20;In NFT-collection pools, Do auctions happen per single NFT?
+Yes.
 
-### &#x20;In NFT-collection pools, how do group liquidations work? is it all or nothing, can the NFTs get broken up, what's the default order? 
+### In NFT-collection pools, do liquidation auctions happen per single NFT?
+
+If a borrower’s position is backed by multiple NFTs, they will all go to auction . simultaneously in the case of a liquidation.
+
+### &#x20;In NFT-collection pools, how do group liquidations work?
+
+Is it all or nothing? Can the NFTs get broken up? Is there a default order?\
+\
+
 
