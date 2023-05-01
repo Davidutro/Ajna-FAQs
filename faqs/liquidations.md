@@ -9,9 +9,9 @@
 [How is a loan's liquidation price set?](liquidations.md#how-is-a-loans-liquidation-price-set)\
 [How do I participate in liquidation auctions?](liquidations.md#how-do-i-participate-in-liquidation-auctions)\
 [What if a liquidation auction clears below a loan's Threshold Price?](liquidations.md#what-if-a-liquidation-auction-clears-below-a-loans-threshold-price)\
-In NFT-collection pools, can a borrower use multiple NFTs in a single position?\
-In NFT-collection pools, Do auctions happen per single NFT?\
-In NFT-collection pools, how do group liquidations work? is it all or nothing, can the NFTs get broken up, what's the default order?\
+[In NFT-collection pools, can a borrower use multiple NFTs in a single position?](liquidations.md#in-nft-collection-pools-how-do-group-liquidations-work)\
+[In NFT-collection pools, do liquidation auctions happen per single NFT?](liquidations.md#in-nft-collection-pools-do-liquidation-auctions-happen-per-single-nft)\
+[In NFT-collection pools, how do group liquidations work?](liquidations.md#in-nft-collection-pools-how-do-group-liquidations-work)\
 
 
 ### What is a liquidation?
