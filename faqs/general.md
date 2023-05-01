@@ -17,19 +17,20 @@
 [Why is it a big deal that Ajna’s design excludes price oracles?](general.md#why-is-it-a-big-deal-that-ajnas-design-excludes-price-oracles)\
 [What is governance in the context of a protocol?](general.md#what-is-governance-in-the-context-of-a-protocol)
 
-
-
 ### What is the Ajna Protocol?
 
-The Ajna protocol is a noncustodial, peer-to-peer, permissionless lending, borrowing and trading system that requires no governance or external price feeds to function. The current version is built for Ethereum Virtual Machine compatible networks.&#x20;
+The Ajna protocol is a noncustodial, peer-to-peer, permissionless lending, borrowing and trading system that requires no governance or external price feeds to function. The current version is built for Ethereum Virtual Machine(EVM) compatible networks.&#x20;
 
 ### What assets can be lent and borrowed on Ajna?
 
-The protocol consists of pools: pairings of quote tokens provided by lenders and collateral tokens provided by borrowers. Ajna is capable of accepting fungible tokens (ERC-20) as quote tokens and fungible (ERC-20) as well as non-fungible (ERC-721) tokens as collateral tokens. There is no governance process or gating mechanism that controls which assets can be used in a pairing.
+Ajna enables lending for all ERC-20 tokens and borrowing for ERC-20, ERC-721, and ERC-721 collections or subsets through its pools. Pools are pairs of quote and collateral tokens provided by lenders and borrowers.
 
 ### How does Ajna work?
 
-Once a pairing of assets has been created, any user can come to the pool to lend or borrow quote token by pledging collateral. Lenders input a price that they’re willing to lend at (and conversely willing to purchase the collateral at) and borrowers are informed as to the best available liquidity for the amount of collateral they have. The smart contracts, using market mechanisms, manage liquidity, interest rates, and liquidations. Loans on Ajna are perpetual in nature and do not expire. More information on these mechanisms will be provided in the whitepaper on it’s release.
+Once a pool has been created, any user can lend or borrow. \
+Lenders deposit quote tokens at a price they’re willing to lend at while borrowers deposit collateral to borrow against. Loans on Ajna are perpetual in nature and do not expire. The system automatically manages interest rates and liquidations.\
+\
+This is all possible because Ajna is open source software&#x20;
 
 ### Does Ajna use token governance to make changes to its smart contracts?
 

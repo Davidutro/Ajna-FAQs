@@ -4,8 +4,7 @@
 [What is a reserve auction?](reserve-auctions.md#what-is-a-reserve-auction)\
 [When do reserve auctions occur?](reserve-auctions.md#when-do-reserve-auctions-occur)\
 [Who triggers reserve auctions, is there an incentive?](reserve-auctions.md#who-triggers-reserve-auctions-is-there-an-incentive)\
-[How do I participate in a reserve auction?](reserve-auctions.md#how-do-i-participate-in-a-reserve-auction)\
-
+[How do I participate in a reserve auction?](reserve-auctions.md#how-do-i-participate-in-a-reserve-auction)
 
 ### What are reserves?
 

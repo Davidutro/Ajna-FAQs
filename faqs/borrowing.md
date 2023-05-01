@@ -17,8 +17,7 @@
 [What is the penalty for getting liquidated?](borrowing.md#what-is-the-penalty-for-getting-liquidated)\
 [How do I know my loan's liquidation price?](borrowing.md#how-do-i-know-my-loans-liquidation-price)\
 [How is the liquidation price set?](borrowing.md#how-is-the-liquidation-price-set)\
-[How does Ajna determine if my loan is insufficiently collateralized?](borrowing.md#how-does-ajna-determine-if-my-loan-is-insufficiently-collateralized)\
-
+[How does Ajna determine if my loan is insufficiently collateralized?](borrowing.md#how-does-ajna-determine-if-my-loan-is-insufficiently-collateralized)
 
 ### How do I borrow?
 
