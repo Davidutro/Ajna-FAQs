@@ -70,7 +70,7 @@ One way to submit a proposal is through the Ajna Voting App.
 
 Quadratic voting is a system that allows individuals to express their preferences using a budget of voting points. Unlike traditional "one person, one vote" systems, individuals can allocate their voting points based on the importance of the issue to them, giving more weight to their individual opinions. The allocation of voting points follows a quadratic function, which means that the number of voting points increases as more items are voted on. This system incentivizes people to vote on all items and can lead to a more accurate and nuanced representation of individual opinions.
 
-### Why is Quadratic Voting only used in the Funding Round?
+### Why is Quadratic Voting only used in the funding round?
 
 The screening stage allows unlimited entries, which breaks quadratic voting due to the way voting credit is counted.
 
