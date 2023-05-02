@@ -1,10 +1,8 @@
 # Table of contents
 
-* [Welcome to Ajna](README.md)
-
 ## Getting Started
 
-* [Ajna 101](getting-started/ajna-101.md)
+* [Ajna 101](README.md)
 * [Glossary](getting-started/glossary.md)
 
 ## FAQs
