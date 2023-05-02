@@ -4,8 +4,8 @@
 
 ## Getting Started
 
-* [Glossary](getting-started/glossary.md)
 * [Ajna 101](getting-started/ajna-101.md)
+* [Glossary](getting-started/glossary.md)
 
 ## FAQs
 
