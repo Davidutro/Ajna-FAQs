@@ -20,12 +20,12 @@ Users choose what valuation they are willing to lend against by depositing token
 ## Where do I lend?
 
 * Easy
-  * The Ajna app
-  * The Oasis app
-  * Other apps with Ajna integrated
+  * The Ajna app (soon)
+  * The Oasis app (soon)
+  * Other apps with Ajna integrated (soon)
 * Advanced
-  * Use the SDK to build an interface or bots
-  * Ether.js or Web3.py (interacts with Ethereum) & connect to your own node
+  * Use the SDK to build an interface or bots (soon)
+  * Ether.js or Web3.py (interacts with Ethereum) & connect to your own node (soon)
 
 ## What can I lend?
 
