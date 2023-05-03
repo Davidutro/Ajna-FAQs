@@ -2,6 +2,7 @@
 
 [What is the Ajna grants program?](grants.md#what-is-the-ajna-grants-program)\
 [What is a grant proposal?](grants.md#what-is-a-grant-proposal)\
+[What types of grants will Ajna fund?](grants.md#what-types-of-grants-will-ajna-fund)\
 [Where can I view grant proposals?](grants.md#where-can-i-view-grant-proposals)\
 [How are grants selected?](grants.md#how-are-grant-proposals-selected)\
 [How do I vote on a proposal?](grants.md#how-do-i-vote-on-a-proposal)\
@@ -27,9 +28,20 @@ The grant program for the Ajna Protocol provides funding for growth and developm
 
 A Grant Proposal is submitted to an organization as an explicit request to fund an individual or team to execute on a body of work. Proposals get published, refined, and are then submitted for voting.
 
+### **What types of grants will Ajna fund?**
+
+For specific needs see the [Request for Proposal section](https://forum.ajna.finance/c/rfp/5) of the Ajna forum.\
+Generally, the following categories are of interest:
+
+1. Development: This category can include software development projects that aim to maintain, support, improve, or enhance the products or applications built on top of the Ajna Protocol.
+2. Community: This category can include projects related to building and engaging communities around the Ajna Protocol, such as marketing, education, and events, that aim to increase awareness and adoption of the protocol.
+3. Research: This category can include projects focused on research and development related to the Ajna Protocol, such as behavior and use case analysis, new product research, performance analysis, and others that aim to identify or enhance the protocol's capabilities.
+4. Integration: This category can include projects related to integrating the Ajna Protocol with other technologies or platforms that aim to increase the protocol's reach and utility.
+5. Other: This category can be used to capture any projects that do not fit neatly into the other categories but still align with the key goal of the grant program which is to increase Ajna's likelihood of success.
+
 ### Where can I view grant proposals?
 
-https://forum.ajna.finance
+https://forum.ajna.finance&#x20;
 
 ### **How are grant selected?**
 
