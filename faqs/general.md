@@ -15,7 +15,8 @@
 [Where can I test the application? ](general.md#where-can-i-test-the-application)\
 [What are price Oracles?](general.md#what-are-price-oracles)\
 [Why is it a big deal that Ajna’s design excludes price oracles?](general.md#why-is-it-a-big-deal-that-ajnas-design-excludes-price-oracles)\
-[What is governance in the context of a protocol?](general.md#what-is-governance-in-the-context-of-a-protocol)
+[What is governance in the context of a protocol?](general.md#what-is-governance-in-the-context-of-a-protocol)\
+[What is the Ajna Foundation?](general.md#what-is-the-ajna-foundation)
 
 ### What is the Ajna Protocol?
 
@@ -83,4 +84,8 @@ Relying on oracles for pricing data in a DeFi application creates an external po
 ### What is governance in the context of a protocol?
 
 Governance is when a protocol uses voting or another mechanism such as a centralized entity to implement changes to the protocol without user consent. It is often used to manipulate parameters or add functionality.
+
+### What is the Ajna Foundation?
+
+The Ajna Foundation, formed in mid-2023, is an entity responsible for the stewardship of the Ajna Protocol's brand assets and to pay for designated maintenance and support services.
 
