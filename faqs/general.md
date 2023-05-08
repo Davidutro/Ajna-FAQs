@@ -73,7 +73,7 @@ The best way to get involved is to [learn](https://www.ajna.finance/eli5) about 
 
 When released there will be testnet and mainnet versions. Links will be posted on [https://ajna.finance](https://ajna.finance/).
 
-### What are price racles?
+### What are price Oracles?
 
 Oracles provide external data to blockchain applications.
 
