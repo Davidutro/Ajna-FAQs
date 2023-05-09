@@ -97,19 +97,19 @@ The two reasons an AJNA holder votes are to influence grant funding decisions an
 
 ### Why should I delegate?
 
-Voting directly does not earn rewards. Even if you vote yourself, delegating to your own address is recommended since the user can collect delegation rewards. Additionally, If you don’t want to vote, but want to earn rewards and support the growth of the protocol delegation is an easy way of doing that.
+Delegation is a great way to support the growth of the protocol after launch. There is also an opportunity to earn rewards.
 
 ### Can I earn rewards for delegating?
 
-No.
+Only if you self-delegate and participate in both the Screening and Funding Stages.&#x20;
 
 ### How much do delegates earn?
 
-In the normal grants process, also known as the Primary Funding Mechanism(PFM) 10% of the quarterly distribution is awarded to delegates. However, during an Extraordinary Funding Mechanism(EFM) vote, rewards do not apply.
+In the normal grants process, also known as the Primary Funding Mechanism(PFM) 10% of the quarterly distribution is awarded to delegates who participate in both the Screening Stage and the Funding Stage. However, during an Extraordinary Funding Mechanism(EFM) vote, rewards do not apply.
 
 ### Can I earn rewards for voting?
 
-Only if you self-delegate.
+Only if you self-delegate. Keep in mind, only delegates who participate in both the Screening Stage and the Funding Stage will be eligible to receive delegation rewards.
 
 ### Can I delegate partially to multiple parties?
 
