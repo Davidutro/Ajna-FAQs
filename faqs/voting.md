@@ -120,9 +120,9 @@ Proposals can be resubmitted, there is no limitation on how many times.
 
 ### What is the challenge period?
 
-When the funding stage ends, an automatic calculation happens to determine the winning group of proposals. There may be more than one valid configuration of the final winners, therefore this challenge period allows anyone to propose a different grouping.
+When the funding stage ends, a calculation must happen to determine the winning group of proposals. There may be more than one valid configuration of the final winners, therefore this challenge period allows anyone to propose a different grouping.
 
-### Can a new vote cycle start during the challenge period?
+### Can the next cycle's screening stage start during the challenge period?
 
-TBD
+Yes, a new cycle can start immediately after the conclusion of the funding stage.
 
