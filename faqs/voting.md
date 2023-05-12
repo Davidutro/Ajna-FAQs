@@ -2,9 +2,9 @@
 
 [What gets voted on at Ajna?](voting.md#what-gets-voted-on-at-ajna)\
 [How does the voting system work?](voting.md#how-does-the-voting-system-work)\
-What is the screening stage?\
-What is the funding stage?\
-What proposals can be voted on in the funding stage?\
+[What is the screening stage?](voting.md#what-is-the-screening-stage)\
+[What is the funding stage?](voting.md#what-is-the-funding-stage)\
+[What proposals can be voted on in the funding stage?](voting.md#what-proposals-can-be-voted-on-in-the-funding-stage)\
 [How are votes counted and is there a required quorum?](voting.md#how-are-votes-counted-and-is-there-a-required-quorum)\
 [Who is eligible to participate in the voting process?](voting.md#who-is-eligible-to-participate-in-the-voting-process)\
 [Can I delegate my voting power?](voting.md#can-i-delegate-my-voting-power)\
