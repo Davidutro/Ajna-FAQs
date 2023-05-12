@@ -12,6 +12,7 @@
 [How long do participants have to cast their votes in the screening stage?](voting.md#how-long-do-participants-have-to-cast-their-votes-in-the-screening-stage)\
 [How long do participants have to cast their votes in the funding stage?](voting.md#how-long-do-participants-have-to-cast-their-votes-in-the-funding-stage)\
 [Can I change my vote after it’s been cast?](voting.md#can-i-change-my-vote-after-its-been-cast)\
+Is there a minimum number of funding stage votes for a proposal to be funded?\
 [Can participants propose changes to the voting system?](voting.md#can-participants-propose-changes-to-the-voting-system)\
 [Are there any incentives for participating?](voting.md#are-there-any-incentives-for-participating)\
 [What happens if a proposal is passed but is not technically feasible?](voting.md#what-happens-if-a-proposal-is-passed-but-is-not-technically-feasible)\
@@ -92,6 +93,10 @@ Votes can be submitted at at any time.
 ### Can I change my vote after it’s been cast?
 
 No, votes cannot be cancelled or modified.
+
+### Is there a minimum number of funding stage votes for a proposal to be funded?
+
+Proposals with 0 or negative votes in the funding stage will not be eligible for funding.
 
 ### Can participants propose changes to the voting system?
 
