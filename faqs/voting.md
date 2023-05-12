@@ -2,6 +2,9 @@
 
 [What gets voted on at Ajna?](voting.md#what-gets-voted-on-at-ajna)\
 [How does the voting system work?](voting.md#how-does-the-voting-system-work)\
+What is the screening stage?\
+What is the funding stage?\
+What proposals can be voted on in the funding stage?\
 [How are votes counted and is there a required quorum?](voting.md#how-are-votes-counted-and-is-there-a-required-quorum)\
 [Who is eligible to participate in the voting process?](voting.md#who-is-eligible-to-participate-in-the-voting-process)\
 [Can I delegate my voting power?](voting.md#can-i-delegate-my-voting-power)\
@@ -45,6 +48,18 @@ The EFM has one phase which runs for one month and counts 1 token = 1 vote.\
 Votes can only be cast in support of the proposal. The amount of requested funds determines the required quorum. The result is pass or fail.\
 \
 For more detail review sections 9.2.1 and 9.2.2 in the whitepaper.
+
+### What is the screening stage?
+
+The screening stage is the first stage of the voting cycle which runs for 80 days and counts 1 token = 1 vote.
+
+### What is the funding stage?
+
+The funding stage is the second stage of the voting cycle which runs for 10 days and uses a quadratic system for votes.
+
+### What proposals can be voted on in the funding stage?
+
+Only the top 10 proposals from the screening stage can be voted on in the funding stage.
 
 ### How are votes counted and is there a required quorum?
 
@@ -120,7 +135,7 @@ Proposals can be resubmitted, there is no limitation on how many times.
 
 ### What is the challenge period?
 
-When the funding stage ends, a calculation must happen to determine the winning group of proposals. There may be more than one valid configuration of the final winners, therefore this challenge period allows anyone to propose a different grouping.
+When the funding stage ends, a calculation must happen off-chain with a hash of the configuration submitted to the smart contract to determine the winning group of proposals. There may be more than one valid configuration of winners, therefore this challenge period allows anyone to propose a different grouping. Configurations may be submitted until the one week period is over, but there is a theoretically optimal configuration for any set of proposals that can be submitted at any time. If a new grouping is submitted that is just as optimal as the current one, than the current one stays in place.
 
 ### Can the next cycle's screening stage start during the challenge period?
 
