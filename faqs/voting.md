@@ -54,7 +54,7 @@ The screening stage is for voters to filter out the proposals they are not inter
 
 ### What is the funding stage?
 
-The funding stage is the second stage of the voting cycle which runs for 10 days and uses a quadratic system for votes. The top 10 proposals from the screening stage advance to the funding stage where they recieve votes, both positive and negative, in a quadratic manner. Meaning the more proposals a voter votes on, the more overall voting credits they have (see image below).
+The funding stage is the second stage of the voting cycle which runs for 10 days and uses a quadratic system for votes. The top 10 proposals from the screening stage advance to the funding stage where they may receive both positive and negative votes in a quadratic manner; Meaning the number of voting credits they have increases with the number of proposals they vote on (see image below).
 
 <figure><img src="../.gitbook/assets/Cumulative Voting Power vs. Number of Proposals Voted On (2).png" alt=""><figcaption></figcaption></figure>
 
