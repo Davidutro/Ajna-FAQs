@@ -38,12 +38,12 @@ Under extraordinary circumstances, the EFM is used. \
 \
 The PFM has two stages and a challenge period.\
 The first is a screening stage which runs for 80 days and counts 1 token = 1 vote.\
-The second is a funding stage which runs for 10 days and uses a quadratic system that counts votes according to the graphic below.
+The second is a funding stage which runs for 10 days and uses a quadratic system for votes.
 
-<figure><img src="../.gitbook/assets/Cumulative Voting Power vs. Number of Proposals Voted On (2).png" alt=""><figcaption></figcaption></figure>
+The challenge period begins at the end of the funding stage, lasts 7 days, and allows anyone to propose a different configuration of payouts.
 
-The challenge period begins at the end of the funding stage, lasts 7 days, and allows anyone to propose a different configuration of payouts.\
-\
+<figure><img src="../.gitbook/assets/Flowcharts - Plan, do, check, act (3).png" alt=""><figcaption><p>Primary Funding Mechanism Cycle</p></figcaption></figure>
+
 The EFM has one phase which runs for one month and counts 1 token = 1 vote.\
 Votes can only be cast in support of the proposal. The amount of requested funds determines the required quorum. The result is pass or fail.\
 \
@@ -55,7 +55,9 @@ The screening stage is the first stage of the voting cycle which runs for 80 day
 
 ### What is the funding stage?
 
-The funding stage is the second stage of the voting cycle which runs for 10 days and uses a quadratic system for votes.
+The funding stage is the second stage of the voting cycle which runs for 10 days and uses a quadratic system for votes. The top 10 proposals from the screening stage advance to the funding stage where they recieve votes, both positive and negative, in a quadratic manner. Meaning the more proposals a voter votes on, the more overall voting credits they have (see image below).
+
+<figure><img src="../.gitbook/assets/Cumulative Voting Power vs. Number of Proposals Voted On (2).png" alt=""><figcaption></figcaption></figure>
 
 ### What proposals can be voted on in the funding stage?
 
