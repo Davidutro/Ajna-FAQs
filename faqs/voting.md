@@ -38,13 +38,12 @@ Under extraordinary circumstances, the EFM is used. \
 \
 The PFM has two stages and a challenge period.\
 The first is a screening stage which runs for 80 days and counts 1 token = 1 vote.\
-The second is a funding stage which runs for 10 days and uses a quadratic system for votes.
-
+The second is a funding stage which runs for 10 days and uses a quadratic system for votes.\
 The challenge period begins at the end of the funding stage, lasts 7 days, and allows anyone to propose a different configuration of payouts.
 
 <figure><img src="../.gitbook/assets/Flowcharts - Plan, do, check, act (3).png" alt=""><figcaption><p>Primary Funding Mechanism Cycle</p></figcaption></figure>
 
-The EFM has one phase which runs for one month and counts 1 token = 1 vote.\
+The EFM has one stage that runs for one month and counts 1 token = 1 vote.\
 Votes can only be cast in support of the proposal. The amount of requested funds determines the required quorum. The result is pass or fail.\
 \
 For more detail review sections 9.2.1 and 9.2.2 in the whitepaper.
