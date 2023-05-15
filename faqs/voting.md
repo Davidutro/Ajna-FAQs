@@ -51,7 +51,7 @@ For more detail review sections 9.2.1 and 9.2.2 in the whitepaper.
 
 ### What is the screening stage?
 
-The screening stage is the first stage of the voting cycle which runs for 80 days and counts 1 token = 1 vote. During this stage an uncapped number of proposals can be submitted, but only the top 10 move on to the next stage.
+The screening stage is for voters to filter out the proposals they are not interested in funding. The Screening stage runs for 80 days and counts 1 token = 1 vote. An uncapped number of proposals can be submitted, but only the top 10 move on to the next stage.
 
 ### What is the funding stage?
 
