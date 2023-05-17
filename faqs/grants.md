@@ -11,8 +11,8 @@
 [Can I delegate to myself?](grants.md#can-i-delegate-to-myself)\
 [Why should I delegate?](grants.md#why-should-i-delegate)\
 [Can I earn rewards for delegating?](grants.md#can-i-earn-rewards-for-delegating)\
-[Can I earn rewards for voting?](grants.md#can-i-earn-rewards-for-voting)\
 [How much do delegates earn?](grants.md#how-much-do-delegates-earn)\
+[Can I earn rewards for voting?](grants.md#can-i-earn-rewards-for-voting)\
 [Can I delegate partially to multiple parties?](grants.md#can-i-delegate-partially-to-multiple-parties)\
 [How much AJNA is granted every cycle?](grants.md#how-much-ajna-is-granted-every-cycle)\
 [How many grants can be funded per cycle?](grants.md#how-many-grants-can-be-funded-per-cycle)\
