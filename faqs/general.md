@@ -3,6 +3,7 @@
 [What is the Ajna Protocol?](general.md#what-is-the-ajna-protocol)\
 [What assets can be lent and borrowed?](general.md#what-assets-can-be-lent-and-borrowed-on-ajna)\
 [How does Ajna work?](general.md#how-does-ajna-work)\
+[How do I create a pool?](general.md#how-do-i-create-a-pool)\
 [Does Ajna use token governance to make changes to its smart contracts?](general.md#does-ajna-use-token-governance-to-make-changes-to-its-smart-contracts)\
 [What networks are you going to deploy on and do you have any plans for deployment on an Ethereum L2?\
 ](general.md#what-chains-are-you-going-to-deploy-on-and-do-you-have-any-plans-for-deployment-on-an-ethereum-l2)[When will the Ajna Protocol launch?](general.md#when-will-the-ajna-protocol-launch)\
@@ -32,6 +33,18 @@ Once a pool has been created, any user can lend or borrow. \
 Lenders deposit quote tokens at a price they’re willing to lend at while borrowers deposit collateral to borrow against. Loans on Ajna are perpetual in nature and do not expire. The system automatically manages interest rates and liquidations.\
 \
 This is all possible because Ajna is open source software&#x20;
+
+### How do I create a pool?
+
+1. Determine the assets you'd like to borrow or lend against.
+2. See if the asset pairing you want to engage with already exists in the Ajna Protocol
+3. If it doesn't exist, you can create this pool.
+4. First, enter the token addresses of the two assets you would like to comprise the Ajna Pool.
+5.  Next, pick which one will be collateral and which one will be the “quote token,” which is the asset that will be lent and borrowed .
+
+    _note: Remember that while Ajna can support NFTs as collateral, quote tokens need to be ERC20._
+6. Finally, select an interest rate between 1-10% that you think will be a good starting point for the pool – don’t worry about getting this wrong, the pool will self-adjust over time to find the correct parameters.
+7. Once these steps are complete, you can begin lending or borrowing in this Ajna Pool.
 
 ### Does Ajna use token governance to make changes to its smart contracts?
 
