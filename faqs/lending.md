@@ -8,6 +8,7 @@
 [What do I need to do after depositing quote tokens?](lending.md#what-do-i-need-to-do-after-depositing-quote-tokens)\
 [What can go wrong?](lending.md#what-can-go-wrong)\
 [In what scenario(s) can a lender lose their deposit?](lending.md#in-what-scenario-s-can-a-lender-lose-their-deposit)\
+In what scenario(s) is a lender's deposit frozen?\
 [Are there any notifications?](lending.md#are-there-any-notifications)\
 [How much do I earn?](lending.md#how-much-do-i-earn)
 
