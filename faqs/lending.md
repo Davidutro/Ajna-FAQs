@@ -8,7 +8,8 @@
 [What do I need to do after depositing quote tokens?](lending.md#what-do-i-need-to-do-after-depositing-quote-tokens)\
 [What can go wrong?](lending.md#what-can-go-wrong)\
 [In what scenario(s) can a lender lose their deposit?](lending.md#in-what-scenario-s-can-a-lender-lose-their-deposit)\
-In what scenario(s) is a lender's deposit frozen?\
+[In what scenario(s) are lender deposits frozen?](lending.md#in-what-scenario-s-are-lender-deposits-frozen)\
+[How does a lender get paid if a borrower defaults on their loan?](lending.md#how-does-a-lender-get-paid-if-a-borrower-defaults-on-their-loan)\
 [Are there any notifications?](lending.md#are-there-any-notifications)\
 [How much do I earn?](lending.md#how-much-do-i-earn)
 
@@ -79,6 +80,19 @@ There are three scenarios when a lender can lose their deposit:&#x20;
 1. If the protocol gets hacked or exploited.
 2. If a lender allows the market price to cross below their deposit's price bucket someone can trade collateral for their deposit, leaving the lender with collateral instead of quote tokens.
 3. If there is bad debt and reserves are insufficient, the lender risks losing part of their deposit.
+
+## In what scenario(s) are lender deposits frozen?
+
+1. A lender cannot withdraw deposit if doing so would move the LUP below the HTP, as this would result in liquidation eligibility for one or more loans.
+   * A borrower's position can be liquidated if the pool's LUP is below their TP.
+   * If a lender wishes to remove deposit from a bucket that will cause the LUP to move below the HTP, they will need to liquidate the loan(s) that sit between the two points.
+2. if there are active liquidations in the pool, deposits that are within _liquidation\_debt (amount)_ of the top of the book cannot withdraw until the liquidations are complete.
+
+## How does a lender get paid if a borrower defaults on their loan?
+
+If a borrower defaults on their loan, it will go through the liquidation process where the debt amount is raised from selling the collateral. The collateral is sold through a Dutch Auction and can utilize lender deposits at the top valued price buckets.\
+\
+Lender deposits at the highest priced buckets are at risk to be traded against, leaving depositors with the options of claiming the collateral and selling it to retrieve their deposit, or to wait for someone to trade quote tokens for the collateral at that price.
 
 ## Are there any notifications?
 
