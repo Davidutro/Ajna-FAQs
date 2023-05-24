@@ -15,8 +15,3 @@
 * [AJNA Token](faqs/ajna-token.md)
 * [Grants](faqs/grants.md)
 * [Voting](faqs/voting.md)
-
-## Resources
-
-* [Whitepaper](resources/whitepaper.md)
-* [ELI5](resources/eli5.md)
