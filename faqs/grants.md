@@ -105,7 +105,7 @@ Only if you self-delegate and participate in both the Screening and Funding Stag
 
 ### How much do delegates earn?
 
-In the normal grants process, also known as the Primary Funding Mechanism(PFM) 10% of the quarterly distribution is awarded to delegates who participate in both the Screening Stage and the Funding Stage. However, during an Extraordinary Funding Mechanism(EFM) vote, rewards do not apply.
+10% of the quarterly distribution is awarded to delegates who participate in both the Screening Stage and the Funding Stage.
 
 ### Can I earn rewards for voting?
 
