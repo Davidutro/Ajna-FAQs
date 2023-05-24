@@ -43,7 +43,7 @@ Generally, the following categories are of interest:
 
 https://forum.ajna.finance&#x20;
 
-### **How are grant selected?**
+### **How are grants selected?**
 
 When assessing applications, the criteria below should be considered to guide decision making;\
 \
