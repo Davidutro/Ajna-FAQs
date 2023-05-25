@@ -80,7 +80,7 @@ No, Ajna Labs has no ability to change or manipulate the smart contracts once th
 
 ### Where can I get information about Ajna?
 
-The best way to get involved is to [learn](https://www.ajna.finance/eli5) about the system, [join](https://discord.gg/2YPNkzSH) the discord server, and [look out](https://twitter.com/ajnafi) for the upcoming launch.
+The best way to get involved is to [learn](https://www.ajna.finance/eli5) about the system, [join](https://discord.gg/PJzKTDXdgA) the discord server, and [look out](https://twitter.com/ajnafi) for the upcoming launch.
 
 ### Where can I test the application?
 
