@@ -30,12 +30,12 @@ Grant applications. That's it.
 
 ### How does the voting system work?
 
-Ajna's voting system has two stages and a challenge period.\
-The first is a screening stage which runs for 80 days and counts 1 token = 1 vote.\
+Ajna's voting system has three stages.\
+The first is a screening stage which runs for 73 days and counts 1 token = 1 vote.\
 The second is a funding stage which runs for 10 days and uses a quadratic system for votes.\
-The challenge period begins at the end of the funding stage, lasts 7 days, and allows anyone to propose a different configuration of payouts.
+The third is a challenge stage which runs for 7 days and allows anyone to propose alternative payout configurations that might be more optimal.
 
-<figure><img src="../.gitbook/assets/Flowcharts - Plan, do, check, act (3).png" alt=""><figcaption><p>Primary Funding Mechanism Cycle</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Flowcharts - Plan, do, check, act (6) (1).png" alt=""><figcaption><p>Voting Cycle Stages</p></figcaption></figure>
 
 For more detail review sections 9.2.1 in the whitepaper.
 
