@@ -130,7 +130,7 @@ No.
 
 Proposals can be resubmitted, there is no limitation on how many times.
 
-### Can the next cycle's screening stage start during the challenge period?
+### Can the next cycle's screening stage start during the challenge stage?
 
-Yes, a new cycle can start immediately after the conclusion of the funding stage.
+No. The challenge stage must complete before a new cycle starts.
 
