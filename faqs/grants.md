@@ -139,6 +139,6 @@ _**BEWARE**_ tokens cannot be sent to the contract address with a standard `tran
 
 ### My proposal was approved, how do I claim the grant?
 
-Grants can be claimed here, or by doing a manual transaction calling `something` on the treasury contract
+Grants can be claimed here, or by doing a manual transaction calling `fundTreasury()` on the treasury contract
 
 \
