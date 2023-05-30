@@ -102,5 +102,5 @@ Notifications are not a native feature of the Ajna Protocol. Please check with t
 
 How much a lender earns depends on the pool and the eligibility of the deposit. All deposits above a pool's HTP earn interest at the same rate. Where the rate is displayed varies depending on what interface you are using. Rates are subject to change every 12 hours.
 
-A portion of the interest goes to the pool's reserves and is used to provide a liquidity cushion to lenders, and absorb bad debt if some should occur. This Net Interest Margin (NIM) is approximately&#x20;
+A portion of the interest goes to the pool's reserves and is used to provide a liquidity cushion to lenders, and absorb bad debt if some should occur. This Net Interest Margin (NIM) is approximately  10% of the interest rate revenue. &#x20;
 
