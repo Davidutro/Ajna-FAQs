@@ -2,6 +2,7 @@
 
 [What is a liquidation?](liquidations.md#what-is-a-liquidation)\
 [When does a liquidation occur?](liquidations.md#when-does-a-liquidation-happen)\
+[What is the liquidation trigger price?](liquidations.md#what-is-the-liquidation-trigger-price)\
 [Who triggers liquidations?](liquidations.md#who-triggers-liquidations)\
 [What is required to trigger a liquidation?](liquidations.md#what-is-required-to-trigger-a-liquidation)\
 [What is a liquidation bond?](liquidations.md#what-is-a-liquidation-bond)\
