@@ -60,7 +60,7 @@ Each pool has its own interest rate that should be displayed in the pool informa
 
 ### How are interest rates determined?
 
-Interest rates are determined by pool utilization. If there is a surplus of lender liquidity, rates are lowered, and if there is a shortage of lender liquidity, rates are increased. Rates can change once every 12 hours, at 10% increments of the existing rate in either direction.\
+Interest rates are determined by pool utilization. If there is a surplus of lender liquidity, rates are lowered, and if there is a shortage of lender liquidity, rates are increased. Rates can change once every 12 hours and occur in +- 10% increments. If the rate is rising, the previous rate is multiplied by 1.1; if the rate is decreasing, the previous rate is multiplied by 0.9\
 \
 For a specific overview of the interest rate algorithm, see section 8 of the whitepaper.
 
