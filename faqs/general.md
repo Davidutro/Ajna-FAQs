@@ -46,6 +46,10 @@ This is all possible because Ajna is open source software&#x20;
 6. Finally, select an interest rate between 1-10% that you think will be a good starting point for the pool – don’t worry about getting this wrong, the pool will self-adjust over time to find the correct parameters.
 7. Once these steps are complete, you can begin lending or borrowing in this Ajna Pool.
 
+### Does Ajna support rebase tokens?
+
+Not natively, but if users wrap their rebase tokens they should work.
+
 ### Does Ajna use token governance to make changes to its smart contracts?
 
 No, Ajna is an immutable set of smart contracts that cannot be changed. If a new version of Ajna is deployed, existing liquidity will need to migrate to these new contracts.
