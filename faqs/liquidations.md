@@ -1,12 +1,13 @@
 # Liquidations
 
 [What is a liquidation?](liquidations.md#what-is-a-liquidation)\
-[When does a liquidation occur?](liquidations.md#when-does-a-liquidation-happen)\
+[When does a liquidation happen?](liquidations.md#when-does-a-liquidation-happen)\
 [What is the liquidation trigger price?](liquidations.md#what-is-the-liquidation-trigger-price)\
 [Who triggers liquidations?](liquidations.md#who-triggers-liquidations)\
 [What is required to trigger a liquidation?](liquidations.md#what-is-required-to-trigger-a-liquidation)\
 [What is a liquidation bond?](liquidations.md#what-is-a-liquidation-bond)\
-[When should a liquidation bond be posted?](liquidations.md#when-should-a-liquidation-bond-be-posted)\
+[Why is a liquidation bond needed?](liquidations.md#why-is-a-liquidation-bond-needed)\
+[How much does the liquidation bond cost?](liquidations.md#how-much-does-the-liquidation-bond-cost)\
 [How is a loan's liquidation price set?](liquidations.md#how-is-a-loans-liquidation-price-set)\
 [How do I participate in liquidation auctions?](liquidations.md#how-do-i-participate-in-liquidation-auctions)\
 [What if a liquidation auction clears below a loan's Threshold Price?](liquidations.md#what-if-a-liquidation-auction-clears-below-a-loans-threshold-price)\
@@ -50,6 +51,12 @@ A liquidation bond is effectively a bet on the outcome of the collateral sale.
 ### Why is a liquidation bond needed?
 
 This requirement creates a disincentive to liquidate loans that are well collateralized with respect to the collateral's market price and creates an incentive to liquidate loans that become under-collateralized with respect to their Neutral Prices.
+
+### How much does the liquidation bond cost?
+
+A bond is priced as a percentage of the debt that is being liquidated. It can range from 1% to 30%.\
+\
+See section _7.3.2 Sizing the Bond_ in the whitepaper for full detail.
 
 ### When should a liquidation bond be posted?
 
