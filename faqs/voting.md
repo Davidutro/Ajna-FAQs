@@ -4,6 +4,7 @@
 [How does the voting system work?](voting.md#how-does-the-voting-system-work)\
 [What is the screening stage?](voting.md#what-is-the-screening-stage)\
 [What is the funding stage?](voting.md#what-is-the-funding-stage)\
+[What is the challenge stage?](voting.md#what-is-the-challenge-stage)\
 [What proposals are voted on in the funding stage?](voting.md#what-proposals-are-voted-on-in-the-funding-stage)\
 [How are votes counted and is there a required quorum?](voting.md#how-are-votes-counted-and-is-there-a-required-quorum)\
 [Who is eligible to participate in the voting process?](voting.md#who-is-eligible-to-participate-in-the-voting-process)\
@@ -48,6 +49,10 @@ The screening stage is for voters to filter out the proposals they are not inter
 The funding stage is the second stage of the voting cycle which runs for 10 days and uses a quadratic system for votes. The top 10 proposals from the screening stage advance to the funding stage where they may receive both positive and negative votes in a quadratic manner; Meaning the number of voting credits they have increases with the number of proposals they vote on (see image below).
 
 <figure><img src="../.gitbook/assets/Cumulative Voting Power vs. Number of Proposals Voted On (2).png" alt=""><figcaption></figcaption></figure>
+
+### What is the challenge stage?
+
+After the Funding Stage concludes, there is a one-week challenge period where alternative sets of winning proposals can be submitted. During this time, the optimal batch of proposals is selected by considered factors such as budget constraint and votes received.
 
 ### What proposals are voted on in the funding stage?
 
