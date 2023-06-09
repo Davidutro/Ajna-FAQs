@@ -9,21 +9,19 @@
 [How are votes counted and is there a required quorum?](voting.md#how-are-votes-counted-and-is-there-a-required-quorum)\
 [Who is eligible to participate in the voting process?](voting.md#who-is-eligible-to-participate-in-the-voting-process)\
 [Can I delegate my voting power?](voting.md#can-i-delegate-my-voting-power)\
-[How can I submit a proposal?](voting.md#how-can-i-submit-a-proposal)\
+[How do I submit a proposal?](voting.md#how-do-i-submit-a-proposal)\
 [What is Quadratic Voting?](voting.md#what-is-quadratic-voting)\
 [Why is Quadratic Voting only used in the Funding Round?](voting.md#why-is-quadratic-voting-only-used-in-the-funding-round)\
 [How often are votes held?](voting.md#how-often-are-votes-held)\
 [How long do participants have to cast their votes in the screening stage?](voting.md#how-long-do-participants-have-to-cast-their-votes-in-the-screening-stage)\
 [How long do participants have to cast their votes in the funding stage?](voting.md#how-long-do-participants-have-to-cast-their-votes-in-the-funding-stage)\
 [Can I change my vote after it’s been cast?](voting.md#can-i-change-my-vote-after-its-been-cast)\
-[Is there a minimum number of funding stage votes for a proposal to be funded?](voting.md#is-there-a-minimum-number-of-funding-stage-votes-for-a-proposal-to-be-funded)\
+Is there a minimum number of funding stage votes for a proposal to be funded?\
 [Can participants propose changes to the voting system?](voting.md#can-participants-propose-changes-to-the-voting-system)\
 [Are there any incentives for participating?](voting.md#are-there-any-incentives-for-participating)\
 [What happens if a proposal is passed but is not technically feasible?](voting.md#what-happens-if-a-proposal-is-passed-but-is-not-technically-feasible)\
 [Can the voting system be used to amend the protocol's smart contracts?](voting.md#can-the-voting-system-be-used-to-amend-the-protocols-smart-contracts)\
-[Can a proposal be resubmitted?](voting.md#can-a-proposal-be-resubmitted)\
-[What is the challenge period?](voting.md#what-is-the-challenge-period)\
-[Can a new vote cycle start during the challenge period?](voting.md#can-a-new-vote-cycle-start-during-the-challenge-period)
+[Can a proposal be resubmitted?](voting.md#can-a-proposal-be-resubmitted)
 
 ### What gets voted on at Ajna?
 
@@ -52,7 +50,7 @@ The funding stage is the second stage of the voting cycle which runs for 10 days
 
 ### What is the challenge stage?
 
-After the Funding Stage concludes, there is a one-week challenge period where alternative sets of winning proposals can be submitted. During this time, the optimal batch of proposals is selected by considered factors such as budget constraint and votes received.
+After the Funding Stage concludes, there is a one-week challenge stage where alternative sets of winning proposals can be submitted. During this time, the optimal batch of proposals is selected by considered factors such as budget constraint and votes received. If a new batch is submitted that is just as optimal as the current one, than the current one stays in place.
 
 ### What proposals are voted on in the funding stage?
 
@@ -68,10 +66,6 @@ Challenge stage: There is no voting during the challenge stage. Rather, anyone c
 \
 There are no quorums.
 
-### What is the challenge stage?
-
-When the funding stage ends, a calculation must happen off-chain with a hash of the configuration submitted to the smart contract to determine the winning group of proposals. There may be more than one valid configuration of winners, therefore this challenge period allows anyone to propose a different grouping. Configurations may be submitted until the one week period is over, but there is a theoretically optimal configuration for any set of proposals that can be submitted at any time. If a new grouping is submitted that is just as optimal as the current one, than the current one stays in place.
-
 ### Who is eligible to participate in the voting process?
 
 One must either have AJNA tokens or be delegated AJNA tokens to vote.
@@ -80,7 +74,7 @@ One must either have AJNA tokens or be delegated AJNA tokens to vote.
 
 Yes.
 
-### How can I submit a proposal?
+### How do I submit a proposal?
 
 One way to submit a proposal is through the Ajna Voting App.
 
@@ -88,16 +82,22 @@ One way to submit a proposal is through the Ajna Voting App.
 
 Quadratic voting is a system that allows individuals to express their preferences using a budget of voting points. Unlike traditional "one person, one vote" systems, individuals can allocate their voting points based on the importance of the issue to them, giving more weight to their individual opinions. The allocation of voting points follows a quadratic function, which means that the number of voting points increases as more items are voted on. This system incentivizes people to vote on all items and can lead to a more accurate and nuanced representation of individual opinions.
 
-### Why is Quadratic Voting only used in the funding round?
+### Why is Quadratic Voting only used in the funding stage?
 
 The screening stage allows unlimited entries, which breaks quadratic voting due to the way voting credit is counted.
 
+### Is there a minimum number of funding stage votes for a proposal to be funded?
+
+Proposals with 0 or negative votes in the funding stage will not be eligible for funding.
+
 ### How often are votes held?
 
-Each cycle runs for 90 days and has two stages. \
-The first is a screening stage which runs for 80 days.\
+Each cycle runs for 90 days and has three stages. \
+The first is a screening stage which runs for 73 days.\
 The second is a funding stage which runs for 10 days.\
-Votes can be submitted at at any time.
+The third is a challenge stage which runs for 7 days.\
+\
+Votes can be submitted at at any time, but may not be modified.
 
 ### How long do participants have to cast their votes in the screening stage?
 
@@ -110,10 +110,6 @@ Votes can be submitted at at any time.
 ### Can I change my vote after it’s been cast?
 
 No, votes cannot be cancelled or modified.
-
-### Is there a minimum number of funding stage votes for a proposal to be funded?
-
-Proposals with 0 or negative votes in the funding stage will not be eligible for funding.
 
 ### Can participants propose changes to the voting system?
 
@@ -134,8 +130,4 @@ No.
 ### Can a proposal be resubmitted?
 
 Proposals can be resubmitted, there is no limitation on how many times.
-
-### Can the next cycle's screening stage start during the challenge stage?
-
-No. The challenge stage must complete before a new cycle starts.
 
