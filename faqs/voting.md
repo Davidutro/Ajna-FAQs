@@ -6,8 +6,8 @@
 [What is the funding stage?](voting.md#what-is-the-funding-stage)\
 [What is the challenge stage?](voting.md#what-is-the-challenge-stage)\
 [What proposals are voted on in the funding stage?](voting.md#what-proposals-are-voted-on-in-the-funding-stage)\
-[Is there a minimum number of funding stage votes for a proposal to be funded?](voting.md#is-there-a-minimum-number-of-funding-stage-votes-for-a-proposal-to-be-funded)\
 [How are votes counted and is there a required quorum?](voting.md#how-are-votes-counted-and-is-there-a-required-quorum)\
+[Is there a minimum vote requirement for a proposal to receive funding?](voting.md#is-there-a-minimum-vote-requirement-for-a-proposal-to-receive-funding)\
 [Who is eligible to participate in the voting process?](voting.md#who-is-eligible-to-participate-in-the-voting-process)\
 [Can I delegate my voting power?](voting.md#can-i-delegate-my-voting-power)\
 [How do I submit a proposal?](voting.md#how-do-i-submit-a-proposal)\
@@ -66,6 +66,10 @@ Challenge stage: There is no voting during the challenge stage. Rather, anyone c
 \
 There are no quorums.
 
+### Is there a minimum vote requirement for a proposal to receive funding?
+
+Proposals with 0 or negative votes in the funding stage will not be eligible for funding.
+
 ### Who is eligible to participate in the voting process?
 
 One must either have AJNA tokens or be delegated AJNA tokens to vote.
@@ -85,10 +89,6 @@ Quadratic voting is a system that allows individuals to express their preference
 ### Why is Quadratic Voting only used in the funding stage?
 
 The screening stage allows unlimited entries, which breaks quadratic voting due to the way voting credit is counted.
-
-### Is there a minimum number of funding stage votes for a proposal to be funded?
-
-Proposals with 0 or negative votes in the funding stage will not be eligible for funding.
 
 ### How often are votes held?
 
