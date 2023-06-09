@@ -6,6 +6,7 @@
 [What is the funding stage?](voting.md#what-is-the-funding-stage)\
 [What is the challenge stage?](voting.md#what-is-the-challenge-stage)\
 [What proposals are voted on in the funding stage?](voting.md#what-proposals-are-voted-on-in-the-funding-stage)\
+[Is there a minimum number of funding stage votes for a proposal to be funded?](voting.md#is-there-a-minimum-number-of-funding-stage-votes-for-a-proposal-to-be-funded)\
 [How are votes counted and is there a required quorum?](voting.md#how-are-votes-counted-and-is-there-a-required-quorum)\
 [Who is eligible to participate in the voting process?](voting.md#who-is-eligible-to-participate-in-the-voting-process)\
 [Can I delegate my voting power?](voting.md#can-i-delegate-my-voting-power)\
@@ -16,7 +17,6 @@
 [How long do participants have to cast their votes in the screening stage?](voting.md#how-long-do-participants-have-to-cast-their-votes-in-the-screening-stage)\
 [How long do participants have to cast their votes in the funding stage?](voting.md#how-long-do-participants-have-to-cast-their-votes-in-the-funding-stage)\
 [Can I change my vote after it’s been cast?](voting.md#can-i-change-my-vote-after-its-been-cast)\
-Is there a minimum number of funding stage votes for a proposal to be funded?\
 [Can participants propose changes to the voting system?](voting.md#can-participants-propose-changes-to-the-voting-system)\
 [Are there any incentives for participating?](voting.md#are-there-any-incentives-for-participating)\
 [What happens if a proposal is passed but is not technically feasible?](voting.md#what-happens-if-a-proposal-is-passed-but-is-not-technically-feasible)\
