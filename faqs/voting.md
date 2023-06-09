@@ -12,7 +12,7 @@
 [Can I delegate my voting power?](voting.md#can-i-delegate-my-voting-power)\
 [How do I submit a proposal?](voting.md#how-do-i-submit-a-proposal)\
 [What is Quadratic Voting?](voting.md#what-is-quadratic-voting)\
-[Why is Quadratic Voting only used in the Funding Round?](voting.md#why-is-quadratic-voting-only-used-in-the-funding-round)\
+[Why is Quadratic Voting only used in the Funding Stage?](voting.md#why-is-quadratic-voting-only-used-in-the-funding-stage)\
 [How often are votes held?](voting.md#how-often-are-votes-held)\
 [How long do participants have to cast their votes in the screening stage?](voting.md#how-long-do-participants-have-to-cast-their-votes-in-the-screening-stage)\
 [How long do participants have to cast their votes in the funding stage?](voting.md#how-long-do-participants-have-to-cast-their-votes-in-the-funding-stage)\
