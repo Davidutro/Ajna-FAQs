@@ -90,7 +90,7 @@ There are three scenarios when a lender can lose their deposit:&#x20;
 
 ## How does a lender get paid if a borrower defaults on their loan?
 
-If a borrower defaults on their loan, it will go through the liquidation process where the debt amount is raised from selling the collateral. The collateral is sold through a Dutch Auction and can utilize lender deposits at the top valued price buckets.\
+If a borrower defaults, their loan will go through the liquidation process where the collateral is sold to cover the debt. The sale occurs through a Dutch Auction and can utilize lender deposits at the top valued price buckets.\
 \
 Lender deposits at the highest priced buckets are at risk to be traded against, leaving depositors with the options of claiming the collateral and selling it to retrieve their deposit, or to wait for someone to trade quote tokens for the collateral at that price.
 
