@@ -46,7 +46,7 @@ The purchase of a liquidation bond is required to trigger liquidations.
 
 ### What is a liquidation bond?
 
-A liquidation bond is effectively a bet on the outcome of a collateral sale. In Ajna the purchase of a liquidation bond is required to send a loan into liquidation.
+A liquidation bond is effectively a bet on the outcome of a collateral sale. At Ajna, the purchase of a liquidation bond is required to send a loan into liquidation.
 
 ### Why is a liquidation bond needed?
 
