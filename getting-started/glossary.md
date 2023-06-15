@@ -6,7 +6,7 @@ description: Definitions are simplified and may not be comprehensive.
 
 **Borrower Inflator (BI)**:  The borrower inflator is used in the calculation of the neutral price, which can be used as a liquidation price. The BI at a given time is the debt that a borrower would have incurred if they had borrowed a single quote token at the initiation of the contract and had never repaid or taken out any additional debt.
 
-**Challenge Period**: At the end of each Primary Funding Mechanism (PFM) cycle there is a seven day challenge period to contest the payout configuration.
+**Challenge Stage**: The final part of each voting cycle is a seven day challenge stage to contest the payout configuration.
 
 **Claimable Collateral**: Each price bucket may have claimable collateral which is exchangeable with quote tokens.
 
@@ -18,11 +18,9 @@ description: Definitions are simplified and may not be comprehensive.
 
 **Dutch Auction**: A type of auction where the price starts high and gradually decreases until a buyer agrees to make a purchase.
 
-**Extraordinary Funding Mechanism (EFM)**: This is an alternative funding mechanism that is meant to be used in special cases. An EFM vote uses one token one vote, lasts for one month, and requires a quorum to pass depending on the amount being requested.
-
 **Fenwick Tree**: A Fenwick tree or binary indexed tree is a data structure that can efficiently update elements and calculate prefix sums in a table of numbers. The Ajna Protocol uses a modified Fenwick Tree to hard code price buckets in Ajna pools.
 
-**Funding Stage**: This is the second stage in the PFM which uses a quadratic voting schema, lasts for 10 days, and involves up to 10 proposals.
+**Funding Stage**: This is the second stage of a given voting cycle which uses a quadratic voting schema, lasts for 10 days, and involves up to 10 proposals.
 
 **Highest Price Bucket (HPB)**: The highest-priced bucket which contains a deposit, not counting claimable collateral.
 
@@ -62,13 +60,13 @@ description: Definitions are simplified and may not be comprehensive.
 
 **Price bucket**: Price buckets are hard-coded prices, discretized into 50 bps increments, at which users can deposit quote tokens or collateral. A price bucket can be freely traded against. In the worst case scenario, lenders would end up buying collateral at their chosen prices.
 
-**Primary Funding Mechanism (PFM)**: On a quarterly basis, a portion of the treasury is distributed to projects to facilitate the growth of Ajna. Teams and/or individuals submit proposals that are voted on by Ajna token holders and delegates.
+**Funding Mechanism (FM)**: On a quarterly basis, a portion of the treasury is distributed to projects to facilitate the growth of Ajna. Teams and/or individuals submit proposals that are voted on by Ajna token holders and delegates.
 
 **Quote Token (QT)**: Must be an ERC20 token and is what lenders deposit into Price Buckets.
 
 **Reserves**: Origination fees, deposit penalties, and net interest margin on loans accumulate in pool reserves. Reserves are used to provide a liquidity cushion to lenders by absorbing bad debt if some should occur. Reserves are also used to buy and burn AJNA tokens.
 
-**Screening Stage**: This is the first stage in the PFM which uses a one-token-one-vote schema, lasts for 80 days, and involves an unlimited number of proposals.
+**Screening Stage**: This is the first stage in a given voting cycle which uses a one-token-one-vote schema, lasts for 80 days, and involves an unlimited number of proposals.
 
 **Target Utilization (TU)**: The ratio of the 3.5 day EMA of system debt to 3.5 day EMA of LUP\*totalCollateral. This may be sampled every half day to determine whether an interest rate update is available.
 
@@ -76,7 +74,7 @@ description: Definitions are simplified and may not be comprehensive.
 
 **Total Encumbered Collateral**: Total Debt when described in quote token terms or Total Debt/LUP if described in collateral token terms.
 
-**Treasury**: A balance of AJNA tokens, initially 30% of the total token supply, held by a hard-coded address associated with the protocol only accessible through the PFM and EFM.
+**Treasury**: A balance of AJNA tokens, initially 30% of the total token supply, held by a hard-coded address associated with the protocol only accessible through the Funding Mechanism.
 
 \
 
