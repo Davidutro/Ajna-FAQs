@@ -23,6 +23,14 @@
 
 The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending, borrowing and trading system that requires no governance or external price feeds to function. The current version is built for Ethereum Virtual Machine(EVM) compatible networks.&#x20;
 
+### Where can I use the Ajna Protocol?
+
+(soon)
+
+1. Summer.fi
+2. DefiSaver
+3. Static Open Source Frontend
+
 ### What assets can be lent and borrowed on Ajna?
 
 Ajna enables lending for all ERC-20 tokens and borrowing for ERC-20, ERC-721, and ERC-721 collections or subsets through its pools. Pools are pairs of quote and collateral tokens provided by lenders and borrowers.
@@ -84,7 +92,7 @@ No, Ajna Labs has no ability to change or manipulate the smart contracts once th
 
 ### Where can I get information about Ajna?
 
-The best way to get involved is to [learn](https://www.ajna.finance/eli5) about the system, [join](https://discord.gg/PJzKTDXdgA) the discord server, and [look out](https://twitter.com/ajnafi) for the upcoming launch.
+The best way to get involved is to learn about the system through the [Whitepaper](https://www.ajna.finance/whitepaper), [FAQs](https://faqs.ajna.finance/getting-started/ajna-101), or [ELI5](https://www.ajna.finance/eli5). Join the [discord server](https://discord.com/invite/PJzKTDXdgA), and [look out](https://twitter.com/ajnafi) for the upcoming launch.
 
 ### Where can I test the application?
 
