@@ -10,7 +10,7 @@
 [How are interest rates determined?](borrowing.md#how-are-interest-rates-determined)\
 [Can I borrow at a fixed rate?](borrowing.md#can-i-borrow-at-a-fixed-rate)\
 [When do I need to pay back the loan?](borrowing.md#when-do-i-need-to-pay-back-the-loan)\
-Why am I being blocked from paying back a partial amount of my loan?\
+[Why am I being blocked from paying back a partial amount of my loan?](borrowing.md#why-am-i-being-blocked-from-paying-back-a-partial-amount-of-my-loan)\
 [Can I repay my loan early, and if so, are there any penalties?](borrowing.md#can-i-repay-my-loan-early-and-if-so-are-there-any-penalties)\
 [What can go wrong?](borrowing.md#what-can-go-wrong)\
 [What happens if the collateral value drops below the debt amount?](borrowing.md#what-happens-if-the-collateral-value-drops-below-the-debt-amount)\
