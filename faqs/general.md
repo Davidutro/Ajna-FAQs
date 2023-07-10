@@ -1,6 +1,7 @@
 # General
 
 [What is the Ajna Protocol?](general.md#what-is-the-ajna-protocol)\
+[Where can I use the Ajna Protocol?](general.md#where-can-i-use-the-ajna-protocol)\
 [What assets can be lent and borrowed?](general.md#what-assets-can-be-lent-and-borrowed-on-ajna)\
 [How does Ajna work?](general.md#how-does-ajna-work)\
 [How do I create a pool?](general.md#how-do-i-create-a-pool)\
