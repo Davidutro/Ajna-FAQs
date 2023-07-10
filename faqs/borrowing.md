@@ -10,6 +10,7 @@
 [How are interest rates determined?](borrowing.md#how-are-interest-rates-determined)\
 [Can I borrow at a fixed rate?](borrowing.md#can-i-borrow-at-a-fixed-rate)\
 [When do I need to pay back the loan?](borrowing.md#when-do-i-need-to-pay-back-the-loan)\
+Why am I being blocked from paying back a partial amount of my loan?\
 [Can I repay my loan early, and if so, are there any penalties?](borrowing.md#can-i-repay-my-loan-early-and-if-so-are-there-any-penalties)\
 [What can go wrong?](borrowing.md#what-can-go-wrong)\
 [What happens if the collateral value drops below the debt amount?](borrowing.md#what-happens-if-the-collateral-value-drops-below-the-debt-amount)\
@@ -71,6 +72,12 @@ Yes, but only for a maximum of 12 hours. Rates are subject to change every 12 ho
 ### When do I need to pay back the loan?
 
 Ajna loans can be paid back at any time.
+
+### Why am I being blocked from paying back a partial amount of my loan?
+
+Ajna has a minimum borrow amount for loans, this means users might be unable to pay back a partial amount of their debt if it would push their balance below this minimum. \
+\
+If this happens, pay back less or pay back the entire amount.
 
 ### Can I repay my loan early, and if so, are there any penalties?
 
