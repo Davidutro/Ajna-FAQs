@@ -22,8 +22,8 @@ Users choose what valuation they are willing to lend against by depositing token
 ## Where do I lend?
 
 * Easy
-  * The Ajna app (soon)
-  * The Oasis app (soon)
+  * The Summer.Fi app (soon)
+  * Static Open Source Frontend (soon)
   * Other apps with Ajna integrated (soon)
 * Advanced
   * Use the SDK to build an interface or bots (soon)

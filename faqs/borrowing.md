@@ -26,9 +26,13 @@ Borrowers deposit collateral tokens into a pool and may borrow quote tokens. A l
 
 ### Where do I borrow?
 
-Users can borrow on Ajna by using any applications that plug into the protocol.\
-\
-Existing applications include Ajna's own app and Oasis.&#x20;
+* Easy
+  * The Summer.Fi app (soon)
+  * Static Open Source Frontend (soon)
+  * Other apps with Ajna integrated (soon)
+* Advanced
+  * Use the SDK to build an interface or bots (soon)
+  * Ether.js or Web3.py (interacts with Ethereum) & connect to your own node (soon)
 
 ### What can I borrow?
 
