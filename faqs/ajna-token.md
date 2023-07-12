@@ -19,6 +19,6 @@ No.
 
 ### How can I get AJNA tokens?
 
-1. Buy them on the open market
-2. Earn them by participating as a delegate in the grant program
+1. Buy them on the open market.
+2. Earn them by participating as a delegate.
 3. Earn them through usage-rewards offered by third parties.
