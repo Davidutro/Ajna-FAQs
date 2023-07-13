@@ -37,7 +37,7 @@ Generally, the following categories are of interest:
 2. Community: This category can include projects related to building and engaging communities around the Ajna Protocol, such as marketing, education, and events, that aim to increase awareness and adoption of the protocol.
 3. Research: This category can include projects focused on research and development related to the Ajna Protocol, such as behavior and use case analysis, new product research, performance analysis, and others that aim to identify or enhance the protocol's capabilities.
 4. Integration: This category can include projects related to integrating the Ajna Protocol with other technologies or platforms that aim to increase the protocol's reach and utility.
-5. Other: This category can be used to capture any projects that do not fit neatly into the other categories but still align with the key goal of the grant program which is to increase Ajna's likelihood of success.
+5. Other: This category can be used to capture any projects that do not fit neatly into the other categories but still align with the key goal of the program which is to increase Ajna's likelihood of success.
 
 ### Where can I view grant proposals?
 
