@@ -15,3 +15,7 @@
 * [AJNA Token](faqs/ajna-token.md)
 * [Grants](faqs/grants.md)
 * [Voting](faqs/voting.md)
+
+## Info
+
+* [Deployment Addresses](info/deployment-addresses.md)
