@@ -38,7 +38,7 @@ The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and bo
 
 ### Where can I use the Ajna Protocol?
 
-1. [Summer.fi](https://summer.fi/ajna)
+1. [Summer.fi](https://summer.fi/ajna) (Rewards active)
 2. Static Open Source Frontend _(coming end of summer)_
 3. _Others coming soon._
 
