@@ -91,7 +91,17 @@ No Ajna is entirely non-custodial, user’s are in charge of their private keys 
 
 ### Has Ajna been audited?
 
-Ajna has been audited by: Trail of Bits, Prototech labs, Quantstamp, Sherlock, and Code4arena.
+Ajna has been audited by\
+\
+[Trail of Bits](https://www.trailofbits.com/) - [https://github.com/ajna-finance/audits/tree/main/tob](https://github.com/ajna-finance/audits/tree/main/tob)\
+\
+[Quantstamp](https://quantstamp.com/) - [https://github.com/ajna-finance/audits/tree/main/quantstamp](https://github.com/ajna-finance/audits/tree/main/quantstamp)\
+\
+[Sherlock](https://www.sherlock.xyz/) - [https://github.com/ajna-finance/audits/tree/main/sherlock](https://github.com/ajna-finance/audits/tree/main/sherlock)\
+\
+[Code4arena](https://code4rena.com/) - [https://github.com/ajna-finance/audits/tree/main/code4rena](https://github.com/ajna-finance/audits/tree/main/code4rena)\
+\
+Prototech labs - [https://github.com/ajna-finance/audits/tree/main/prototech](https://github.com/ajna-finance/audits/tree/main/prototech)
 
 ### Does Ajna have a bug bounty?
 
