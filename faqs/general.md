@@ -24,6 +24,16 @@
 
 The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and borrowing system that requires no governance or external price feeds to function. The current version is built for Ethereum Virtual Machine(EVM) compatible networks.&#x20;
 
+### What are the key features of the Ajna Protocol?
+
+* Permissionless pool creation
+* Immutability
+* Perpetual loans
+* Price-specified lending
+* Utilization based interest rates
+* NFT and NFT subset borrowing
+* Liquidation bonds
+
 ### Where can I use the Ajna Protocol?
 
 1. [Summer.fi](https://summer.fi/ajna)
