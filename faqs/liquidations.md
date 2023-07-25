@@ -18,7 +18,7 @@
 
 ### What is a liquidation?
 
-A liquidation is a process of selling off assets to pay off debts. In the context of loans, a liquidation occurs when collateral that was used to secure a loan is sold. The proceeds from the sale of the collateral are used to repay the outstanding balance of the loan. Liquidations are a last resort for when a borrower is unable to repay a loan. The process of liquidating collateral can be complex, and it is important for borrowers to understand the potential consequences of defaulting on a loan before they take out the loan.
+Liquidation is a process of selling off assets to pay off debts. In the context of loans, a liquidation occurs when collateral that was used to secure a loan is sold. The proceeds from the sale of the collateral are used to repay the outstanding balance of the loan. Liquidations are a last resort for when a borrower is unable to repay a loan. The process of liquidating collateral can be complex, and it is important for borrowers to understand the potential consequences of defaulting on a loan before they take out the loan.
 
 ### When does a liquidation happen?
 
