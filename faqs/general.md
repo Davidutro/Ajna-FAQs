@@ -78,7 +78,9 @@ The protocol is written to work on any EVM (Ethereum Virtual Machine) compatible
 
 ### How can I get involved?
 
-At this time, the best way to get involved is to learn about the system and see how you can contribute. Please join our discord server to get more involved.
+Join our [discord server](https://discord.gg/T9WSMKfMYJ).\
+Participate in the [grants program](https://faqs.ajna.finance/faqs/grants).\
+Give integrators like [summer.fi](https://summer.fi/) your feedback.
 
 ### Is Ajna custodial?
 
