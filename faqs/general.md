@@ -10,7 +10,6 @@
 [Does Ajna use token governance to make changes to its smart contracts?](general.md#does-ajna-use-token-governance-to-make-changes-to-its-smart-contracts)\
 [What networks are you going to deploy on and do you have any plans for deployment on an Ethereum L2?](general.md#what-chains-are-you-going-to-deploy-on-and-do-you-have-any-plans-for-deployment-on-an-ethereum-l2)\
 [How can I get involved?](general.md#how-can-i-get-involved)\
-[Is Ajna custodial?](general.md#is-ajna-custodial)\
 [Has Ajna been audited?](general.md#has-ajna-been-audited)\
 [Does Ajna have a bug bounty?](general.md#does-ajna-have-a-bug-bounty)\
 [Does Ajna labs have admin control over the protocol?](general.md#does-ajna-labs-have-admin-control-over-the-protocol)\
@@ -82,10 +81,6 @@ The protocol is written to work on any EVM (Ethereum Virtual Machine) compatible
 Join our [discord server](https://discord.gg/T9WSMKfMYJ).\
 Participate in the [grants program](https://faqs.ajna.finance/faqs/grants).\
 Give integrators like [summer.fi](https://summer.fi/) your feedback.
-
-### Is Ajna custodial?
-
-No Ajna is entirely non-custodial, user’s are in charge of their private keys at all times.
 
 ### Has Ajna been audited?
 
