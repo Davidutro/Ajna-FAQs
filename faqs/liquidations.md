@@ -38,29 +38,29 @@ If a loan's TP crosses above the pool's LUP, then their position is eligible for
 
 ### What is the liquidation trigger price?
 
-The liquidation trigger price is the price at which a loan can be triggered for liquidation, though it may not necessarily be profitable to do so. When a loan's _Threshold Price (TP)_ crosses above the pool's Lowest Utilized Price (LUP), then their position is eligible for liquidation.
+The liquidation trigger price is the price at which a loan can be triggered for liquidation, though it may not necessarily be profitable to do so. When a loan's _Threshold Price (TP)_ crosses above the pool's Lowest Utilized Price (LUP), their position is eligible for liquidation.
 
 ### Who triggers liquidations?
 
-Anyone can trigger a liquidation by posting a liquidation bond for the loan in question.
+Anyone can trigger a liquidation by posting a [liquidation bond](https://faqs.ajna.finance/faqs/liquidations#what-is-a-liquidation-bond) for the loan in question.
 
 ### What is required to trigger a liquidation?
 
-The purchase of a liquidation bond is required to trigger liquidations.
+The purchase of a [liquidation bond](https://faqs.ajna.finance/faqs/liquidations#what-is-a-liquidation-bond) is required to trigger liquidations.
 
 ### What is a liquidation bond?
 
-A liquidation bond is effectively a bet on the outcome of a collateral sale. At Ajna, the purchase of a liquidation bond is required to send a loan into liquidation.
+A liquidation bond is effectively a bet on the outcome of a collateral sale. In the Ajna protocol, the purchase of a liquidation bond is required to liquidate a loan.
 
 ### Why is a liquidation bond needed?
 
-This requirement creates a disincentive to liquidate loans that are well collateralized with respect to the collateral's market price and creates an incentive to liquidate loans that become under-collateralized with respect to their Neutral Prices.
+This requirement creates a disincentive to liquidate loans that are sufficiently collateralized with respect to the collateral's market price and creates an incentive to liquidate loans that become under-collateralized with respect to their Neutral Prices.
 
 ### How much does the liquidation bond cost?
 
 A bond is priced as a percentage of the debt that is being liquidated. It can range from 1% to 30%.\
 \
-See section _7.3.2 Sizing the Bond_ in the whitepaper for full detail.
+See section _7.3.2 Sizing the Bond_ in the [whitepaper](https://www.ajna.finance/whitepaper) for full detail.
 
 ### When should a liquidation bond be posted?
 
