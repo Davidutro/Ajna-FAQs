@@ -124,7 +124,7 @@ Relying on oracles for pricing data in a DeFi application creates an external po
 
 ### What is governance in the context of a protocol?
 
-Governance is when a protocol uses voting or another mechanism such as a centralized entity to implement changes to the protocol without user consent. It is often used to manipulate parameters or add functionality.
+Governance is when a protocol uses voting or another mechanism such as a centralized entity to implement changes to the protocol without user consent. It is often used to adjust parameters or add functionality.
 
 ### What is the Ajna Foundation?
 
