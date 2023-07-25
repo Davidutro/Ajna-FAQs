@@ -34,7 +34,7 @@ TP is set by the borrower and is a loan’s debt divided by the collateral. \
 NP is set at origination, is usually some number above the TP, and acts as the liquidation trigger price of the loan.\
 LUP moves freely and is defined as the lowest collateral price bucket against which someone is actively borrowing.\
 \
-If a loan's TP crosses above the pool's LUP, then their position is eligible for liquidation. This is referred to as the _liquidation trigger price_. A loan is profitable to liquidate, with regard to the liquidation bond, when the price of the collateral crosses below the NP of a given loan.
+If a loan's TP crosses above the pool's LUP, then their position is eligible for liquidation. This is referred to as the _liquidation trigger price_. A loan may be profitable to liquidate, with regard to the [liquidation bond](https://faqs.ajna.finance/faqs/liquidations#what-is-a-liquidation-bond), when the price of the collateral crosses below the NP of a given loan.
 
 ### What is the liquidation trigger price?
 
