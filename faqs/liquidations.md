@@ -108,7 +108,7 @@ Yes.
 
 ### In NFT-collection pools, do liquidation auctions happen per single NFT?
 
-If a borrower’s position is backed by multiple NFTs, they will all go to auction simultaneously in the case of a liquidation. If the position is backed by a single NFT, then only that NFT will go to auction.
+If a borrower’s position is backed by multiple NFTs, they will all go to auction simultaneously. If the position is backed by a single NFT, then only that NFT will go to auction.
 
 ### In NFT-collection pools, how do group liquidations work?
 
