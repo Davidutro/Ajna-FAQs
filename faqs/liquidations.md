@@ -100,7 +100,7 @@ Beginners could use the Ajna application to access this functionality while adva
 
 ### What if a liquidation auction clears below a loan's Threshold Price?
 
-If a liquidation fails to sell collateral at or above the threshold price, then the loan's left over debt gets deducted from quote token liquidity from the highest price buckets, diluting LPB holders in those buckets. If that is insufficient as well, then the debt is deducted from the pool's [reserves](https://faqs.ajna.finance/faqs/reserve-auctions#what-are-reserves).
+If a liquidation fails to sell collateral at or above the threshold price, then the loan's left over debt gets deducted from the pool's [reserves](https://faqs.ajna.finance/faqs/reserve-auctions#what-are-reserves). If that is insufficient, then the debt is deducted from the quote token liquidity in the highest price buckets, diluting LPB holders in those buckets.
 
 ### In NFT-collection pools, can a borrower use multiple NFTs in a single position?
 
