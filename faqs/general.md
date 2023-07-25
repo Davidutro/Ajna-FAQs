@@ -6,6 +6,7 @@
 [What assets can be lent and borrowed?](general.md#what-assets-can-be-lent-and-borrowed-on-ajna)\
 [How does Ajna work?](general.md#how-does-ajna-work)\
 [How do I create a pool?](general.md#how-do-i-create-a-pool)\
+[Does Ajna support rebase tokens?](general.md#does-ajna-support-rebase-tokens)\
 [Does Ajna use token governance to make changes to its smart contracts?](general.md#does-ajna-use-token-governance-to-make-changes-to-its-smart-contracts)\
 [What networks are you going to deploy on and do you have any plans for deployment on an Ethereum L2?](general.md#what-chains-are-you-going-to-deploy-on-and-do-you-have-any-plans-for-deployment-on-an-ethereum-l2)\
 [How can I get involved?](general.md#how-can-i-get-involved)\
