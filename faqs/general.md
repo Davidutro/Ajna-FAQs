@@ -7,8 +7,7 @@
 [How does Ajna work?](general.md#how-does-ajna-work)\
 [How do I create a pool?](general.md#how-do-i-create-a-pool)\
 [Does Ajna use token governance to make changes to its smart contracts?](general.md#does-ajna-use-token-governance-to-make-changes-to-its-smart-contracts)\
-[What networks are you going to deploy on and do you have any plans for deployment on an Ethereum L2?\
-](general.md#what-chains-are-you-going-to-deploy-on-and-do-you-have-any-plans-for-deployment-on-an-ethereum-l2)[When will the Ajna Protocol launch?](general.md#when-will-the-ajna-protocol-launch)\
+[What networks are you going to deploy on and do you have any plans for deployment on an Ethereum L2?](general.md#what-chains-are-you-going-to-deploy-on-and-do-you-have-any-plans-for-deployment-on-an-ethereum-l2)\
 [How can I get involved?](general.md#how-can-i-get-involved)\
 [Is Ajna custodial?](general.md#is-ajna-custodial)\
 [Has Ajna been audited?](general.md#has-ajna-been-audited)\
@@ -76,10 +75,6 @@ No, Ajna is an immutable set of smart contracts that cannot be changed. If a new
 ### What networks are you going to deploy on and do you have any plans for deployment on an Ethereum L2?
 
 The protocol is written to work on any EVM (Ethereum Virtual Machine) compatible chain. The first launch will be on the Ethereum Mainnet chain with secondary launches on various L2s and compatible L1s.
-
-### When will the Ajna Protocol launch?
-
-Q2 2023.
 
 ### How can I get involved?
 
