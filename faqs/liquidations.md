@@ -112,11 +112,11 @@ If a borrower’s position is backed by multiple NFTs, they will all go to aucti
 
 ### In NFT-collection pools, how do group liquidations work?
 
-In cases where a borrower position is backed by multiple NFTs is getting liquidated, Is it all or nothing? Can the NFTs get broken up? Is there a default order if they do? Can bidders specify which NFT they are bidding on?\
+In a case where a borrower position backed by multiple NFTs is getting liquidated, Is it all or nothing? Can the NFTs get broken up? Is there a default order if they do? Can bidders specify which NFT they are bidding on?\
 \
-Similar to regular liquidations, once an auction is initiated the entire lot of collateral is available for purchase. Bidder have the option to place a bid on the entire lot or on a specific NFT during a group liquidation. If a bidder does not specify an NFT for their partial bid, a random one is selected.
+Similar to regular liquidations, once an auction is initiated the entire lot of collateral is available for purchase. Bidder have the option to place a bid on the entire lot or on a specific NFT during a group liquidation. If a bidder does not specify an NFT for their partial bid, a random one is selected (We haven't documented order in which they are taken.)
 
-For `take`, taker provides an integer number of NFTs in `maxAmount_` argument. `bucketTake` can result in fragmenting NFTs in buckets. We haven't documented order in which they are taken.\
+For `take`, taker provides an integer number of NFTs in `maxAmount_` argument. `bucketTake` can result in fragmenting NFTs in buckets.\
 \
 
 
