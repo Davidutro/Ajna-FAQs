@@ -8,7 +8,7 @@
 [Is there a minimum or maximum I can borrow?](borrowing.md#is-there-a-minimum-or-maximum-i-can-borrow)\
 [How much would I pay in interest?](borrowing.md#how-much-would-i-pay-in-interest)\
 [How are interest rates determined?](borrowing.md#how-are-interest-rates-determined)\
-Is there a minimum and maximum interest rate?\
+[Is there a minimum and maximum interest rate?](borrowing.md#is-there-a-minimum-and-maximum-interest-rate)\
 [Can I borrow at a fixed rate?](borrowing.md#can-i-borrow-at-a-fixed-rate)\
 [When do I need to pay back the loan?](borrowing.md#when-do-i-need-to-pay-back-the-loan)\
 [Why am I being blocked from paying back a partial amount of my loan?](borrowing.md#why-am-i-being-blocked-from-paying-back-a-partial-amount-of-my-loan)\
@@ -68,7 +68,7 @@ Each pool has its own interest rate that should be displayed in the pool informa
 
 Interest rates are determined by pool utilization. If there is a surplus of lender liquidity, rates are lowered, and if there is a shortage of lender liquidity, rates are increased. Rates can change once every 12 hours and occur in +- 10% increments. If the rate is rising, the previous rate is multiplied by 1.1; if the rate is decreasing, the previous rate is multiplied by 0.9\
 \
-For a specific overview of the interest rate algorithm, see section 8 of the whitepaper.
+For a specific overview of the interest rate algorithm, see section 8 of the [whitepaper](https://www.ajna.finance/whitepaper).
 
 ### Is there a minimum and maximum interest rate?
 

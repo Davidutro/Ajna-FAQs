@@ -14,7 +14,6 @@
 [Does Ajna have a bug bounty?](general.md#does-ajna-have-a-bug-bounty)\
 [Does Ajna labs have admin control over the protocol?](general.md#does-ajna-labs-have-admin-control-over-the-protocol)\
 [Where can I get information about Ajna?](general.md#where-can-i-get-information-about-ajna)\
-[Where can I test the application? ](general.md#where-can-i-test-the-application)\
 [What are price Oracles?](general.md#what-are-price-oracles)\
 [Why is it a big deal that Ajna’s design excludes price oracles?](general.md#why-is-it-a-big-deal-that-ajnas-design-excludes-price-oracles)\
 [What is governance in the context of a protocol?](general.md#what-is-governance-in-the-context-of-a-protocol)\
@@ -106,11 +105,14 @@ No, Ajna Labs has no ability to change or manipulate the smart contracts once th
 
 ### Where can I get information about Ajna?
 
-The best way to get involved is to learn about the system through the [Whitepaper](https://www.ajna.finance/whitepaper), [FAQs](https://faqs.ajna.finance/getting-started/ajna-101), or [ELI5](https://www.ajna.finance/eli5). Join the [discord server](https://discord.com/invite/PJzKTDXdgA), and [look out](https://twitter.com/ajnafi) for the upcoming launch.
-
-### Where can I test the application?
-
-When released there will be testnet and mainnet versions. Links will be posted on [https://ajna.finance](https://ajna.finance/).
+[ELI5](https://www.ajna.finance/eli5) | https://www.ajna.finance/eli5 \
+[FAQs](https://faqs.ajna.finance/) | https://faqs.ajna.finance/ \
+[Whitepaper](https://www.ajna.finance/whitepaper) | https://www.ajna.finance/whitepaper \
+[GitHub](https://github.com/ajna-finance) | https://github.com/ajna-finance \
+[Twitter](https://twitter.com/ajnafi) | https://twitter.com/ajnafi \
+[Website](https://www.ajna.finance) | https://www.ajna.finance \
+[Analytics](https://info.ajna.finance/ethereum) | https://Info.ajna.finance/ethereum \
+[Deployment Addresses](https://faqs.ajna.finance/info/deployment-addresses) | https://faqs.ajna.finance/info/deployment-addresses
 
 ### What are price Oracles?
 
