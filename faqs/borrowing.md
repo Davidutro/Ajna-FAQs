@@ -23,7 +23,7 @@
 
 ### How do I borrow?
 
-Borrowers deposit collateral tokens into a pool and may borrow quote tokens. A liquidation price will be set depending on how much is borrowed relative to the value of the collateral.
+Borrowers deposit collateral tokens into pools and may borrow quote tokens. A liquidation price will be set depending on how much is borrowed relative to the value of the collateral.
 
 ### Where do I borrow?
 
