@@ -40,6 +40,15 @@ The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and bo
 2. Static Open Source Frontend _(coming end of summer)_
 3. _Others coming soon._
 
+### Who are the Stakeholders of the protocol?
+
+* Lender: Lenders choose what valuation they are willing to lend against by depositing tokens into specific price buckets.
+* Borrower: Borrowers deposit collateral tokens into pools and borrow quote tokens.
+* AJNA Tokenholder: Delegate their tokens or self-delegate and vote on grant funding decisions.
+* Liquidator: Triggers liquidation of bad loans by putting up 1-30% of the positions debt in a liquidation bond that pays out depending on the outcome of the collateral sale.
+* Liquidation Auction Bidder: Bids for and purchases collateral on sale during liquidation auctions.
+* Reserve Auction Bidder: Bids for and purchases AJNA on sale during reserve auctions.
+
 ### What assets can be lent and borrowed on Ajna?
 
 Ajna enables lending for all ERC-20 tokens and borrowing for ERC-20, ERC-721, and ERC-721 collections or subsets through its pools. Pools are pairs of quote and collateral tokens provided by lenders and borrowers.
