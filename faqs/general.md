@@ -122,9 +122,11 @@ Oracles provide external data to blockchain applications.
 
 Relying on oracles for pricing data in a DeFi application creates an external point of failure as they can be manipulated or compromised. Ajna uses an internal order book empowering lenders to set asset values. This reduces the attack surface of the protocol and makes lending and borrowing more secure.
 
-### What is governance in the context of a protocol?
+### What is protocol governance?
 
-Governance is when a protocol uses voting or another mechanism such as a centralized entity to implement changes to the protocol without user consent. It is often used to adjust parameters or add functionality.
+Protocol Governance is when a protocol uses token voting to implement changes to the protocol without user consent. It is often used to adjust parameters or add functionality.\
+\
+AJNA tokens have voting rights in the Grants program, but cannot adjust parameters or add functionality to the protocol itself.
 
 ### What is the Ajna Foundation?
 
