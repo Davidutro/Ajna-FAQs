@@ -3,6 +3,7 @@
 [What is the Ajna Protocol?](general.md#what-is-the-ajna-protocol)\
 [What are the key features of the Ajna Protocol?](general.md#what-are-the-key-features-of-the-ajna-protocol)\
 [Where can I use the Ajna Protocol?](general.md#where-can-i-use-the-ajna-protocol)\
+[Who are the Stakeholders of the protocol?](general.md#who-are-the-stakeholders-of-the-protocol)\
 [What assets can be lent and borrowed?](general.md#what-assets-can-be-lent-and-borrowed-on-ajna)\
 [How does Ajna work?](general.md#how-does-ajna-work)\
 [How do I create a pool?](general.md#how-do-i-create-a-pool)\
@@ -42,12 +43,12 @@ The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and bo
 
 ### Who are the Stakeholders of the protocol?
 
-* Lender: Lenders choose what valuation they are willing to lend against by depositing tokens into specific price buckets.
-* Borrower: Borrowers deposit collateral tokens into pools and borrow quote tokens.
-* AJNA Tokenholder: Delegate their tokens or self-delegate and vote on grant funding decisions.
-* Liquidator: Triggers liquidation of bad loans by putting up 1-30% of the positions debt in a liquidation bond that pays out depending on the outcome of the collateral sale.
-* Liquidation Auction Bidder: Bids for and purchases collateral on sale during liquidation auctions.
-* Reserve Auction Bidder: Bids for and purchases AJNA on sale during reserve auctions.
+* **Lender**: Lenders choose what valuation they are willing to lend against by depositing tokens into specific price buckets.
+* **Borrower**: Borrowers deposit collateral tokens into pools and borrow quote tokens.
+* **AJNA Tokenholder**: Delegate their tokens or self-delegate and vote on grant funding decisions.
+* **Liquidator**: Triggers liquidation of bad loans by putting up 1-30% of the positions debt in a liquidation bond that pays out depending on the outcome of the collateral sale.
+* **Liquidation Auction Bidder**: Bids for and purchases collateral on sale during liquidation auctions.
+* **Reserve Auction Bidder**: Bids for and purchases AJNA on sale during reserve auctions.
 
 ### What assets can be lent and borrowed on Ajna?
 
