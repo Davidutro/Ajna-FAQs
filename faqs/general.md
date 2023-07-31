@@ -16,7 +16,7 @@
 [Where can I get information about Ajna?](general.md#where-can-i-get-information-about-ajna)\
 [What are price Oracles?](general.md#what-are-price-oracles)\
 [Why is it a big deal that Ajna’s design excludes price oracles?](general.md#why-is-it-a-big-deal-that-ajnas-design-excludes-price-oracles)\
-[What is governance in the context of a protocol?](general.md#what-is-governance-in-the-context-of-a-protocol)\
+[What is protocol governance?](general.md#what-is-protocol-governance)\
 [What is the Ajna Foundation?](general.md#what-is-the-ajna-foundation)
 
 ### What is the Ajna Protocol?
