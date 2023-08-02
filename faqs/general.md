@@ -50,6 +50,7 @@ The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and bo
 * **Liquidator**: Triggers liquidation of bad loans by putting up 1-30% of the positions debt in a liquidation bond that pays out depending on the outcome of the collateral sale.
 * **Liquidation Auction Bidder**: Bids for and purchases collateral on sale during liquidation auctions.
 * **Reserve Auction Bidder**: Bids for and purchases AJNA on sale during reserve auctions.
+* **Integrator**: 3rd party that decides to integrate Ajna into their own application, product, or platform.
 
 ### What assets can be lent and borrowed on Ajna?
 
