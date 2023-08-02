@@ -46,6 +46,7 @@ The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and bo
 * **Lender**: Lenders choose what valuation they are willing to lend against by depositing tokens into specific price buckets.
 * **Borrower**: Borrowers deposit collateral tokens into pools and borrow quote tokens.
 * **AJNA Tokenholder**: Delegate their tokens or self-delegate and vote on grant funding decisions.
+* **Delegate**: Receives delegated votes and votes on grant proposals.
 * **Liquidator**: Triggers liquidation of bad loans by putting up 1-30% of the positions debt in a liquidation bond that pays out depending on the outcome of the collateral sale.
 * **Liquidation Auction Bidder**: Bids for and purchases collateral on sale during liquidation auctions.
 * **Reserve Auction Bidder**: Bids for and purchases AJNA on sale during reserve auctions.
