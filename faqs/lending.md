@@ -22,7 +22,7 @@ Users choose what valuation they are willing to lend against by depositing token
 ## Where do I lend?
 
 * Easy
-  * The Summer.Fi app (soon)
+  * [The Summer.Fi app ](https://summer.fi/ajna)(rewards on)
   * Static Open Source Frontend (soon)
   * Other apps with Ajna integrated (soon)
 * Advanced
