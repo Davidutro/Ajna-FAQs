@@ -5,7 +5,7 @@
 [Where can I use the Ajna Protocol?](general.md#where-can-i-use-the-ajna-protocol)\
 [Who are the Stakeholders of the protocol?](general.md#who-are-the-stakeholders-of-the-protocol)\
 [What assets can be lent and borrowed?](general.md#what-assets-can-be-lent-and-borrowed-on-ajna)\
-[How does Ajna work?](general.md#how-does-ajna-work)\
+[What are the Fees?](general.md#what-are-the-fees)\
 [How do I create a pool?](general.md#how-do-i-create-a-pool)\
 [Does Ajna support rebase tokens?](general.md#does-ajna-support-rebase-tokens)\
 [Does Ajna use token governance to make changes to its smart contracts?](general.md#does-ajna-use-token-governance-to-make-changes-to-its-smart-contracts)\
@@ -56,12 +56,11 @@ The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and bo
 
 Ajna enables lending for all ERC-20 tokens and borrowing for ERC-20, ERC-721, and ERC-721 collections or subsets through its pools. Pools are pairs of quote and collateral tokens provided by lenders and borrowers.
 
-### How does Ajna work?
+### What are the Fees?
 
-Once a pool has been created, any user can lend or borrow. \
-Lenders deposit quote tokens at a price they’re willing to lend at while borrowers deposit collateral to borrow against. Loans on Ajna are perpetual in nature and do not expire. The system automatically manages interest rates and liquidations.\
-\
-This is all possible because Ajna is open source software&#x20;
+<table><thead><tr><th width="135.33333333333331">Who</th><th width="226">Fee</th><th>Detail</th></tr></thead><tbody><tr><td>Lender</td><td>Unutilized Deposit Fee</td><td>Charged when depositing below the LUP, <br>equivalent to <em>24 hours of interest.</em></td></tr><tr><td>Borrower</td><td>Origination Fee</td><td>Charged to all debt and is <br><em>the greater of one week of interest or 0.05%.</em></td></tr><tr><td>Borrower</td><td>Variable Interest Rate </td><td>APR charged on debt, <em>may change</em> <br><em>once every 12 hours in +- 10% steps.</em></td></tr><tr><td>Borrower</td><td>Liquidation Penalty 1</td><td>Charged when position liquidation is triggered, equivalent to <em>90 days of interest</em>.</td></tr><tr><td>Borrower</td><td>Liquidation Penalty 2</td><td>Charged at the first sale of collateral,<br>equivalent to <em>7% applied to the debt amount.</em></td></tr><tr><td>Everyone</td><td>Network transaction fees</td><td>Charged on all transactions, <br><em>varies by network and other factors.</em></td></tr></tbody></table>
+
+
 
 ### How do I create a pool?
 
