@@ -121,7 +121,8 @@ No, votes cannot be cancelled or modified. They are final once submitted.
 
 ### How much AJNA is granted every cycle?
 
-2% of the treasury is the maximum AJNA granted per cycle. The treasury began with 30% of the total AJNA supply, a total of 300,000,000 AJNA tokens. The first grants distribution will be capped at 6,000,000 AJNA across 10 proposals.
+3% of the treasury is the maximum AJNA granted per cycle. \
+The treasury began with 30% of the total token supply, a total of 300,000,000 AJNA.&#x20;
 
 ### How many grants can be funded per cycle?
 
