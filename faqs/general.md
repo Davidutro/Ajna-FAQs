@@ -56,7 +56,7 @@ The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and bo
 
 Ajna enables lending for all ERC-20 tokens and borrowing for ERC-20, ERC-721, and ERC-721 collections or subsets through its pools. Pools are pairs of quote and collateral tokens provided by lenders and borrowers.
 
-### What are the Fees?
+### What are the fees?
 
 <table><thead><tr><th width="135.33333333333331">Who</th><th width="226">Fee</th><th>Detail</th></tr></thead><tbody><tr><td>Lender</td><td>Unutilized Deposit Fee</td><td>Charged when depositing below the LUP, <br>equivalent to <em>24 hours of interest.</em></td></tr><tr><td>Borrower</td><td>Origination Fee</td><td>Charged to all debt and is <br><em>the greater of one week of interest or 0.05%.</em></td></tr><tr><td>Borrower</td><td>Variable Interest Rate </td><td>APR charged on debt, <em>may change</em> <br><em>once every 12 hours in +- 10% steps.</em></td></tr><tr><td>Borrower</td><td>Liquidation Penalty 1</td><td>Charged when position liquidation is triggered, equivalent to <em>90 days of interest</em>.</td></tr><tr><td>Borrower</td><td>Liquidation Penalty 2</td><td>Charged at the first sale of collateral,<br>equivalent to <em>7% applied to the debt amount.</em></td></tr><tr><td>Everyone</td><td>Network transaction fees</td><td>Charged on all transactions, <br><em>varies by network and other factors.</em></td></tr></tbody></table>
 
