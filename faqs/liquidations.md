@@ -30,11 +30,11 @@ Liquidation is a last resort for when a borrower is unable to repay a loan. Liqu
 1. Go to [https://app.ajna.finance/](https://app.ajna.finance/)
 2. Click `Pool Details`\
    ![](../.gitbook/assets/chrome\_2023-08-07\_14-18-35.png)
-3. Click \`Manage Pool
+3. Click `Manage Pool`
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-4.  Navigate loans available to be liquidated.\
+4.  Navigate and interact withh loans available to be liquidated.\
 
 
     <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
@@ -62,6 +62,20 @@ Anyone can trigger a liquidation by posting a [liquidation bond](https://faqs.aj
 ### What is required to trigger a liquidation?
 
 The purchase of a [liquidation bond](https://faqs.ajna.finance/faqs/liquidations#what-is-a-liquidation-bond) is required to trigger liquidations.
+
+### Where can I trigger liquidations?
+
+1. Go to [https://app.ajna.finance/](https://app.ajna.finance/)
+2. Click `Pool Details`\
+   ![](<../.gitbook/assets/chrome\_2023-08-07\_14-18-35 (1).png>)
+3.  Click `Manage Pool`\
+
+
+    <figure><img src="../.gitbook/assets/chrome_2023-08-07_14-19-04 (1).png" alt=""><figcaption></figcaption></figure>
+4.  Navigate and interact with loans available to be liquidated.\
+
+
+    <figure><img src="../.gitbook/assets/chrome_2023-08-07_14-23-08.png" alt=""><figcaption></figcaption></figure>
 
 ### What is a liquidation bond?
 
