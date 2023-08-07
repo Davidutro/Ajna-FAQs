@@ -3,6 +3,7 @@
 [How do I lend?](lending.md#how-do-i-lend)\
 [Where do I lend?](lending.md#where-do-i-lend)\
 [What can I lend?](lending.md#what-can-i-lend)\
+[What can I lend against?](lending.md#what-can-i-lend-against)\
 [What are the fees?](lending.md#what-are-the-fees)\
 [How do I decide on what price bucket to deposit into?](lending.md#how-do-i-decide-what-price-bucket-to-deposit-into)\
 [What do I need to do after depositing quote tokens?](lending.md#what-do-i-need-to-do-after-depositing-quote-tokens)\
@@ -13,13 +14,13 @@
 [Are there any notifications?](lending.md#are-there-any-notifications)\
 [How much do I earn?](lending.md#how-much-do-i-earn)
 
-## How do I lend?
+### How do I lend?
 
 Users can lend on Ajna through any applications that plug into the protocol.
 
 Users choose what valuation they are willing to lend against by depositing tokens into specific price buckets.
 
-## Where do I lend?
+### Where do I lend?
 
 * Easy
   * [The Summer.Fi app ](https://summer.fi/ajna)(rewards on)
@@ -29,10 +30,14 @@ Users choose what valuation they are willing to lend against by depositing token
   * Use the SDK to build an interface or bots (soon)
   * Ether.js or Web3.py (interacts with Ethereum) & connect to your own node (soon)
 
-## What can I lend?
+### What can I lend?
 
 Users can lend any ERC-20 token. \
 Users cannot lend ERC-721 NFTs or NFT Collections, or any other NFT types.
+
+### What can I lend against?
+
+Users can lend their ERC-20 tokens against any ERC-20, ERC-721, or 721-subsets.
 
 ## What are the fees?
 

@@ -3,6 +3,7 @@
 [How do I borrow?](borrowing.md#how-do-i-borrow)\
 [Where do I borrow?](borrowing.md#where-do-i-borrow)\
 [What can I borrow?](borrowing.md#what-can-i-borrow)\
+[What can I borrow against?](borrowing.md#what-can-i-borrow-against)\
 [Can I borrow NFTs?](borrowing.md#can-i-borrow-nfts)\
 [What are the fees?](borrowing.md#what-are-the-fees)\
 [Is there a minimum or maximum I can borrow?](borrowing.md#is-there-a-minimum-or-maximum-i-can-borrow)\
@@ -38,6 +39,13 @@ Borrowers deposit collateral tokens into pools and may borrow quote tokens. A li
 ### What can I borrow?
 
 Users can borrow any ERC-20 token.
+
+### What can I borrow against?
+
+Users can use any ERC-20 token, ERC-721 NFTs, or 721-subset as collateral. \
+_**Be careful not to use modified ERC-721s.**_\
+\
+If a pool doesn't exist for your token, one can be created. The only limitation after that is finding someone to lend Quote Tokens.
 
 ### Can I borrow NFTs?
 
