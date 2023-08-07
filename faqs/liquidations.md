@@ -6,6 +6,7 @@
 [What is the liquidation trigger price?](liquidations.md#what-is-the-liquidation-trigger-price)\
 [Who triggers liquidations?](liquidations.md#who-triggers-liquidations)\
 [What is required to trigger a liquidation?](liquidations.md#what-is-required-to-trigger-a-liquidation)\
+[Where can I trigger liquidations?](liquidations.md#where-can-i-trigger-liquidations)\
 [What is a liquidation bond?](liquidations.md#what-is-a-liquidation-bond)\
 [Why is a liquidation bond needed?](liquidations.md#why-is-a-liquidation-bond-needed)\
 [How much does the liquidation bond cost?](liquidations.md#how-much-does-the-liquidation-bond-cost)\
