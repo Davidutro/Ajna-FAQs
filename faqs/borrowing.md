@@ -45,7 +45,7 @@ Users can borrow any ERC-20 token.
 Users can use any ERC-20 token, ERC-721 NFTs, or 721-subset as collateral. \
 _**Be careful not to use modified ERC-721s.**_\
 \
-If a pool doesn't exist for your token, one can be created. The only limitation after that is finding someone to lend Quote Tokens.
+If a pool doesn't exist for your token, one can be created. The only other limitation is finding someone to lend Quote Tokens.
 
 ### Can I borrow NFTs?
 
