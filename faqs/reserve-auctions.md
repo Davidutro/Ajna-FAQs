@@ -19,7 +19,7 @@ For a comprehensive breakdown see section 9.1 in the whitepaper.\
 Claimable reserves are a portion of a pool's reserves that are eligible to be claimed through a reserve auction.\
 
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Formula to calculate a pool's claimable reserves</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Formula to calculate a pool's claimable reserves</p></figcaption></figure>
 
 ### What is Net Interest Margin?
 
