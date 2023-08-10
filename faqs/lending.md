@@ -82,6 +82,8 @@ Depositing too low:
 
 <figure><img src="../.gitbook/assets/what_range_to_use.png" alt=""><figcaption><p>Thank you Summer.fi team for this image!</p></figcaption></figure>
 
+To learn more check out [Summer.fi's dive into this question.](https://docs.summer.fi/protocols/ajna/tutorials-and-guides/how-to-pick-the-right-level-for-lending)
+
 ### What do I need to do after depositing quote tokens?
 
 Occasionally users may want to move their deposits to different price buckets. Monitoring the market price of the collateral token is key to making such decisions.&#x20;
