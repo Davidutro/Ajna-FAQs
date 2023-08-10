@@ -5,6 +5,7 @@
 [Where can I use the Ajna Protocol?](general.md#where-can-i-use-the-ajna-protocol)\
 [Who are the Stakeholders of the protocol?](general.md#who-are-the-stakeholders-of-the-protocol)\
 [What assets can be lent and borrowed?](general.md#what-assets-can-be-lent-and-borrowed-on-ajna)\
+[What assets are not compatible with Ajna?](general.md#what-assets-are-not-compatible-with-ajna)\
 [What are the Fees?](general.md#what-are-the-fees)\
 [How do I create a pool?](general.md#how-do-i-create-a-pool)\
 [Does Ajna support rebase tokens?](general.md#does-ajna-support-rebase-tokens)\
@@ -56,6 +57,17 @@ The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and bo
 ### What assets can be lent and borrowed on Ajna?
 
 Ajna enables lending for all ERC-20 tokens and borrowing for ERC-20, ERC-721, and ERC-721 collections or subsets through its pools. Pools are pairs of quote and collateral tokens provided by lenders and borrowers.
+
+### What assets are not compatible with Ajna?
+
+The following types of tokens are incompatible with Ajna, and no countermeasures exist to explicitly prevent creating a pool with such tokens, actors should use them at their own risk:
+
+* NFT and fungible tokens which charge a fee on transfer.
+* Fungible tokens whose balance rebases.
+
+The following types of tokens are incompatible with Ajna, and countermeasures exist to explicitly prevent creating a pool with such tokens:
+
+* Fungible tokens with more than 18 decimals or 0 decimals, whose `decimals()` function does not return a constant value, or which do not implement the optional [decimals()](https://eips.ethereum.org/EIPS/eip-20#decimals) function.
 
 ### What are the fees?
 
