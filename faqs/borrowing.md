@@ -92,7 +92,7 @@ Yes, so cannot go below 0.001% or above 50,000%.
 
 ### Can I borrow at a fixed rate?
 
-Yes, but only for a maximum of 12 hours. Rates are subject to change every 12 hours.
+Yes, but the rate is only fixed for 12 hours at a time. Rates may change once every 12 hours if conditions are met.
 
 ### When do I need to pay back the loan?
 
