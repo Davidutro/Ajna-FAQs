@@ -2,9 +2,9 @@
 
 ## Getting Started
 
-* [Ajna 101](README.md)
-* [Quick Links](getting-started/quick-links.md)
-* [Glossary](getting-started/glossary.md)
+* [🔔 Welcome](README.md)
+* [🔗 Quick Links](getting-started/quick-links.md)
+* [📖 Glossary](getting-started/glossary.md)
 
 ## FAQs
 
