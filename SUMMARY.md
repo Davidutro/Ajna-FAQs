@@ -19,4 +19,4 @@
 
 ## Info
 
-* [Deployment Addresses](info/deployment-addresses.md)
+* [⛓ Deployment Addresses](info/deployment-addresses.md)
