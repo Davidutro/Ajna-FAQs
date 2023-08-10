@@ -42,10 +42,16 @@ Users can borrow any ERC-20 token.
 
 ### What can I borrow against?
 
-Users can use any ERC-20 token, ERC-721 NFTs, or 721-subset as collateral. \
-_**Be careful not to use modified ERC-721s.**_\
-\
-If a pool doesn't exist for your token, one can be created. The only other limitation is finding someone to lend Quote Tokens.
+Users can use any ERC-20 token, ERC-721 NFTs, or 721-subset as collateral. If a pool doesn't exist for a token, one can be created. The only other limitation is finding someone to lend Quote Tokens.
+
+The following types of tokens are incompatible with Ajna, and no countermeasures exist to explicitly prevent creating a pool with such tokens, actors should use them at their own risk:
+
+* NFT and fungible tokens which charge a fee on transfer.
+* Fungible tokens whose balance rebases.
+
+The following types of tokens are incompatible with Ajna, and countermeasures exist to explicitly prevent creating a pool with such tokens:
+
+* Fungible tokens with more than 18 decimals or 0 decimals, whose `decimals()` function does not return a constant value, or which do not implement the optional [decimals()](https://eips.ethereum.org/EIPS/eip-20#decimals) function.
 
 ### Can I borrow NFTs?
 

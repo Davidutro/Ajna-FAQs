@@ -35,18 +35,37 @@ Users choose what valuation they are willing to lend against by depositing token
 Users can lend any ERC-20 token. \
 Users cannot lend ERC-721 NFTs or NFT Collections, or any other NFT types.
 
+The following types of tokens are incompatible with Ajna, and no countermeasures exist to explicitly prevent creating a pool with such tokens, actors should use them at their own risk:
+
+* NFT and fungible tokens which charge a fee on transfer.
+* Fungible tokens whose balance rebases.
+
+The following types of tokens are incompatible with Ajna, and countermeasures exist to explicitly prevent creating a pool with such tokens:
+
+* Fungible tokens with more than 18 decimals or 0 decimals, whose `decimals()` function does not return a constant value, or which do not implement the optional [decimals()](https://eips.ethereum.org/EIPS/eip-20#decimals) function.
+
 ### What can I lend against?
 
-Users can lend their ERC-20 tokens against any ERC-20, ERC-721, or 721-subsets.
+Users can lend their ERC-20 tokens against any ERC-20, ERC-721, or 721-subsets.\
 
-## What are the fees?
+
+The following types of tokens are incompatible with Ajna, and no countermeasures exist to explicitly prevent creating a pool with such tokens, actors should use them at their own risk:
+
+* NFT and fungible tokens which charge a fee on transfer.
+* Fungible tokens whose balance rebases.
+
+The following types of tokens are incompatible with Ajna, and countermeasures exist to explicitly prevent creating a pool with such tokens:
+
+* Fungible tokens with more than 18 decimals or 0 decimals, whose `decimals()` function does not return a constant value, or which do not implement the optional [decimals()](https://eips.ethereum.org/EIPS/eip-20#decimals) function.
+
+### What are the fees?
 
 1. Unutilized Deposit Fee\
    Deposit below the LUP incur a small fee equivalent to 24 hours of interest.
 2. Transaction Fees\
    These are fees that are charged on blockchain transactions generally, the more complex the transaction, the larger the fee.
 
-## How do I decide what price bucket to deposit into?
+### How do I decide what price bucket to deposit into?
 
 Deciding on a price depends on the lender's risk tolerance. Both depositing too high and too low have risks.\
 \
@@ -61,7 +80,7 @@ Depositing too low:
 * May result in the deposit not earning interest if it is below the Pool's Highest Threshold Price (HTP).
 * Additionally, if a deposit is made below the Lowest Utilized Price (LUP), then an unutilized deposit fee is charged equivalent to 24 hours of interest.
 
-## What do I need to do after depositing quote tokens?
+### What do I need to do after depositing quote tokens?
 
 Occasionally users may want to move their deposits to different price buckets. Monitoring the market price of the collateral token is key to making such decisions.&#x20;
 
@@ -69,7 +88,7 @@ As the collateral price drops, users may want to consider moving their deposit d
 
 As collateral price increases, users may want to consider moving their deposit up.
 
-## What can go wrong?
+### What can go wrong?
 
 * The protocol gets hacked or exploited.
 * Your quote tokens are traded against for collateral at an unfavorable price.
@@ -78,7 +97,7 @@ As collateral price increases, users may want to consider moving their deposit u
 * If no one bids on a liquidation and the collateral is sold for close to 0, bad debt can result.
   * To cover the bad debt, reserves are depleted first and then the lenders from the highest price buckets down.
 
-## In what scenario(s) can a lender lose their deposit?
+### In what scenario(s) can a lender lose their deposit?
 
 There are three scenarios when a lender can lose their deposit:&#x20;
 
@@ -86,24 +105,24 @@ There are three scenarios when a lender can lose their deposit:&#x20;
 2. If a lender allows the market price to cross below their deposit's price bucket someone can trade collateral for their deposit, leaving the lender with collateral instead of quote tokens.
 3. If there is bad debt and reserves are insufficient, the lender risks losing part of their deposit.
 
-## In what scenario(s) are lender deposits frozen?
+### In what scenario(s) are lender deposits frozen?
 
 1. A lender cannot withdraw deposit if doing so would move the LUP below the HTP, as this would result in liquidation eligibility for one or more loans.
    * A borrower's position can be liquidated if the pool's LUP is below their TP.
    * If a lender wishes to remove deposit from a bucket that will cause the LUP to move below the HTP, they will need to liquidate the loan(s) that sit between the two points.
 2. if there are active liquidations in the pool, deposits that are within _liquidation\_debt (amount)_ of the top of the book cannot withdraw until the liquidations are complete.
 
-## How does a lender get paid if a borrower defaults on their loan?
+### How does a lender get paid if a borrower defaults on their loan?
 
 If a borrower defaults, their loan will go through the liquidation process where the collateral is sold to cover the debt. The sale occurs through a Dutch Auction and can utilize lender deposits at the top valued price buckets.\
 \
 Lender deposits at the highest priced buckets are at risk to be traded against, leaving depositors with the options of claiming the collateral and selling it to retrieve their deposit, or to wait for someone to trade quote tokens for the collateral at that price.
 
-## Are there any notifications?
+### Are there any notifications?
 
 Notifications are not a native feature of the Ajna Protocol. Please check with the application you are using or other 3rd parties for notification services.
 
-## How much do I earn?
+### How much do I earn?
 
 How much a lender earns depends on the pool and the eligibility of the deposit. All deposits above a pool's HTP earn interest at the same rate. Where the rate is displayed varies depending on what interface you are using. Rates are subject to change every 12 hours.
 
