@@ -72,7 +72,9 @@ No.
 
 ### Is there a minimum or maximum I can borrow?
 
-Yes. The minimum borrow size is 10% of the pool’s average loan’s debt. The maximum borrow size depends the pool's available liquidity.
+Yes. The minimum borrow size is 10% of the pool’s average loan’s debt. A minimum is set only after 10 borrow positions are created in a given pool.\
+\
+The maximum borrow size depends the pool's available lender liquidity.
 
 ### How much would I pay in interest?
 
