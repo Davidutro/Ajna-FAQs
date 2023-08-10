@@ -1,4 +1,4 @@
-# AJNA Token
+# 👁 AJNA Token
 
 [What are AJNA tokens and what are they used for?](ajna-token.md#what-are-ajna-tokens-and-what-are-they-used-for)\
 [What is the total supply of AJNA tokens?](ajna-token.md#what-is-the-total-supply-of-ajna-tokens)\

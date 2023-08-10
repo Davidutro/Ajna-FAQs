@@ -1,4 +1,4 @@
-# Lending
+# 💸 Lending
 
 [How do I lend?](lending.md#how-do-i-lend)\
 [Where do I lend?](lending.md#where-do-i-lend)\
@@ -79,6 +79,8 @@ Depositing too low:
 
 * May result in the deposit not earning interest if it is below the Pool's Highest Threshold Price (HTP).
 * Additionally, if a deposit is made below the Lowest Utilized Price (LUP), then an unutilized deposit fee is charged equivalent to 24 hours of interest.
+
+<figure><img src="../.gitbook/assets/what_range_to_use.png" alt=""><figcaption><p>Thank you Summer.fi team for this image!</p></figcaption></figure>
 
 ### What do I need to do after depositing quote tokens?
 

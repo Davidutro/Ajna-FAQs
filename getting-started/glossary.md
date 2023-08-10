@@ -2,7 +2,7 @@
 description: Definitions are simplified and may not be comprehensive.
 ---
 
-# Glossary
+# 📖 Glossary
 
 **Borrower Inflator (BI)**:  The borrower inflator is used in the calculation of the neutral price, which can be used as a liquidation price. The BI at a given time is the debt that a borrower would have incurred if they had borrowed a single quote token at the initiation of the contract and had never repaid or taken out any additional debt.
 

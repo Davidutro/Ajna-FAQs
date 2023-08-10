@@ -1,4 +1,4 @@
-# Grants
+# 📈 Grants
 
 [What is the Ajna grants program?](grants.md#what-is-the-ajna-grants-program)\
 [What is a grant proposal?](grants.md#what-is-a-grant-proposal)\

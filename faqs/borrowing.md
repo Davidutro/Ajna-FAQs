@@ -1,4 +1,4 @@
-# Borrowing
+# 💰 Borrowing
 
 [How do I borrow?](borrowing.md#how-do-i-borrow)\
 [Where do I borrow?](borrowing.md#where-do-i-borrow)\

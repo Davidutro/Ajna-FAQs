@@ -1,4 +1,4 @@
-# Liquidations
+# 🕳 Liquidations
 
 [What is a liquidation?](liquidations.md#what-is-a-liquidation)\
 [Where can I access a UI for liquidations?](liquidations.md#where-can-i-access-a-ui-for-liquidations)\

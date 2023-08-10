@@ -2,7 +2,7 @@
 description: This page tracks Ajna contract deployments on various networks.
 ---
 
-# Deployment Addresses
+# ⛓ Deployment Addresses
 
 ## Ethereum Mainnet
 
