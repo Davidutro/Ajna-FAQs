@@ -1,4 +1,4 @@
-# Reserve Auctions
+# 🔁 Reserve Auctions
 
 [What are reserves?](reserve-auctions.md#what-are-reserves)\
 [What are claimable reserves?](reserve-auctions.md#what-are-claimable-reserves)\
@@ -27,7 +27,7 @@ Net Interest Margin(NIM) is a portion of the interest revenue that goes to the p
 
 ### What is a reserve auction?
 
-A reserve auction is a sale of claimable reserves for AJNA tokens through a dutch auction. The bidder receives quote tokens, while the protocol burns the AJNA.
+A reserve auction is a sale of claimable reserves for AJNA tokens through a dutch auction. The bidder receives quote tokens, while the protocol receives and burns the AJNA.
 
 ### When do reserve auctions occur?
 
