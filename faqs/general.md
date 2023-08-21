@@ -2,6 +2,7 @@
 
 [What is the Ajna Protocol?](general.md#what-is-the-ajna-protocol)\
 [What are the key features of the Ajna Protocol?](general.md#what-are-the-key-features-of-the-ajna-protocol)\
+[What are some of the use cases?](general.md#what-are-some-of-the-use-cases)\
 [Where can I use the Ajna Protocol?](general.md#where-can-i-use-the-ajna-protocol)\
 [Who are the Stakeholders of the protocol?](general.md#who-are-the-stakeholders-of-the-protocol)\
 [What assets can be lent and borrowed?](general.md#what-assets-can-be-lent-and-borrowed-on-ajna)\
@@ -36,6 +37,24 @@ The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and bo
 * Utilization based interest rates
 * Liquidation bonds
 * Non-rehypothecated collateral
+
+### What are some of the use cases?
+
+Stablecoin/Stablecoin
+
+Ajna enables the creation of like-asset money markets. For example, stablecoin collateral and stablecoin quote tokens can be used, such as USDC as collateral and USDT as quote token. The lowest collateralization ratio is only possible with Ajna because this parameter is set by users rather than by governance.
+
+Leverage
+
+Ajna offers borrowers the ability to access leverage, which involves using borrowed funds to increase their trading position beyond what would be possible with their cash balance alone. While existing DeFi protocols work well for large and liquid tokens, they often have high minimum collateralization ratios that limit the maximum amount of leverage available. Ajna's unique feature of allowing lenders to choose their own collateralization ratios enables borrowers to open positions that may not be feasible with current protocols. Where current protocols reject lower tier tokens, Ajna creates a possibility for these assets to be utilized for leverage.
+
+NFT borrowing
+
+Another use case is NFT borrowing. In the current market, only the top 20 collections are serviced, but Ajna has no such limitation. It can be used by current NFT owners to get loans instead of selling their assets. This is especially useful for newer projects that don’t want to deal with getting their NFTs whitelisted elsewhere.
+
+Shorting Markets
+
+Lastly, Ajna can facilitate shorting markets. By designating an “XYZ” token as the quote token and a stablecoin as the collateral token, a borrowing market is created where “XYZ” tokens can be borrowed and shorted, allowing for speculation on the “XYZ” token's declining price. Such facilities are essential for market makers to develop efficient sell-side liquidity. What makes Ajna distinct among current DeFi protocols is the variety of possible shorting markets it can offer.
 
 ### Where can I use the Ajna Protocol?
 
