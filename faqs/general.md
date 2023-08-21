@@ -28,7 +28,8 @@ The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and bo
 
 ### What are the key features of the Ajna Protocol?
 
-* Immutable protocol
+
+
 * Permissionless pool creation
 * Borrow or lend with ERC-20 tokens
 * Borrow against ERC-721 NFTs and NFT subsets
@@ -37,6 +38,9 @@ The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and bo
 * Utilization based interest rates
 * Liquidation bonds
 * Non-rehypothecated collateral
+* Immutable protocol (no protocol governance)
+* No whitelists
+* No oracles
 
 ### What are some of the use cases?
 
