@@ -9,6 +9,7 @@
 ## FAQs
 
 * [🌐 General](faqs/general.md)
+* [🌊 Pools](faqs/pools.md)
 * [💸 Lending](faqs/lending.md)
 * [💰 Borrowing](faqs/borrowing.md)
 * [🕳 Liquidations](faqs/liquidations.md)
