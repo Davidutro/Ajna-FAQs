@@ -47,14 +47,16 @@ A liquidation happens when the borrower fails to keep their loan in good standin
 To determine whether a loan can be appropriately liquidated there are three important variables used by the system; the loan’s _Threshold Price (TP)_, the loan’s _Neutral Price(NP)_ and the pool’s _Lowest Utilized Price (LUP)_. \
 \
 TP is set by the borrower and is a loan’s debt divided by the collateral. \
-NP is set at origination, is usually some number above the TP, and acts as the liquidation trigger price of the loan.\
+NP is set at origination, is usually some number above the TP, and acts as the liquidation price of the loan.\
 LUP moves freely and is defined as the lowest collateral price bucket against which someone is actively borrowing.\
 \
 If a loan's TP crosses above the pool's LUP, then their position is eligible for liquidation. This is referred to as the _liquidation trigger price_. A loan may be profitable to liquidate, with regard to the [liquidation bond](https://faqs.ajna.finance/faqs/liquidations#what-is-a-liquidation-bond), when the price of the collateral crosses below the NP of a given loan.
 
 ### What is the liquidation trigger price?
 
-The liquidation trigger price is the price at which a loan can be triggered for liquidation, though it may not necessarily be profitable to do so. When a loan's _Threshold Price (TP)_ crosses above the pool's Lowest Utilized Price (LUP), their position is eligible for liquidation.
+The liquidation trigger price is the price at which a loan can be triggered for liquidation, though it may not necessarily be profitable to do so. When a loan's _Threshold Price (TP)_ crosses above the pool's Lowest Utilized Price (LUP), their position is eligible for liquidation.\
+\
+It is profitable, through the liquidation bond mechanism, to liquidate a position when the price of its collateral crosses below the Neutral Price(NP).
 
 ### Who triggers liquidations?
 
