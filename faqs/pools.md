@@ -5,7 +5,8 @@
 [What assets can be lent and borrowed?](pools.md#what-assets-can-be-lent-and-borrowed)\
 [What assets are incompatible?](pools.md#what-assets-are-incompatible)\
 [Does Ajna support rebase tokens?](pools.md#does-ajna-support-rebase-tokens)\
-[Does Ajna support NFTs which charge a fee on transfer?](pools.md#does-ajna-support-nfts-which-charge-a-fee-on-transfer)
+[Does Ajna support NFTs which charge a fee on transfer?](pools.md#does-ajna-support-nfts-which-charge-a-fee-on-transfer)\
+[Why is a subset hash needed to separate between ERC-20 and ERC-721 pools?](pools.md#why-is-a-subset-hash-needed-to-separate-between-erc-20-pool-and-erc-721-pool)
 
 ### How do I create a pool?
 
@@ -47,6 +48,6 @@ Not natively, but if users wrap their rebase tokens they should work.
 
 Not natively, but if users wrap their rebase tokens they should work.
 
-### Why is a subset hash needed to separate between ERC-20 pool and ERC-721 pool?
+### Why is a subset hash needed to separate between ERC-20 and ERC-721 pools?
 
-Because ajna contracts enable NFT collection pools in which any tokenId can be used as collateral, as well as nft subset pools in which only the tokenIds specified by the pool creator can be used as collateral. We use the subset hash to track the various pools created and prevent duplicates, while enabling subset and collection types pools to be enabled for the same NFT token address.
+Because Ajna contracts enable NFT collection pools in which any `tokenId` can be used as collateral, as well as nft subset pools in which only the tokenIds specified by the pool creator can be used as collateral. We use the subset hash to track the various pools created and prevent duplicates, while enabling subset and collection types pools to be enabled for the same NFT token address.
