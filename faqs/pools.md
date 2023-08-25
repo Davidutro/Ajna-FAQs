@@ -46,3 +46,7 @@ Not natively, but if users wrap their rebase tokens they should work.
 ### Does Ajna support NFTs which charge a fee on transfer?
 
 Not natively, but if users wrap their rebase tokens they should work.
+
+### Why is a subset hash needed to separate between ERC-20 pool and ERC-721 pool?
+
+Because ajna contracts enable NFT collection pools in which any tokenId can be used as collateral, as well as nft subset pools in which only the tokenIds specified by the pool creator can be used as collateral. We use the subset hash to track the various pools created and prevent duplicates, while enabling subset and collection types pools to be enabled for the same NFT token address.
