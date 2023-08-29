@@ -10,6 +10,7 @@
 [What other networks will Ajna be deployed on?](general.md#what-other-networks-will-ajna-be-deployed-on)\
 [Has Ajna been audited?](general.md#has-ajna-been-audited)\
 [Does Ajna have a bug bounty?](general.md#does-ajna-have-a-bug-bounty)\
+[What happens if the code becomes outdated?](general.md#what-happens-if-the-code-becomes-outdated)\
 [Does Ajna labs have admin control over the protocol?](general.md#does-ajna-labs-have-admin-control-over-the-protocol)\
 [What are price Oracles?](general.md#what-are-price-oracles)\
 [Why is it a big deal that Ajna’s design excludes price oracles?](general.md#why-is-it-a-big-deal-that-ajnas-design-excludes-price-oracles)\
@@ -98,6 +99,10 @@ Prototech labs - [https://github.com/ajna-finance/audits/tree/main/prototech](ht
 ### Does Ajna have a bug bounty?
 
 Ajna will have a bug bounty once deployed in Q2 2023.
+
+### What happens if the code becomes outdated?
+
+The Ajna smart contracts are non-upgradable, so if something causes them to break or work sub-optimally the only remedy is to launch a newer version of Ajna in parallel that contains any needed fixes.&#x20;
 
 ### Does Ajna labs have admin control over the protocol?
 
