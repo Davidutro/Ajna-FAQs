@@ -10,6 +10,7 @@
 [How much would I pay in interest?](borrowing.md#how-much-would-i-pay-in-interest)\
 [How are interest rates determined?](borrowing.md#how-are-interest-rates-determined)\
 [Is there a minimum and maximum interest rate?](borrowing.md#is-there-a-minimum-and-maximum-interest-rate)\
+[How long does it take the interest rate to halve or double?](borrowing.md#how-long-does-it-take-the-interest-rate-to-halve-or-double)\
 [Can I borrow at a fixed rate?](borrowing.md#can-i-borrow-at-a-fixed-rate)\
 [When do I need to pay back the loan?](borrowing.md#when-do-i-need-to-pay-back-the-loan)\
 [Why am I being blocked from paying back a partial amount of my loan?](borrowing.md#why-am-i-being-blocked-from-paying-back-a-partial-amount-of-my-loan)\
@@ -89,6 +90,10 @@ For a specific overview of the interest rate algorithm, see section 8 of the [wh
 ### Is there a minimum and maximum interest rate?
 
 Yes, so cannot go below 0.001% or above 50,000%.
+
+### How long does it take the interest rate to halve or double?
+
+\~3.5 days assuming consistent interest rate updates every 12 hours.
 
 ### Can I borrow at a fixed rate?
 
