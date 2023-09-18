@@ -5,15 +5,8 @@
 [What types of grants will Ajna fund?](grants.md#what-types-of-grants-will-ajna-fund)\
 [Where can I view grant proposals?](grants.md#where-can-i-view-grant-proposals)\
 [How are grants selected?](grants.md#how-are-grant-proposals-selected)\
+[How do I submit a proposal?](grants.md#how-do-i-submit-a-proposal)\
 [How do I vote on a proposal?](grants.md#how-do-i-vote-on-a-proposal)\
-[Why should I vote?](grants.md#why-should-i-vote)\
-[What is a delegate?](grants.md#what-is-a-delegate)\
-[Can I delegate to myself?](grants.md#can-i-delegate-to-myself)\
-[Why should I delegate?](grants.md#why-should-i-delegate)\
-[Can I earn rewards for delegating?](grants.md#can-i-earn-rewards-for-delegating)\
-[How much do delegates earn?](grants.md#how-much-do-delegates-earn)\
-[Can I earn rewards for voting?](grants.md#can-i-earn-rewards-for-voting)\
-[Can I delegate partially to multiple parties?](grants.md#can-i-delegate-partially-to-multiple-parties)\
 [How much AJNA is granted every cycle?](grants.md#how-much-ajna-is-granted-every-cycle)\
 [How many grants can be funded per cycle?](grants.md#how-many-grants-can-be-funded-per-cycle)\
 [Can less than 10 proposals be selected?](grants.md#can-less-than-10-proposals-be-selected)\
@@ -79,45 +72,13 @@ There is a sweet spot to attract high quality contributors with competitive fund
 * Is the funding amount within reasonable means?
 * Does it align with industry standards?
 
+### How do I submit a proposal?
+
+To submit a proposals visit [https://app.ajna.finance/grants](https://app.ajna.finance/grants).
+
 ### How do I vote on a proposal?
 
-To vote on proposals visit [https://app.ajna.finance/grants](https://app.ajna.finance/grants), delegate votes to an address you control, then use the grants section to vote. Another option is to delegate your votes to an address that will participate on your behalf.
-
-### What is a delegate?
-
-A delegate is an individual or group, identified by an Ethereum address, who represents themselves and other AJNA holders in grants voting.
-
-### Can I delegate to myself?
-
-Yes, you can self-delegate. This is expected to be done in order to earn delegate rewards.
-
-### Why should I vote?
-
-The two reasons an AJNA holder votes are to influence grant funding decisions and to earn rewards.
-
-### Why should I delegate?
-
-Delegation is a great way to support the growth of the protocol after launch. There is also an opportunity to earn rewards.
-
-### Can I earn rewards for delegating?
-
-Only if you self-delegate and participate in both the Screening and Funding Stages.&#x20;
-
-### How much do delegates earn?
-
-10% of the quarterly distribution is awarded to delegates who participate in both the Screening Stage and the Funding Stage.
-
-### Can I earn rewards for voting?
-
-Only if you self-delegate. Keep in mind, only delegates who participate in both the Screening Stage and the Funding Stage will be eligible to receive delegation rewards.
-
-### Can I delegate partially to multiple parties?
-
-No, you can only delegate to one at any given time.
-
-### Can I cancel or modify my vote?
-
-No, votes cannot be cancelled or modified. They are final once submitted.
+To vote on proposals visit [https://app.ajna.finance/grants](https://app.ajna.finance/grants), delegate to an address yourself, then vote. Another option is to delegate your votes to an address that will participate on your behalf.
 
 ### How much AJNA is granted every cycle?
 
