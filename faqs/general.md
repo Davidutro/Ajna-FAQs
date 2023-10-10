@@ -32,6 +32,7 @@ The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and bo
 * Utilization based interest rates
 * Liquidation bonds
 * Non-rehypothecated collateral
+* Uncapped pools (no maximum lend or borrow amounts)
 * Immutable protocol (no protocol governance)
 * No whitelists
 * No oracles
