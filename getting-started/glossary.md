@@ -6,7 +6,11 @@ description: Definitions are simplified and may not be comprehensive.
 
 **Liquidation Auction Decay**: The speed at which a liquidation auction reduces the price of the collateral being offered. The decay moves towards 0 starting at _256 x reference\_price_ with 6 twenty minute halvings, followed by 6 two hour halvings, followed by hour halvings till the end of the 72 hour auction.\
 \
-**Borrower Inflator (BI)**:  The borrower inflator is used in the calculation of the neutral price, which can be used as a liquidation price. BI at a given time t to be the debt that a borrower would have incurred if they had borrowed a single quote token at the initiation of the contract and had never repaid or taken out any additional debt.
+**Borrower Inflator (BI)**:  The borrower inflator is used in the calculation of the neutral price, which can be used as a liquidation price. BI at a given time t to be the debt that a borrower would have incurred if they had borrowed a single quote token at the initiation of the contract and had never repaid or taken out any additional debt.\
+\
+**Borrower Take Penalty**: A liquidation penalty applied when the collateral is taken during the auction.
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 **Challenge Stage**: The final part of each voting cycle is a seven day challenge stage to contest the payout configuration.
 
@@ -74,7 +78,12 @@ description: Definitions are simplified and may not be comprehensive.
 
 **Reserves**: Origination fees, deposit penalties, and net interest margin on loans accumulate in pool reserves. Reserves are used to provide a liquidity cushion to lenders by absorbing bad debt if some should occur. Reserves are also used to buy and burn AJNA tokens.
 
-**Screening Stage**: This is the first stage in a given voting cycle which uses a one-token-one-vote schema, lasts for 73 days, and involves an unlimited number of proposals. The top 10 move to the funding stage.
+**Screening Stage**: This is the first stage in a given voting cycle which uses a one-token-one-vote schema, lasts for 73 days, and involves an unlimited number of proposals. The top 10 move to the funding stage.\
+\
+**Take Penalty Factor (TPF)**: is a modifier used in the calculation of the collateral awarded during a liquidation auction. This is present to account for the liquidation bond reward.\
+
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 **Target Utilization (TU)**: the ratio of the 3.5 day EMA of system debt to 3.5 day EMA of LUP\*totalCollateral. This is able to be sampled / stored every half day (at the same time that interest rate updates become eligible) although gaps are OK. The lambda used for the EMAs is \
 
