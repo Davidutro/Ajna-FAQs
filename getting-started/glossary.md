@@ -4,13 +4,18 @@ description: Definitions are simplified and may not be comprehensive.
 
 # 📖 Glossary
 
-**Borrower Inflator (BI)**:  The borrower inflator is used in the calculation of the neutral price, which can be used as a liquidation price. The BI at a given time is the debt that a borrower would have incurred if they had borrowed a single quote token at the initiation of the contract and had never repaid or taken out any additional debt.
+**Liquidation Auction Decay**: The speed at which a liquidation auction reduces the price of the collateral being offered. The decay moves towards 0 starting at _256 x reference\_price_ with 6 twenty minute halvings, followed by 6 two hour halvings, followed by hour halvings till the end of the 72 hour auction.\
+\
+**Borrower Inflator (BI)**:  The borrower inflator is used in the calculation of the neutral price, which can be used as a liquidation price. BI at a given time t to be the debt that a borrower would have incurred if they had borrowed a single quote token at the initiation of the contract and had never repaid or taken out any additional debt.
 
 **Challenge Stage**: The final part of each voting cycle is a seven day challenge stage to contest the payout configuration.
 
 **Claimable Collateral**: Each price bucket may have claimable collateral which is exchangeable with quote tokens.
 
-**Claimable Reserve Auction (CRA)**: Claimable reserves are set aside and can be auctioned off in a Dutch auction known as a CRA. Once the CRA is initiated, AJNA tokens may be used to bid in exchange for the claimable reserves, which are always denominated in a pool's quote token.
+**Claimable Reserve Auction (CRA)**: Claimable reserves are set aside and can be auctioned off in a Dutch auction known as a CRA. Once the CRA is initiated, AJNA tokens may be used to bid in exchange for the claimable reserves, which are always denominated in a pool's quote token.\
+
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 **Collateral Token (CT)**: Can be a regular fungible token (ERC20) or an NFT (ERC721). Borrowers deposit CT into the protocol to secure debt.
 
@@ -20,6 +25,8 @@ description: Definitions are simplified and may not be comprehensive.
 
 **Fenwick Tree**: A Fenwick tree or binary indexed tree is a data structure that can efficiently update elements and calculate prefix sums in a table of numbers. The Ajna Protocol uses a modified Fenwick Tree to hard code price buckets in Ajna pools.
 
+**Funding Mechanism (FM)**: On a quarterly basis, a portion of the treasury is distributed to projects to facilitate the growth of Ajna. Teams and/or individuals submit proposals that are voted on by Ajna token holders and delegates.
+
 **Funding Stage**: This is the second stage of a given voting cycle which uses a quadratic voting schema, lasts for 10 days, and involves up to 10 proposals.
 
 **Highest Price Bucket (HPB)**: The highest-priced bucket which contains a deposit, not counting claimable collateral.
@@ -28,7 +35,7 @@ description: Definitions are simplified and may not be comprehensive.
 
 **Kick**: A technical term synonymous with "initiate". When a loan is under-collateralized it qualifies to be “kicked”, which would initiate the sale of its collateral through a liquidation auction.
 
-**Liquidation Auction**: A dutch auction which enables anyone to purchase portions of the collateral at a price that starts at 32 times the MOMP and exponentially decays with a half life of one hour.
+**Liquidation Auction**: A dutch auction which enables anyone to purchase portions of the collateral at a price that starts at _256 x reference\_price_ and decays towards 0 starting with 6 twenty minute halvings, followed by 6 two hour halvings, followed by hour halvings till the end of the 72 hour auction.
 
 **Liquidation Bond**: A bond paid in quote token, purchased by the initiator of a liquidation auction, that is awarded or penalized depending on the settling auction price relative to the loan's Neutral Price. The bond exists to prevent unfair liquidations.
 
@@ -44,11 +51,12 @@ description: Definitions are simplified and may not be comprehensive.
 
 **Minimum Borrow Size**: The minimum borrow size is 10% of the average loan size in a given pool. This is designed to deter small loans. These can be used to spam and grief the system.
 
-**Most Optimistic Matching Price (MOMP)**: MOMP is the price at which the amount of deposit above it is equal to the average loan size of the pool. MOMP is short for “Most Optimistic Matching Price”, as it’s the price at which a loan would match with deposits if there were no other borrowers.
-
 **Net Interest Margin (NIM)**: NIM is a percentage of the borrow interest rate that accrues in reserves.
 
-**Neutral Price (NP)**: The neutral price is essentially a loan's liquidation price. The NP at any point in time is the MOMP at the time the loan was stamped times the ratio of the loan’s TP to the pool LUP, plus one year’s worth of interest times the ratio of the current borrower inflator to that borrower inflator at the time the loan was last stamped. This is recomputed every time the borrower draws more debt, or removes collateral. The NP is used in the liquidation bond to reward or punish kickers of liquidations.
+**Neutral Price (NP)**: The neutral price is essentially a loan's liquidation price. It is recomputed every time the borrower draws more debt, or removes collateral. The NP is used in the liquidation bond to reward or punish kickers of liquidations. It is calculated as:\
+
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 **Origination Fee**: Calculated as the greater of the current annualized borrower interest rate divided by 52 (one week of interest) or 5 bps multiplied by the loan’s debt.
 
@@ -60,21 +68,29 @@ description: Definitions are simplified and may not be comprehensive.
 
 **Price bucket**: Price buckets are hard-coded prices, discretized into 50 bps increments, at which users can deposit quote tokens or collateral. A price bucket can be freely traded against. In the worst case scenario, lenders would end up buying collateral at their chosen prices.
 
-**Funding Mechanism (FM)**: On a quarterly basis, a portion of the treasury is distributed to projects to facilitate the growth of Ajna. Teams and/or individuals submit proposals that are voted on by Ajna token holders and delegates.
-
 **Quote Token (QT)**: Must be an ERC20 token and is what lenders deposit into Price Buckets.
+
+**Reference Price**: Is the max(HTP, NP) and is used in the liquidation auction starting price calculation.
 
 **Reserves**: Origination fees, deposit penalties, and net interest margin on loans accumulate in pool reserves. Reserves are used to provide a liquidity cushion to lenders by absorbing bad debt if some should occur. Reserves are also used to buy and burn AJNA tokens.
 
-**Screening Stage**: This is the first stage in a given voting cycle which uses a one-token-one-vote schema, lasts for 80 days, and involves an unlimited number of proposals.
+**Screening Stage**: This is the first stage in a given voting cycle which uses a one-token-one-vote schema, lasts for 73 days, and involves an unlimited number of proposals. The top 10 move to the funding stage.
 
-**Target Utilization (TU)**: The ratio of the 3.5 day EMA of system debt to 3.5 day EMA of LUP\*totalCollateral. This may be sampled every half day to determine whether an interest rate update is available.
+**Target Utilization (TU)**: the ratio of the 3.5 day EMA of system debt to 3.5 day EMA of LUP\*totalCollateral. This is able to be sampled / stored every half day (at the same time that interest rate updates become eligible) although gaps are OK. The lambda used for the EMAs is \
+
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **Threshold Price (TP)**: The price at which the value of the collateral equals the value of the debt. By taking a loan’s debt and dividing it by the amount of collateral pledged, the loan’s threshold price, TP, can be calculated.
 
 **Total Encumbered Collateral**: Total Debt when described in quote token terms or Total Debt/LUP if described in collateral token terms.
 
-**Treasury**: A balance of AJNA tokens, initially 30% of the total token supply, held by a hard-coded address associated with the protocol only accessible through the Funding Mechanism.
+**Treasury**: A balance of AJNA tokens, initially 30% of the total token supply, 300,000,000 tokens, held by a hard-coded address associated with the protocol only accessible through the Funding Mechanism.
+
+**Total liquidity provider balance (Total LPB)**: the exchange rates between LPB in price bucket with price p, and quote token (deposit) and collateral token (claimable collateral) are:\
+
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 \
 

@@ -33,12 +33,12 @@ Liquidation is a last resort for when a borrower is unable to repay a loan. Liqu
    ![](../.gitbook/assets/chrome\_2023-08-07\_14-18-35.png)
 3. Click `Manage Pool`
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4.  Navigate and interact withh loans available to be liquidated.\
 
 
-    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### When does a liquidation happen?
 
