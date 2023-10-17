@@ -13,7 +13,7 @@ description: Definitions are simplified and may not be comprehensive.
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 \
-**Bond Payoff Factor (BPF)**: Each per-take penalty is proportional to the amount of quote token used in the take itself, with the factor of proportionality called the Bond Payment Factor, or BPF.\
+**Bond Payment Factor (BPF)**: Is the factor of proportionality applied to the reward or penalty given to the liquidator based on each take amount and price when collateral liquidation auctions occur.\
 \
 **Borrower Take Penalty**: A liquidation penalty applied when the collateral is taken during the auction.
 
