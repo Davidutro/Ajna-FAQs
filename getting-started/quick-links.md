@@ -37,7 +37,8 @@ StableLab: Defi Without Oracles Article (06-12-23) \
 IEEE Paper on Scaled Fenwick Trees by CoFounder, Matt Cushman (07-27-23) [https://ieeexplore.ieee.org/document/10196100 ](https://ieeexplore.ieee.org/document/10196100)\
 The Role of Governance in Lending Markets' Risk Management (08-09-23)\
 [https://twitter.com/i/spaces/1gqxvyNPXzWJB ](https://twitter.com/i/spaces/1gqxvyNPXzWJB)\
-Ajna Unleashed w/ Ian Harvey from Ajna x Josh from sommfinance (08-24-23) [https://twitter.com/i/spaces/1OyKAVLvwmaGb](https://twitter.com/i/spaces/1OyKAVLvwmaGb)
+Ajna Unleashed w/ Ian Harvey from Ajna x Josh from sommfinance (08-24-23) [https://twitter.com/i/spaces/1OyKAVLvwmaGb](https://twitter.com/i/spaces/1OyKAVLvwmaGb)\
+AMA Post Mortem & Redeployment w/ David & Greg (10-17-23) [https://x.com/ajnafi/status/1714324341565858111](https://x.com/ajnafi/status/1714324341565858111)
 
 ### Listings
 

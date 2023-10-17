@@ -12,8 +12,8 @@
 
 1. Determine the assets you'd like to borrow or lend against.
 2. See if the asset pairing you want to engage with already exists in the Ajna Protocol
-3. If it doesn't exist, you can create this pool.
-4. First, enter the token addresses of the two assets you would like to comprise the Ajna Pool.
+3. If it doesn't exist, you can create the pool.
+4. Enter the token addresses of the two assets.
 5.  Next, pick which one will be collateral and which one will be the “quote token,” which is the asset that will be lent and borrowed .
 
     _note: Remember that while Ajna can support NFTs as collateral, quote tokens need to be ERC20._
