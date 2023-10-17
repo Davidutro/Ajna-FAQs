@@ -8,6 +8,13 @@ description: Definitions are simplified and may not be comprehensive.
 \
 **Borrower Inflator (BI)**:  The borrower inflator is used in the calculation of the neutral price, which can be used as a liquidation price. BI at a given time t to be the debt that a borrower would have incurred if they had borrowed a single quote token at the initiation of the contract and had never repaid or taken out any additional debt.\
 \
+**Bond Factor (BF)**: Determines how much the liquidator must deposit for the bond. Bond factor multiplied by debt is how much the liquidator has to post to send the loan to auction, denominated in quote token.
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+\
+**Bond Payoff Factor (BPF)**: Each per-take penalty is proportional to the amount of quote token used in the take itself, with the factor of proportionality called the Bond Payment Factor, or BPF.\
+\
 **Borrower Take Penalty**: A liquidation penalty applied when the collateral is taken during the auction.
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
@@ -80,7 +87,7 @@ description: Definitions are simplified and may not be comprehensive.
 
 **Screening Stage**: This is the first stage in a given voting cycle which uses a one-token-one-vote schema, lasts for 73 days, and involves an unlimited number of proposals. The top 10 move to the funding stage.\
 \
-**Take Penalty Factor (TPF)**: is a modifier used in the calculation of the collateral awarded during a liquidation auction. This is present to account for the liquidation bond reward.\
+**Take Penalty Factor (TPF)**: is a modifier used in the calculation of the collateral awarded during a liquidation auction. This is present to account for the liquidation bond reward or penalty.\
 
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
