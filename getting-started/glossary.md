@@ -4,8 +4,6 @@ description: Definitions are simplified and may not be comprehensive.
 
 # 📖 Glossary
 
-**Liquidation Auction Decay**: The speed at which a liquidation auction reduces the price of the collateral being offered. The decay moves towards 0 starting at _256 x reference\_price_ with 6 twenty minute halvings, followed by 6 two hour halvings, followed by hour halvings till the end of the 72 hour auction.\
-\
 **Borrower Inflator (BI)**:  The borrower inflator is used in the calculation of the neutral price, which can be used as a liquidation price. BI at a given time t to be the debt that a borrower would have incurred if they had borrowed a single quote token at the initiation of the contract and had never repaid or taken out any additional debt.\
 \
 **Bond Factor (BF)**: Determines how much the liquidator must deposit for the bond. Bond factor multiplied by debt is how much the liquidator has to post to send the loan to auction, denominated in quote token.
@@ -46,7 +44,9 @@ description: Definitions are simplified and may not be comprehensive.
 
 **Kick**: A technical term synonymous with "initiate". When a loan is under-collateralized it qualifies to be “kicked”, which would initiate the sale of its collateral through a liquidation auction.
 
-**Liquidation Auction**: A dutch auction which enables anyone to purchase portions of the collateral at a price that starts at _256 x reference\_price_ and decays towards 0 starting with 6 twenty minute halvings, followed by 6 two hour halvings, followed by hour halvings till the end of the 72 hour auction.
+**Liquidation Auction**: A dutch auction which enables anyone to purchase portions of the collateral at a price that starts at _256 x reference\_price_ and decays towards 0 starting with 6 twenty minute halvings, followed by 6 two hour halvings, followed by hour halvings till the end of the 72 hour auction.\
+\
+**Liquidation Auction Decay**: The speed at which a liquidation auction reduces the price of the collateral being offered. The decay moves towards 0 starting at _256 x reference\_price_ with 6 twenty minute halvings, followed by 6 two hour halvings, followed by hour halvings till the end of the 72 hour auction.
 
 **Liquidation Bond**: A bond paid in quote token, purchased by the initiator of a liquidation auction, that is awarded or penalized depending on the settling auction price relative to the loan's Neutral Price. The bond exists to prevent unfair liquidations.
 
