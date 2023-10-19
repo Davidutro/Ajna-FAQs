@@ -87,7 +87,7 @@ description: Definitions are simplified and may not be comprehensive.
 
 **Screening Stage**: This is the first stage in a given voting cycle which uses a one-token-one-vote schema, lasts for 73 days, and involves an unlimited number of proposals. The top 10 move to the funding stage.\
 \
-**Take Penalty Factor (TPF)**: is a modifier used in the calculation of the collateral awarded during a liquidation auction. This is present to account for the liquidation bond reward or penalty.\
+**Take Penalty Factor (TPF)**: The take penalty factor is used to compute the Take Penalty, which is the TPF times the amount of quote token used to purchase collateral.\
 
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
