@@ -47,7 +47,7 @@ A liquidation happens when the borrower fails to keep their loan in good standin
 To determine whether a loan can be appropriately liquidated there are three important variables used by the system; the loan’s _Threshold Price (TP)_, the loan’s _Neutral Price(NP)_ and the pool’s _Lowest Utilized Price (LUP)_. \
 \
 TP is set by the borrower and is a loan’s debt divided by the collateral. \
-NP is set at origination, is usually some number above the TP, and acts as the liquidation price of the loan.\
+NP is set at origination and when a loan is modified with respect to its debt or collateral and is usually some number above the TP. The NP acts as the effective liquidation price of the loan.\
 LUP moves freely and is defined as the lowest collateral price bucket against which someone is actively borrowing.\
 \
 If a loan's TP crosses above the pool's LUP, then their position is eligible for liquidation. This is referred to as the _liquidation trigger price_. A loan may be profitable to liquidate, with regard to the [liquidation bond](https://faqs.ajna.finance/faqs/liquidations#what-is-a-liquidation-bond), when the price of the collateral crosses below the NP of a given loan.
@@ -105,21 +105,13 @@ Bob sees Dave's loan is eligible for liquidation. The price of ETH is $1850, whi
 
 ### How is a loan's liquidation price set?
 
-In Ajna each loan's Neutral Price (NP) acts as the liquidation price. The NP is set at the origination of debt and is the Most Optimistic Matching Price (MOMP) times the ratio of the loan’s Threshold Price (TP) to the LUP, plus one year’s interest, all at the time of origination. In rougher terms, it's set some amount above a loan's Threshold Price, which can be thought of as a loan's collateral price when it hits 1:1 LTV.\
+In Ajna the Neutral Price (NP) acts as the liquidation price.
+
+When a loan is initiated or modified (the first debt, additional debt drawn, or collateral is removed from the loan), the neutral price is set to
+
+&#x20;                                                        <img src="../.gitbook/assets/image (10).png" alt="" data-size="original">\
 \
-Consider these examples:\
-\
-Safe\
-Bob has ETH, and would like to borrow some DAI. The APR to borrow is 1%.  He places 10 ETH into the ETH/DAI pool and withdraws a loan of 5000 DAI. An origination fee is applied and his debt becomes 5002.5 his collateral pledged is 10, and his TP is 5002.5/10 = 500.25. When he created the loan, the pool's MOMP was 1600 while the LUP was 1500. As a result the NP =1600 \* 500.25/1500 +  50.025 = 533.6. \
-\
-Moderate\
-Bob has ETH, and would like to borrow some DAI. The APR to borrow is 1%.  He places 10 ETH into the ETH/DAI pool and withdraws a loan of 10000 DAI. An origination fee is applied and his debt becomes 10005 his collateral pledged is 10, and his TP is 10005/10 = 1000.5. When he created the loan, the pool's MOMP was 1600 while the LUP was 1500. As a result the NP =1600 \* 1000.5/1500 + 100.05 = 1163.2.\
-\
-Almost at the limit\
-Bob has ETH, and would like to borrow some DAI. The APR to borrow is 1%. He places 10 ETH into the ETH/DAI pool and withdraws a loan of 14800 DAI. An origination fee is applied and his debt becomes 14,807.4 his collateral pledged is 10, and his TP is 14,807.4/10 = 1,480.74. When he created the loan, the pool's MOMP was 1600 while the LUP was 1500. As a result the NP =1600 \* 1,480.74/1500 + 148.074 = 1707.344.\
-\
-INVALID: TP > LUP\
-Bob has ETH, and would like to borrow some DAI. The APR to borrow is 1%.  He places 10 ETH into the ETH/DAI pool and withdraws a loan of 15000 DAI. An origination fee is applied and his debt becomes 15007.5 his collateral pledged is 10, and his TP is 15007.5/10 = 1500.75. When he created the loan, the pool's MOMP was 1600 while the LUP was 1500. As a result the NP =1600 \* 1500.75/1500 + 150.075 = 1600.8.
+where r is the current borrower rate of the pool.
 
 ### How do I participate in liquidation auctions?
 
