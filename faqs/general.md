@@ -77,7 +77,7 @@ _To be a kicker or participate in auctions, click on pool details and click "man
 
 ### What are the fees?
 
-<table><thead><tr><th width="135.33333333333331">Who</th><th width="225">Fee</th><th>Detail</th></tr></thead><tbody><tr><td>Lender</td><td>Unutilized Deposit Fee</td><td>Charged when depositing below the LUP, <br>equivalent to <em>24 hours of interest.</em></td></tr><tr><td>Borrower</td><td>Origination Fee</td><td>Charged to all debt and is <br><em>the greater of one week of interest or 0.05%.</em></td></tr><tr><td>Borrower</td><td>Variable Interest Rate </td><td>APR charged on debt, <em>may change</em> <br><em>once every 12 hours in +- 10% steps.</em></td></tr><tr><td>Borrower</td><td>Liquidation Penalty</td><td>Charged when collateral is taken from the auction at a variable rate </td></tr><tr><td>Everyone</td><td>Network transaction fees</td><td>Charged on all transactions, <br><em>varies by network and other factors.</em></td></tr></tbody></table>
+<table><thead><tr><th width="135.33333333333331">Who</th><th width="225">Fee</th><th>Detail</th></tr></thead><tbody><tr><td>Lender</td><td>Unutilized Deposit Fee</td><td>Charged when depositing below the LUP, <br>equivalent to <em>24 hours of interest.</em></td></tr><tr><td>Borrower</td><td>Origination Fee</td><td>Charged to all debt and is <br><em>the greater of one week of interest or 0.05%.</em></td></tr><tr><td>Borrower</td><td>Variable Interest Rate </td><td>APR charged on debt, <em>may change</em> <br><em>once every 12 hours in +- 10% steps.</em></td></tr><tr><td>Borrower</td><td>Liquidation Penalty</td><td>Charged when collateral is taken from the auction at a variable rate depending on the collateral's sale price.</td></tr><tr><td>Everyone</td><td>Network transaction fees</td><td>Charged on all transactions, <br><em>varies by network and other factors.</em></td></tr></tbody></table>
 
 ### Does Ajna use token governance to make changes to its smart contracts?
 
@@ -89,17 +89,24 @@ The protocol is written to work on any EVM (Ethereum Virtual Machine) compatible
 
 ### Has Ajna been audited?
 
-Ajna has been audited by\
+Ajna went through multiple rounds of audits.\
 \
+The first,\
 [Trail of Bits](https://www.trailofbits.com/) - [https://github.com/ajna-finance/audits/tree/main/tob](https://github.com/ajna-finance/audits/tree/main/tob)\
 [Quantstamp](https://quantstamp.com/) - [https://github.com/ajna-finance/audits/tree/main/quantstamp](https://github.com/ajna-finance/audits/tree/main/quantstamp)\
 [Sherlock](https://www.sherlock.xyz/) - [https://github.com/ajna-finance/audits/tree/main/sherlock](https://github.com/ajna-finance/audits/tree/main/sherlock)\
 [Code4arena](https://code4rena.com/) - [https://github.com/ajna-finance/audits/tree/main/code4rena](https://github.com/ajna-finance/audits/tree/main/code4rena)\
-Prototech labs - [https://github.com/ajna-finance/audits/tree/main/prototech](https://github.com/ajna-finance/audits/tree/main/prototech)
+Prototech labs - [https://github.com/ajna-finance/audits/tree/main/prototech](https://github.com/ajna-finance/audits/tree/main/prototech)\
+\
+The second (links coming soon, as these are currently in progress),\
+Sherlock contest\
+Prototech Labs\
+Individual Audit by Whitehat\
+Certora
 
 ### Does Ajna have a bug bounty?
 
-Ajna will have a bug bounty once deployed in Q2 2023.
+Ajna will have a bug bounty once redeployed.
 
 ### What happens if the code becomes outdated?
 
