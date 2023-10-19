@@ -64,11 +64,9 @@ No.
    This fee is charged to all debt and is the greater of one week of interest or 0.05%.
 2. Variable Interest Rate \
    This is the APR being paid on the borrower’s debt, which is subject to change every 12 hours.
-3. Liquidation Penalty 1\
-   This fee is applied when a loan is triggered for liquidation and is equivalent to 90 days of interest.
-4. Liquidation Penalty 2\
-   This fee is applied once the first sale of collateral occurs and is 7%.
-5. Transaction Fees\
+3. Liquidation Take Penalty\
+   This fee is applied once the first sale of collateral occurs and is variable depending.
+4. Transaction Fees\
    These are fees that are charged on blockchain transactions generally, the more complex the transaction, the larger the fee.
 
 ### Is there a minimum or maximum I can borrow?
@@ -89,7 +87,7 @@ For a specific overview of the interest rate algorithm, see section 8 of the [wh
 
 ### Is there a minimum and maximum interest rate?
 
-Yes, so cannot go below 0.001% or above 50,000%.
+Yes, so cannot go below 0.001% or above 400%.
 
 ### How long does it take the interest rate to halve or double?
 
@@ -117,7 +115,7 @@ Loans can be repaid at any time, there is no early repayment penalty.
 
 * The protocol gets hacked or exploited.
 * Your loan gets liquidated.
-* Your loan gets liquidated unfairly, leaving you with no debt and some leftover claimable collateral.
+* Your loan gets liquidated unfairly, leaving you with no debt and some leftover claimable collateral. If this happens the liquidator loses money on the bond they had to post in order to send your loan to liquidation.
 
 ### What happens if the collateral value drops below the debt amount?
 
@@ -125,14 +123,13 @@ If the value of the collateral, as measured by the external market price, drops 
 
 ### What happens if my loan gets liquidated?
 
-When a loan is liquidated the first liquidation penalty of 90 days of interest is applied to the debt and a one hour grace period begins when the borrower can save their loan by paying back debt or adding collateral. If the borrower doesn't save the loan then it will proceed to an auction where the second liquidation penalty of 7% is applied once the first sale of collateral occurs. When the liquidation is complete the borrower is no longer responsible for paying back their debt balance since the system sold their collateral and to cover the balance. In some cases there may be collateral left over that the user can claim.
+When a loan is liquidated it will proceed to an auction where a liquidation penalty is applied to each sale of collateral. When the liquidation is complete the borrower is no longer responsible for paying back their debt balance since the system sold their collateral and to cover the balance. In some cases there may be collateral left over that the user can claim.
 
 ### What is the penalty for getting liquidated?
 
-1. Liquidation Penalty 1\
-   This fee is applied when a loan is triggered for liquidation and is equivalent to 90 days of interest.
-2. Liquidation Penalty 2\
-   This fee is applied once the first sale of collateral occurs and is 7%.
+The Borrower Take Penalty is applied to debt when collateral is taken during a liquidation auction.
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ### How do I know my loan's liquidation price?
 
@@ -140,16 +137,13 @@ The liquidation price is something that should be displayed by the interface you
 
 ### How is the liquidation price set?
 
-In Ajna the Neutral Price (NP) acts as the liquidation price. The NP is the current Most Optimistic Matching Price (MOMP) times the ratio of the loan’s Threshold Price (TP) to the LUP, plus one year’s interest. \
-\
-Consider these examples:\
-Bob has ETH, and would like to borrow some DAI. The APR to borrow is 1%.  He places 10 ETH into the ETH/DAI pool and withdraws a loan of 5000 DAI. An origination fee is applied and his debt becomes 5002.5 his collateral pledged is 10, and his TP is 5002.5/10 = 500.25. When he created the loan, the pool's MOMP was 1600 while the LUP was 1500. As a result the NP =1600 \* 500.25/1500 +  50.025 = 533.6. **(Safe)**
+In Ajna the Neutral Price (NP) acts as the liquidation price.
 
-Bob has ETH, and would like to borrow some DAI. The APR to borrow is 1%.  He places 10 ETH into the ETH/DAI pool and withdraws a loan of 10000 DAI. An origination fee is applied and his debt becomes 10005 his collateral pledged is 10, and his TP is 10005/10 = 1000.5. When he created the loan, the pool's MOMP was 1600 while the LUP was 1500. As a result the NP =1600 \* 1000.5/1500 + 100.05 = 1163.2. **(Moderate)**\
+When a loan is initiated or modified (the first debt, additional debt drawn, or collateral is removed from the loan), the neutral price is set to
+
+&#x20;                                                        <img src="../.gitbook/assets/image (10).png" alt="" data-size="original">\
 \
-Bob has ETH, and would like to borrow some DAI. The APR to borrow is 1%. He places 10 ETH into the ETH/DAI pool and withdraws a loan of 14800 DAI. An origination fee is applied and his debt becomes 14,807.4 his collateral pledged is 10, and his TP is 14,807.4/10 = 1,480.74. When he created the loan, the pool's MOMP was 1600 while the LUP was 1500. As a result the NP =1600 \* 1,480.74/1500 + 148.074 = 1707.344. **(almost at the limit)**\
-\
-Bob has ETH, and would like to borrow some DAI. The APR to borrow is 1%.  He places 10 ETH into the ETH/DAI pool and withdraws a loan of 15000 DAI. An origination fee is applied and his debt becomes 15007.5 his collateral pledged is 10, and his TP is 15007.5/10 = 1500.75. When he created the loan, the pool's MOMP was 1600 while the LUP was 1500. As a result the NP =1600 \* 1500.75/1500 + 150.075 = 1600.8. **(INVALID: TP > LUP)**
+where r is the current borrower rate of the pool..
 
 ### How does Ajna determine if my loan is insufficiently collateralized?
 
