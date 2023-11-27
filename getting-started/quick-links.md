@@ -8,6 +8,7 @@ Deployment Addresses | [https://faqs.ajna.finance/info/deployment-addresses ](ht
 ELI5 | [https://www.ajna.finance/eli5](https://www.ajna.finance/eli5) \
 FAQs | [https://faqs.ajna.finance/ ](https://faqs.ajna.finance/)\
 GitHub | [https://github.com/ajna-finance](https://github.com/ajna-finance) \
+News | [https://forum.ajna.finance/c/blog](https://forum.ajna.finance/c/blog)\
 Twitter | [https://twitter.com/ajnafi ](https://twitter.com/ajnafi)\
 Website | [https://www.ajna.finance/](https://www.ajna.finance/) \
 Whitepaper | [https://www.ajna.finance/whitepaper](https://www.ajna.finance/whitepaper)
