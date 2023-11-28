@@ -13,6 +13,7 @@
 [Why should I vote?](voting.md#why-should-i-vote)\
 [What is a delegate?](voting.md#what-is-a-delegate)\
 [How do I delegate my voting power?](voting.md#how-do-i-delegate-my-voting-power)\
+How do I undelegate my voting power?\
 [Why should I delegate?](voting.md#why-should-i-delegate)\
 [Can I delegate to myself?](voting.md#can-i-delegate-to-myself)\
 [Can I delegate to multiple parties?](voting.md#can-i-delegate-to-multiple-parties)\
@@ -98,6 +99,10 @@ A delegate is an individual or group, identified by an Ethereum address, who rep
 ### How do I delegate my voting power?
 
 Go to an app that supports Ajna Grants and find the "Delegate" button. Then, simply input the address of the delegate and submit the transaction. Delegations are assigned in full and cannot be split across multiple delegates.
+
+### How do I undelegate my voting power?
+
+There is no direct way to undelegate. Instead, move the delegation to the `0x0000000000000000000000000000000000000000` address or your own.
 
 ### Why should I delegate?
 
