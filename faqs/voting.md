@@ -13,7 +13,7 @@
 [Why should I vote?](voting.md#why-should-i-vote)\
 [What is a delegate?](voting.md#what-is-a-delegate)\
 [How do I delegate my voting power?](voting.md#how-do-i-delegate-my-voting-power)\
-How do I undelegate my voting power?\
+[How do I undelegate my voting power?](voting.md#how-do-i-undelegate-my-voting-power)\
 [Why should I delegate?](voting.md#why-should-i-delegate)\
 [Can I delegate to myself?](voting.md#can-i-delegate-to-myself)\
 [Can I delegate to multiple parties?](voting.md#can-i-delegate-to-multiple-parties)\
