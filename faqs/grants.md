@@ -34,39 +34,39 @@ Generally, the following categories are of interest:
 
 ### Where can I view grant proposals?
 
-https://forum.ajna.finance&#x20;
+[https://forum.ajna.finance/c/grant-proposals](https://forum.ajna.finance/c/grant-proposals)
 
 ### **How are grants selected?**
 
 When assessing applications, the criteria below should be considered to guide decision making;\
 \
-Relevance \
+**Relevance** \
 All funded projects should be applicable to Ajna.
 
-Benefit \
+**Benefit** \
 The goal of this program is to increase the protocol's probability for success.
 
 * Does this project benefit Ajna and its users?
 * Will there be a real positive impact?&#x20;
 
-Feasibility \
+**Feasibility** \
 Ideas and discussions are great, but only realistic projects with tangible results should be funded.
 
 * Can the project really be accomplished? ‍
 * Are the objectives and success case realistic?&#x20;
 
-Execution \
+**Execution** \
 Applicants should provide a clear execution plan for completing the project and reaching the goals.
 
 * Is there a clear plan?
 * Will grantees report progress?&#x20;
 
-Qualification \
+**Qualification** \
 Applicants should provide background or credentials to prove their capabilities.
 
 * Is the individual or team qualified to complete the project? &#x20;
 
-Cost \
+**Cost** \
 There is a sweet spot to attract high quality contributors with competitive funding without overspending.&#x20;
 
 * Is the funding amount within reasonable means?
@@ -74,11 +74,11 @@ There is a sweet spot to attract high quality contributors with competitive fund
 
 ### How do I submit a proposal?
 
-To submit a proposals visit [https://app.ajna.finance/grants](https://app.ajna.finance/grants).
+To submit a proposals post the details on [https://forum.ajna.finance/c/grant-proposals](https://forum.ajna.finance/c/grant-proposals) and submit the actual grant request on [https://app.ajna.finance/grants](https://app.ajna.finance/grants) during the screening stage of a grant cycle.
 
 ### How do I vote on a proposal?
 
-To vote on proposals visit [https://app.ajna.finance/grants](https://app.ajna.finance/grants), delegate to an address yourself, then vote. Another option is to delegate your votes to an address that will participate on your behalf.
+To vote on proposals visit [https://app.ajna.finance/grants](https://app.ajna.finance/grants), delegate to an address you own, then vote. Another option is to delegate your votes to an address that will participate on your behalf.
 
 ### How much AJNA is granted every cycle?
 
@@ -101,6 +101,6 @@ _**BEWARE**_ tokens cannot be sent to the contract address with a standard `tran
 
 ### My proposal was approved, how do I claim the grant?
 
-Grants can be claimed here, or by doing a manual transaction calling `fundTreasury()` on the treasury contract
+Grants can be claimed [here](https://app.ajna.finance/grants), or by doing a manual transaction calling `fundTreasury()` on the treasury contract
 
 \

@@ -102,7 +102,7 @@ Go to an app that supports Ajna Grants and find the "Delegate" button. Then, sim
 
 ### How do I undelegate my voting power?
 
-There is no direct way to undelegate. Instead, move the delegation to the `0x0000000000000000000000000000000000000000` address or your own.
+There is no direct way to undelegate. Instead, move the delegation to the `0x0000000000000000000000000000000000000000` address or your own address.
 
 ### Why should I delegate?
 
@@ -151,15 +151,15 @@ Votes can be submitted at at any time, but may not be modified.
 
 ### How long do participants have to cast their votes in the screening stage?
 
-73 days. Votes cannot be cancelled or modified.
+73 days. _Votes cannot be cancelled or modified._
 
 ### How long do participants have to cast their votes in the funding stage?
 
-10 days. Votes cannot be cancelled or modified.
+10 days. _Votes cannot be cancelled or modified._
 
 ### Can I change my vote after it’s been cast?
 
-No, votes cannot be cancelled or modified.
+No, _votes cannot be cancelled or modified._
 
 ### Can participants propose changes to the voting system?
 
