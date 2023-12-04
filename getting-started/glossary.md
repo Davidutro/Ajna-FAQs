@@ -34,12 +34,15 @@ Each price bucket may have claimable collateral which is exchangeable with quote
 
 #### **Claimable Reserve Auction (CRA)**:&#x20;
 
-Claimable reserves are set aside and can be auctioned off in a Dutch auction known as a CRA. Once the CRA is initiated, AJNA tokens may be used to bid in exchange for the claimable reserves, which are always denominated in a pool's quote token.\
-
+Claimable reserves are set aside and can be auctioned off in a Dutch auction known as a CRA. Once the CRA is initiated, AJNA tokens may be used to bid in exchange for the claimable reserves, which are always denominated in a pool's quote token.
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-#### **Collateral Token (CT)**:&#x20;
+#### Collateral Deposit Discount:
+
+Deposits of collateral into utilized price buckets are subject to a small discount (equal to the Unutilized Deposit Fee). This discount is extracted by providing slightly less [LPB](https://faqs.ajna.finance/getting-started/glossary#liquidity-provider-balance-lpb) in return for the user’s collateral deposit.
+
+**Collateral Token (CT)**:&#x20;
 
 Can be a regular fungible token (ERC20) or an NFT (ERC721). Borrowers deposit CT into the protocol to secure debt.
 

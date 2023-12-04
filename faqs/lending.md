@@ -24,7 +24,7 @@ Users choose what valuation they are willing to lend against by depositing token
 ### Where do I lend?
 
 * Easy
-  * [The Summer.Fi app ](https://summer.fi/ajna)(rewards on)
+  * [The Summer.Fi app](https://summer.fi/ajna)
   * Static Open Source Frontend (soon)
   * Other apps with Ajna integrated (soon)
 * Advanced
@@ -62,8 +62,10 @@ The following types of tokens are incompatible with Ajna, and countermeasures ex
 ### What are the fees?
 
 1. Unutilized Deposit Fee\
-   Deposit below the LUP incur a small fee equivalent to 24 hours of interest.
-2. Transaction Fees\
+   Deposits below the LUP incur a small fee equivalent to 24 hours of interest.
+2. Collateral Deposit Discount\
+   Deposits of collateral into utilized price buckets are subject to a small discount (equal to the Unutilized Deposit Fee). This discount is extracted by providing slightly less [LPB](https://faqs.ajna.finance/getting-started/glossary#liquidity-provider-balance-lpb) in return for the user’s collateral deposit.
+3. Transaction Fees\
    These are fees that are charged on blockchain transactions generally, the more complex the transaction, the larger the fee.
 
 ### How do I decide what price bucket to deposit into?
