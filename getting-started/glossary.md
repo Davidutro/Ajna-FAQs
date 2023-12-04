@@ -69,7 +69,7 @@ The highest-priced bucket which contains a deposit, not counting claimable colla
 
 #### **Highest Threshold Price (HTP)**:&#x20;
 
-The threshold price of the least collateralized loan. Lender deposits above the HTP earn interest.
+The threshold price of the least collateralized loan. Lender deposits above the HTP earn interest. This is also known as the _Minimum Yield Price_**.**
 
 #### **Kick**:&#x20;
 
