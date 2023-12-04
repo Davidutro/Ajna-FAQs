@@ -64,8 +64,8 @@ No.
    This fee is charged to all debt and is the greater of one week of interest or 0.05%.
 2. Variable Interest Rate \
    This is the APR being paid on the borrower’s debt, which is subject to change every 12 hours.
-3. Liquidation Take Penalty\
-   This fee is applied once the first sale of collateral occurs and is variable depending.
+3. Liquidation Take Penalty (Also known as the Borrower Take Penalty)\
+   This fee is applied once the first sale of collateral occurs and is variable depending on the collateral price settled at the auction.
 4. Transaction Fees\
    These are fees that are charged on blockchain transactions generally, the more complex the transaction, the larger the fee.
 
