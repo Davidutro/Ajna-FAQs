@@ -117,7 +117,7 @@ No, Ajna Labs has no ability to change or manipulate the smart contracts once th
 
 ### Why is it a big deal that Ajna’s design excludes price oracles?
 
-Relying on oracles for pricing data in a DeFi application creates an external point of failure as they can be manipulated or compromised. Ajna uses an internal order book empowering lenders to set asset values. This reduces the attack surface of the protocol and makes lending and borrowing more secure.
+Relying on [oracles](https://faqs.ajna.finance/getting-started/glossary#oracle) for pricing data in a DeFi application creates an external point of failure as they can be manipulated or compromised. Ajna uses an internal order book empowering lenders to set asset values. This reduces the attack surface of the protocol and makes lending and borrowing more secure.
 
 ### What is the Ajna Foundation?
 
@@ -125,15 +125,16 @@ The Ajna Foundation, formed in mid-2023, is an entity responsible for the stewar
 
 ### Where can I get information about Ajna?
 
+[Analytics](https://info.ajna.finance/ethereum) | https://Info.ajna.finance/ethereum \
+[Audits](https://github.com/ajna-finance/audits) | https://github.com/ajna-finance/audits\
+[Blog](https://forum.ajna.finance/c/blog) | https://forum.ajna.finance/c/blog\
+[Deployment Addresses](https://faqs.ajna.finance/info/deployment-addresses) | https://faqs.ajna.finance/info/deployment-addresses\
 [ELI5](https://www.ajna.finance/eli5) | https://www.ajna.finance/eli5 \
 [FAQs](https://faqs.ajna.finance/) | https://faqs.ajna.finance/ \
-[Whitepaper](https://www.ajna.finance/whitepaper) | https://www.ajna.finance/whitepaper \
 [GitHub](https://github.com/ajna-finance) | https://github.com/ajna-finance \
 [Twitter](https://twitter.com/ajnafi) | https://twitter.com/ajnafi \
 [Website](https://www.ajna.finance) | https://www.ajna.finance \
-[Analytics](https://info.ajna.finance/ethereum) | https://Info.ajna.finance/ethereum \
-[Audits](https://github.com/ajna-finance/audits) | https://github.com/ajna-finance/audits\
-[Deployment Addresses](https://faqs.ajna.finance/info/deployment-addresses) | https://faqs.ajna.finance/info/deployment-addresses
+[Whitepaper](https://www.ajna.finance/whitepaper) | https://www.ajna.finance/whitepaper&#x20;
 
 ### How can I get involved?
 
