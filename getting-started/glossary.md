@@ -40,7 +40,7 @@ Claimable reserves are set aside and can be auctioned off in a Dutch auction kno
 
 #### Collateral Deposit Discount:
 
-Deposits of collateral into utilized price buckets are subject to a small discount (equal to the Unutilized Deposit Fee). This discount is extracted by providing slightly less [LPB](https://faqs.ajna.finance/getting-started/glossary#liquidity-provider-balance-lpb) in return for the user’s collateral deposit.
+Deposits of collateral into utilized price buckets are subject to a small discount (equal to the Unutilized Deposit Fee of ). This discount is extracted by providing slightly less [LPB](https://faqs.ajna.finance/getting-started/glossary#liquidity-provider-balance-lpb) in return for the user’s collateral deposit.
 
 **Collateral Token (CT)**:&#x20;
 
@@ -49,6 +49,10 @@ Can be a regular fungible token (ERC20) or an NFT (ERC721). Borrowers deposit CT
 #### **Deposit**:&#x20;
 
 When a lender provides quote token liquidity to a specified price bucket.
+
+#### Deposit Fee:
+
+All deposits incur a small fee equivalent to 8 hours of interest. The fee accrues on any new deposit, and any action which moves quote token down in price. The fee is not applied to actions which move quote token up in price.
 
 #### **Dutch Auction**:
 

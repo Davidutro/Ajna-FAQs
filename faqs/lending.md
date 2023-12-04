@@ -61,10 +61,10 @@ The following types of tokens are incompatible with Ajna, and countermeasures ex
 
 ### What are the fees?
 
-1. Unutilized Deposit Fee\
-   Deposits below the LUP incur a small fee equivalent to 24 hours of interest.
+1. Deposit Fee\
+   All deposits incur a small fee equivalent to 8 hours of interest. The fee accrues on any new deposit, and any action which moves quote token down in price. The fee is not applied to actions which move quote token up in price.
 2. Collateral Deposit Discount\
-   Deposits of collateral into utilized price buckets are subject to a small discount (equal to the Unutilized Deposit Fee). This discount is extracted by providing slightly less [LPB](https://faqs.ajna.finance/getting-started/glossary#liquidity-provider-balance-lpb) in return for the user’s collateral deposit.
+   Deposits of collateral into utilized price buckets are subject to a small discount (equal to the Deposit Fee). This discount is extracted by providing slightly less [LPB](https://faqs.ajna.finance/getting-started/glossary#liquidity-provider-balance-lpb) in return for the user’s collateral deposit.
 3. Transaction Fees\
    These are fees that are charged on blockchain transactions generally, the more complex the transaction, the larger the fee.
 
@@ -80,10 +80,11 @@ Depositing too high:
 
 Depositing too low:
 
-* May result in the deposit not earning interest if it is below the Pool's Highest Threshold Price (HTP).
-* Additionally, if a deposit is made below the Lowest Utilized Price (LUP), then an unutilized deposit fee is charged equivalent to 24 hours of interest.
+* May result in the deposit not earning interest if it is below the Pool's Highest Threshold Price (HTP).\
+  \
 
-<figure><img src="../.gitbook/assets/what_range_to_use.png" alt=""><figcaption><p>Thank you Summer.fi team for this image!</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Thank you Summer.fi team for this image!</p></figcaption></figure>
 
 To learn more check out [Summer.fi's dive into this question.](https://docs.summer.fi/protocols/ajna/tutorials-and-guides/how-to-pick-the-right-level-for-lending)
 
