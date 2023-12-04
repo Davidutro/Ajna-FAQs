@@ -65,9 +65,11 @@ No.
 2. Variable Interest Rate \
    This is the APR being paid on the borrower’s debt, which is subject to change every 12 hours.
 3. Liquidation Take Penalty (Also known as the Borrower Take Penalty)\
-   This fee is applied once the first sale of collateral occurs and is variable depending on the collateral price settled at the auction.
+   This fee is applied once the first sale of collateral occurs and is variable depending on the collateral price settled at the auction as well as the liquidator's Bond Factor.
 4. Transaction Fees\
-   These are fees that are charged on blockchain transactions generally, the more complex the transaction, the larger the fee.
+   These are fees that are charged on blockchain transactions generally, the more complex the transaction, the larger the fee.\
+   \
+   For specifics, see the [whitepaper](https://www.ajna.finance/whitepaper).
 
 ### Is there a minimum or maximum I can borrow?
 
