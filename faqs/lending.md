@@ -63,9 +63,7 @@ The following types of tokens are incompatible with Ajna, and countermeasures ex
 
 1. Deposit Fee\
    All deposits incur a small fee equivalent to 8 hours of interest. The fee accrues on any new deposit, and any action which moves quote token down in price. The fee is not applied to actions which move quote token up in price.
-2. Collateral Deposit Discount\
-   Deposits of collateral into utilized price buckets are subject to a small discount (equal to the Deposit Fee). This discount is extracted by providing slightly less [LPB](https://faqs.ajna.finance/getting-started/glossary#liquidity-provider-balance-lpb) in return for the user’s collateral deposit.
-3. Transaction Fees\
+2. Transaction Fees\
    These are fees that are charged on blockchain transactions generally, the more complex the transaction, the larger the fee.
 
 ### How do I decide what price bucket to deposit into?
