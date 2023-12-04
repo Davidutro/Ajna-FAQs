@@ -18,6 +18,7 @@
 [What can go wrong?](borrowing.md#what-can-go-wrong)\
 [What happens if the collateral value drops below the debt amount?](borrowing.md#what-happens-if-the-collateral-value-drops-below-the-debt-amount)\
 [What happens if my loan gets liquidated?](borrowing.md#what-happens-if-my-loan-gets-liquidated)\
+[Can I save my loan after liquidation starts?](borrowing.md#can-i-save-my-loan-after-liquidation-starts)\
 [What is the penalty for getting liquidated?](borrowing.md#what-is-the-penalty-for-getting-liquidated)\
 [How do I know my loan's liquidation price?](borrowing.md#how-do-i-know-my-loans-liquidation-price)\
 [How is the liquidation price set?](borrowing.md#how-is-the-liquidation-price-set)\
@@ -127,6 +128,10 @@ If the value of the collateral, as measured by the external market price, drops 
 ### What happens if my loan gets liquidated?
 
 When a loan is liquidated it will proceed to an auction where a liquidation penalty is applied to each sale of collateral. When the liquidation is complete the borrower is no longer responsible for paying back their debt balance since the system sold their collateral and to cover the balance. In some cases there may be collateral left over that the user can claim.
+
+### Can I save my loan after liquidation starts?
+
+No. Once a loan has been liquidated, the loan cannot be returned from liquidation
 
 ### What is the penalty for getting liquidated?
 
