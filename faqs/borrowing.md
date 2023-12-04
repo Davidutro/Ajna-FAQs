@@ -21,7 +21,8 @@
 [What is the penalty for getting liquidated?](borrowing.md#what-is-the-penalty-for-getting-liquidated)\
 [How do I know my loan's liquidation price?](borrowing.md#how-do-i-know-my-loans-liquidation-price)\
 [How is the liquidation price set?](borrowing.md#how-is-the-liquidation-price-set)\
-[How does Ajna determine if my loan is insufficiently collateralized?](borrowing.md#how-does-ajna-determine-if-my-loan-is-insufficiently-collateralized)
+[How does Ajna determine if my loan is insufficiently collateralized?](borrowing.md#how-does-ajna-determine-if-my-loan-is-insufficiently-collateralized)\
+[In NFT-collection pools, can a borrower use multiple NFTs in a single position?](borrowing.md#in-nft-collection-pools-can-a-borrower-use-multiple-nfts-in-a-single-position)
 
 ### How do I borrow?
 
@@ -64,7 +65,7 @@ No.
    This fee is charged to all debt and is the greater of one week of interest or 0.05%.
 2. Variable Interest Rate \
    This is the APR being paid on the borrower’s debt, which is subject to change every 12 hours.
-3. Liquidation Take Penalty (Also known as the Borrower Take Penalty)\
+3. Liquidation Take Penalty (AKA the [Borrower Take Penalty](https://faqs.ajna.finance/getting-started/glossary#borrower-take-penalty))\
    This fee is maximum 4.5%, and is applied once the first sale of collateral occurs and is variable depending on the collateral price settled at the auction as well as the liquidator's Bond Factor.
 4. Transaction Fees\
    These are fees that are charged on blockchain transactions generally, the more complex the transaction, the larger the fee.\
@@ -97,7 +98,7 @@ Yes, so cannot go below 0.001% or above 400%.
 
 ### Can I borrow at a fixed rate?
 
-Yes, but the rate is only fixed for 12 hours at a time. Rates may change once every 12 hours if conditions are met.
+Yes, but the rate is only fixed for 12 hours at a time, starting from the time of the last rate update. Rates may change once every 12 hours if conditions are met.
 
 ### When do I need to pay back the loan?
 
@@ -107,7 +108,7 @@ Ajna loans can be paid back at any time.
 
 Ajna has a minimum borrow amount for loans, this means users might be unable to pay back a partial amount of their debt if it would push their balance below this minimum. \
 \
-If this happens, pay back less or pay back the entire amount.
+If this happens, try paying back less or the entire amount.
 
 ### Can I repay my loan early, and if so, are there any penalties?
 
@@ -117,7 +118,7 @@ Loans can be repaid at any time, there is no early repayment penalty.
 
 * The protocol gets hacked or exploited.
 * Your loan gets liquidated.
-* Your loan gets liquidated unfairly, leaving you with no debt and some leftover claimable collateral. If this happens the liquidator loses money on the bond they had to post in order to send your loan to liquidation.
+* Your loan gets liquidated unfairly, leaving you with claimable collateral. If this happens the liquidator loses money on the bond they had to post in order to send your loan to liquidation.
 
 ### What happens if the collateral value drops below the debt amount?
 
@@ -129,7 +130,7 @@ When a loan is liquidated it will proceed to an auction where a liquidation pena
 
 ### What is the penalty for getting liquidated?
 
-The Borrower Take Penalty is applied to debt when collateral is taken during a liquidation auction.
+The Liquidation Penalty, also known as the Borrower Take Penalty is applied to debt when collateral is taken during a liquidation auction.
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
@@ -139,14 +140,22 @@ The liquidation price is something that should be displayed by the interface you
 
 ### How is the liquidation price set?
 
-In Ajna the Neutral Price (NP) acts as the liquidation price.
+In Ajna the [Neutral Price (NP)](https://faqs.ajna.finance/getting-started/glossary#neutral-price-np) acts as the liquidation price.
 
 When a loan is initiated or modified (the first debt, additional debt drawn, or collateral is removed from the loan), the neutral price is set to
 
 &#x20;                                                        <img src="../.gitbook/assets/image (10).png" alt="" data-size="original">\
 \
-where r is the current borrower rate of the pool..
+where r is the current borrower rate of the pool. As time passes, the neutral price increases at the same rate as interest.\
+\
+Read more in section 7.3.1 of the [whitepaper.](https://www.ajna.finance/whitepaper)
 
 ### How does Ajna determine if my loan is insufficiently collateralized?
 
-To determine whether a loan is insufficiently collateralized there are three important variables being used; the loan’s Threshold Price (TP), the loan’s Neutral Price(NP) and the pool’s Lowest Utilized Price (LUP). TP is set by the borrower and is a loan’s debt divided by the collateral. A pool’s LUP is defined as the lowest collateral price bucket against which someone is actively borrowing. If the borrower’s TP crosses above the LUP, then their position is eligible for liquidation. The NP of a loan is set at origination and acts as the liquidation price of the loan. Meaning that a loan must be both eligible and out of position with respect to the NP for it to be profitably liquidated. A loan is liquidatable when the market price of the collateral crosses below the NP.
+To determine whether a loan is insufficiently collateralized there are three important variables being used; the loan’s [Threshold Price (TP)](https://faqs.ajna.finance/getting-started/glossary#threshold-price-tp), the loan’s [Neutral Price(NP)](https://faqs.ajna.finance/getting-started/glossary#neutral-price-np) and the pool’s [Lowest Utilized Price (LUP)](https://faqs.ajna.finance/getting-started/glossary#lowest-utilized-price-lup). \
+\
+TP is set by the borrower and is a loan’s debt divided by the collateral. A pool’s LUP is defined as the lowest collateral price bucket against which someone is actively borrowing. If the borrower’s TP crosses above the LUP, then their position is eligible for liquidation. The NP of a loan is set at origination and acts as the liquidation price of the loan. Meaning that a loan must be both eligible and out of position with respect to the NP for it to be profitably liquidated. A loan is liquidatable when the market price of the collateral crosses below the NP.
+
+### In NFT-collection pools, can a borrower use multiple NFTs in a single position?
+
+Yes.

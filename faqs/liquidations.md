@@ -13,7 +13,6 @@
 [How is a loan's liquidation price set?](liquidations.md#how-is-a-loans-liquidation-price-set)\
 [How do I participate in liquidation auctions?](liquidations.md#how-do-i-participate-in-liquidation-auctions)\
 [What if a liquidation auction clears below a loan's Threshold Price?](liquidations.md#what-if-a-liquidation-auction-clears-below-a-loans-threshold-price)\
-[In NFT-collection pools, can a borrower use multiple NFTs in a single position?](liquidations.md#in-nft-collection-pools-how-do-group-liquidations-work)\
 [In NFT-collection pools, do liquidation auctions happen per single NFT?](liquidations.md#in-nft-collection-pools-do-liquidation-auctions-happen-per-single-nft)\
 [In NFT-collection pools, how do group liquidations work?](liquidations.md#in-nft-collection-pools-how-do-group-liquidations-work)\
 
@@ -44,7 +43,7 @@ Liquidation is a last resort for when a borrower is unable to repay a loan. Liqu
 
 A liquidation happens when the borrower fails to keep their loan in good standing.\
 \
-To determine whether a loan can be appropriately liquidated there are three important variables used by the system; the loan’s _Threshold Price (TP)_, the loan’s _Neutral Price(NP)_ and the pool’s _Lowest Utilized Price (LUP)_. \
+To determine whether a loan can be appropriately liquidated there are three important variables used by the system; the loan’s [_Threshold Price (TP)_](https://faqs.ajna.finance/getting-started/glossary#threshold-price-tp), the loan’s [_Neutral Price(NP)_](https://faqs.ajna.finance/getting-started/glossary#lowest-utilized-price-lup) and the pool’s [_Lowest Utilized Price (LUP)_](https://faqs.ajna.finance/getting-started/glossary#lowest-utilized-price-lup). \
 \
 TP is set by the borrower and is a loan’s debt divided by the collateral. \
 NP is set at origination and when a loan is modified with respect to its debt or collateral and is usually some number above the TP. The NP acts as the effective liquidation price of the loan.\
@@ -54,9 +53,9 @@ If a loan's TP crosses above the pool's LUP, then their position is eligible for
 
 ### What is the liquidation trigger price?
 
-The liquidation trigger price is the price at which a loan can be triggered for liquidation, though it may not necessarily be profitable to do so. When a loan's _Threshold Price (TP)_ crosses above the pool's Lowest Utilized Price (LUP), their position is eligible for liquidation.\
+The liquidation trigger price is the price at which a loan can be triggered for liquidation, though it may not necessarily be profitable to do so. When a loan's [_Threshold Price (TP)_](https://faqs.ajna.finance/getting-started/glossary#threshold-price-tp) crosses above the pool's [Lowest Utilized Price (LUP)](https://faqs.ajna.finance/getting-started/glossary#lowest-utilized-price-lup), their position is eligible for liquidation.\
 \
-It is profitable, through the liquidation bond mechanism, to liquidate a position when the price of its collateral crosses below the Neutral Price(NP).
+It is profitable, through the liquidation bond mechanism, to liquidate a position when the price of its collateral crosses below the [Neutral Price(NP)](https://faqs.ajna.finance/getting-started/glossary#neutral-price-np).
 
 ### Who triggers liquidations?
 
@@ -98,20 +97,23 @@ See section _7.3.2 Sizing the Bond_ in the [whitepaper](https://www.ajna.finance
 
 It is profitable to post a liquidation bond when the sale of collateral is expected to clear below the neutral price of the liquidated loan.\
 \
-Consider the examples:\
+Consider the examples below:\
+\
 Bob sees Dave's loan is eligible for liquidation. The price of ETH is $1800, while the NP of the loan is $1830. Bob expects the collateral to be sold under $1830, accounting for the time the auction takes, and decides to post the bond and trigger the liquidation of the loan to earn a reward.\
 \
 Bob sees Dave's loan is eligible for liquidation. The price of ETH is $1850, while the NP of the loan is $1830. Bob expects the collateral to be sold above $1830 and decides not to start the liquidation despite its eligibility.
 
 ### How is a loan's liquidation price set?
 
-In Ajna the Neutral Price (NP) acts as the liquidation price.
+In Ajna the [Neutral Price (NP)](https://faqs.ajna.finance/getting-started/glossary#neutral-price-np) acts as the liquidation price.
 
 When a loan is initiated or modified (the first debt, additional debt drawn, or collateral is removed from the loan), the neutral price is set to
 
 &#x20;                                                        <img src="../.gitbook/assets/image (10).png" alt="" data-size="original">\
 \
-where r is the current borrower rate of the pool.
+where r is the current borrower rate of the pool. As time passes, the neutral price increases at the same rate as interest.\
+\
+Read more in section 7.3.1 of the [whitepaper.](https://www.ajna.finance/whitepaper)
 
 ### How do I participate in liquidation auctions?
 
@@ -126,18 +128,12 @@ Beginners could use the Ajna application to access this functionality while adva
 
 If a liquidation fails to sell collateral at or above the threshold price, then the loan's left over debt gets deducted from the pool's [reserves](https://faqs.ajna.finance/faqs/reserve-auctions#what-are-reserves). If that is insufficient, then the debt is deducted from the quote token liquidity in the highest price buckets, diluting LPB holders in those buckets.
 
-### In NFT-collection pools, can a borrower use multiple NFTs in a single position?
-
-Yes.
-
 ### In NFT-collection pools, do liquidation auctions happen per single NFT?
 
 If a borrower’s position is backed by multiple NFTs, they will all go to auction simultaneously. If the position is backed by a single NFT, then only that NFT will go to auction.
 
 ### In NFT-collection pools, how do group liquidations work?
 
-In a case where a borrower position backed by multiple NFTs is getting liquidated, Is it all or nothing? Can the NFTs get broken up? Is there a default order if they do? Can bidders specify which NFT they are bidding on?\
-\
 Similar to regular liquidations, once an auction is initiated the entire lot of collateral is available for purchase. Bidder have the option to place a bid on the entire lot or on a specific NFT during a group liquidation. If a bidder does not specify an NFT for their partial bid, a random one is selected (We haven't documented order in which they are taken.)
 
 For `take`, taker provides an integer number of NFTs in `maxAmount_` argument. `bucketTake` can result in fragmenting NFTs in buckets.\

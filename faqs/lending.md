@@ -98,7 +98,7 @@ As collateral price increases, users may want to consider moving their deposit u
 
 * The protocol gets hacked or exploited.
 * Your quote tokens are traded against for collateral at an unfavorable price.
-* If no one posts a bond and the position sits undercollateralized,...
+* If no one posts a bond and the position sits undercollateralized...
   * As a result of interest, bad debt accrues.
 * If no one bids on a liquidation and the collateral is sold for close to 0, bad debt can result.
   * To cover the bad debt, reserves are depleted first and then the lenders from the highest price buckets down.
@@ -109,7 +109,7 @@ There are three scenarios when a lender can lose their deposit:&#x20;
 
 1. If the protocol gets hacked or exploited.
 2. If a lender allows the market price to cross below their deposit's price bucket someone can trade collateral for their deposit, leaving the lender with collateral instead of quote tokens.
-3. If there is bad debt and reserves are insufficient, the lender risks losing part of their deposit.
+3. If there is bad debt and reserves are insufficient, lenders risk losing part or all of their deposits.
 
 ### In what scenario(s) are lender deposits frozen?
 
