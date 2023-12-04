@@ -4,6 +4,10 @@ description: Definitions are simplified and may not be comprehensive.
 
 # 📖 Glossary
 
+#### **Auction Reference Price:**
+
+Is the max(HTP, NP, ReferencePrice\__ActiveAuctions_) and is used in the liquidation auction starting price calculation.
+
 #### **Borrower Inflator (BI)**: &#x20;
 
 The borrower inflator is used in the calculation of the neutral price, which can be used as a liquidation price. BI at a given time t to be the debt that a borrower would have incurred if they had borrowed a single quote token at the initiation of the contract and had never repaid or taken out any additional debt.
