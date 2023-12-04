@@ -189,7 +189,9 @@ The exchange rates between LPB in price bucket with price p, and quote token (de
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-\
+**Unutilized Liquidity:**
+
+All lender deposits below a given pool's HTP. This liquidity does not earn interest since it is not being utilized by anyone.\
 
 
 
