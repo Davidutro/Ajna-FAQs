@@ -125,6 +125,10 @@ The neutral price is essentially a loan's liquidation price. It is recomputed ev
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+**Oracle:**
+
+Oracles provide external data to blockchain applications. They come in the form of price feeds and other informational feeds. The Ajna protocol is built without oracles.
+
 #### **Origination Fee**:&#x20;
 
 Calculated as the greater of the current annualized borrower interest rate divided by 52 (one week of interest) or 5 bps multiplied by the loan’s debt.

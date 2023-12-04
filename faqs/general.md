@@ -12,7 +12,6 @@
 [Does Ajna have a bug bounty?](general.md#does-ajna-have-a-bug-bounty)\
 [What happens if the code becomes outdated?](general.md#what-happens-if-the-code-becomes-outdated)\
 [Does Ajna labs have admin control over the protocol?](general.md#does-ajna-labs-have-admin-control-over-the-protocol)\
-[What are price Oracles?](general.md#what-are-price-oracles)\
 [Why is it a big deal that Ajna’s design excludes price oracles?](general.md#why-is-it-a-big-deal-that-ajnas-design-excludes-price-oracles)\
 [What is the Ajna Foundation?](general.md#what-is-the-ajna-foundation)\
 [Where can I get information about Ajna?](general.md#where-can-i-get-information-about-ajna)\
@@ -96,13 +95,13 @@ The first,\
 [Quantstamp](https://quantstamp.com/) - [https://github.com/ajna-finance/audits/tree/main/quantstamp](https://github.com/ajna-finance/audits/tree/main/quantstamp)\
 [Sherlock](https://www.sherlock.xyz/) - [https://github.com/ajna-finance/audits/tree/main/sherlock](https://github.com/ajna-finance/audits/tree/main/sherlock)\
 [Code4arena](https://code4rena.com/) - [https://github.com/ajna-finance/audits/tree/main/code4rena](https://github.com/ajna-finance/audits/tree/main/code4rena)\
-Prototech labs - [https://github.com/ajna-finance/audits/tree/main/prototech](https://github.com/ajna-finance/audits/tree/main/prototech)\
+[Prototech labs](https://www.prototechlabs.dev/) - [https://github.com/ajna-finance/audits/tree/main/prototech](https://github.com/ajna-finance/audits/tree/main/prototech)\
 \
-The second (links coming soon, as these are currently in progress),\
-Sherlock contest\
-Prototech Labs\
-Individual Audit by Whitehat\
-Certora
+The second (links coming soon),\
+[Sherlock](https://www.sherlock.xyz/) - \
+[Prototech Labs](https://www.prototechlabs.dev/) - \
+[Whitehat Kirill Fedoseev](https://github.com/k1rill-fedoseev) - \
+[Certora](https://www.certora.com/) -&#x20;
 
 ### Does Ajna have a bug bounty?
 
@@ -115,10 +114,6 @@ The Ajna smart contracts are non-upgradable, so if something causes them to brea
 ### Does Ajna labs have admin control over the protocol?
 
 No, Ajna Labs has no ability to change or manipulate the smart contracts once they are deployed.
-
-### What are price Oracles?
-
-Oracles provide external data to blockchain applications.
 
 ### Why is it a big deal that Ajna’s design excludes price oracles?
 
