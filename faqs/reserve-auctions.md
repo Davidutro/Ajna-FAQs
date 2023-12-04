@@ -10,13 +10,11 @@
 
 ### What are reserves?
 
-Reserves are a balance of funds that are collected from Origination Fees, Net Interest Margin and Penalties. Each pool has a reserve, denominated in the pool's quote token.  Reserves act as backup funds for covering bad debt and are also used for buying and burning AJNA tokens through reserve auctions.
+Reserves are a balance of funds that are collected from [Origination Fees](https://faqs.ajna.finance/getting-started/glossary#origination-fee), [Net Interest Margin](https://faqs.ajna.finance/getting-started/glossary#net-interest-margin-nim) and Penalties. Each pool has a reserve, denominated in the pool's quote token.  Reserves act as backup funds for covering bad debt and are also used for buying and burning AJNA tokens through reserve auctions.
 
 ### What are claimable reserves?
 
-For a comprehensive breakdown see section 9.1 in the whitepaper.\
-\
-Claimable reserves are a portion of a pool's reserves that are eligible to be claimed through a reserve auction.\
+Claimable reserves are a portion of a pool's reserves that are eligible to be claimed through a reserve auction. For a comprehensive breakdown see section 9.1 in the [whitepaper](https://www.ajna.finance/whitepaper).\
 
 
 <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Formula to calculate a pool's claimable reserves</p></figcaption></figure>

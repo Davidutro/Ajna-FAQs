@@ -116,7 +116,7 @@ The minimum borrow size is 10% of the average loan size in a given pool. This is
 
 #### **Net Interest Margin (NIM)**:&#x20;
 
-NIM is a percentage of the borrow interest rate that accrues in reserves.
+NIM is a percentage of the borrow interest rate that accrues in reserves. The NIM is approximately 10% of the interest rate revenue. &#x20;
 
 #### **Neutral Price (NP)**:&#x20;
 
