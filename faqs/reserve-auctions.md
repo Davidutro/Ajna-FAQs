@@ -29,11 +29,11 @@ A reserve auction is a sale of claimable reserves for AJNA tokens through a dutc
 
 ### When do reserve auctions occur?
 
-Reserve auctions occur when enough claimable reserves accumulate such that the person triggering the reserve auction makes more money than the transaction costs. There is a 1% of claimable reserves reward for triggering a reserve auction. Additionally, reserve auctions can occur at a maximum of once every two weeks per pool.
+Reserve auctions occur when enough claimable reserves accumulate such that the person triggering the reserve auction makes more money than the transaction costs. Reserve auctions can occur at a maximum of once every two weeks per pool.
 
 ### Who triggers reserve auctions, is there an incentive?
 
-Anyone can trigger a reserve auction and the reward for doing so is 1% of the claimable reserves.
+Anyone can trigger a reserve auction and the incentive is to purchase the reserves at a discount to market, making a profit on the spread.
 
 ### How do I participate in a reserve auction?
 
