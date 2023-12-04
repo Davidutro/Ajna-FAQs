@@ -12,6 +12,7 @@
 [How much does the liquidation bond cost?](liquidations.md#how-much-does-the-liquidation-bond-cost)\
 [How is a loan's liquidation price set?](liquidations.md#how-is-a-loans-liquidation-price-set)\
 [How do I participate in liquidation auctions?](liquidations.md#how-do-i-participate-in-liquidation-auctions)\
+[How does a liquidation auction work?](liquidations.md#how-does-a-liquidation-auction-work)\
 [What if a liquidation auction clears below a loan's Threshold Price?](liquidations.md#what-if-a-liquidation-auction-clears-below-a-loans-threshold-price)\
 [In NFT-collection pools, do liquidation auctions happen per single NFT?](liquidations.md#in-nft-collection-pools-do-liquidation-auctions-happen-per-single-nft)\
 [In NFT-collection pools, how do group liquidations work?](liquidations.md#in-nft-collection-pools-how-do-group-liquidations-work)\
@@ -123,6 +124,14 @@ The first, as a loan "kicker". This actor posts liquidation bonds and kicks loan
 The second, as an auction bidder. This actor bids on collateral during liquidation auctions.\
 \
 Beginners could use the Ajna application to access this functionality while advanced actors can develop their own UIs or automations.
+
+### How does a liquidation auction work?
+
+Liquidation auctions are in dutch auction format where at the start of the auction the price per unit of collateral is very high and gradually becomes lower over time. In Ajna, liquidation auctions span a maximum of 72 hours. The collateral price starts at 256 times the greater of the [HTP](https://faqs.ajna.finance/getting-started/glossary#highest-price-bucket-hpb) or [NP](https://faqs.ajna.finance/getting-started/glossary#neutral-price-np) and exponentially decays towards 0 starting with 6 twenty minute halvings, followed by 6 two hour halvings, followed by hour halvings till the end of the 72 hour auction. Bidders may either use quote token or deposit in the pool to participate.
+
+If a deposit is used to participate in the auction, that deposit is canceled and removed from the bucket. If there is collateral remaining in an auction after 72 hours have passed, any actor may settle the auction and claim the remaining collateral.\
+\
+For more details check out section 7.4 in the [Whitepaper](https://www.ajna.finance/whitepaper).
 
 ### What if a liquidation auction clears below a loan's Threshold Price?
 
