@@ -22,3 +22,4 @@ No.
 1. Buy them on the open market (once token is launched and distributed).
 2. Earn them by participating as a delegate.
 3. Earn them through usage-rewards offered by third parties.
+4. If you have something you could do that would contribute to protocol success, [propose a grant](https://forum.ajna.finance/).
