@@ -83,7 +83,7 @@ To vote on proposals visit [https://app.ajna.finance/grants](https://app.ajna.fi
 ### How much AJNA is granted every cycle?
 
 3% of the treasury is the maximum AJNA granted per cycle. \
-The treasury began with approximately 30% of the total token supply, a total of slightly under 300,000,000 AJNA.&#x20;
+The treasury began with approximately 25% of the total token supply, a total of slightly under 250,000,000 AJNA.&#x20;
 
 ### How many grants can be funded per cycle?
 
