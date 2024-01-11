@@ -46,7 +46,7 @@ A liquidation happens when the borrower fails to keep their loan in good standin
 \
 To determine whether a loan can be appropriately liquidated there are three important variables used by the system; the loan’s [_Threshold Price (TP)_](https://faqs.ajna.finance/getting-started/glossary#threshold-price-tp), the loan’s [_Neutral Price(NP)_](https://faqs.ajna.finance/getting-started/glossary#lowest-utilized-price-lup) and the pool’s [_Lowest Utilized Price (LUP)_](https://faqs.ajna.finance/getting-started/glossary#lowest-utilized-price-lup). \
 \
-TP is set by the borrower and is a loan’s debt divided by the collateral. \
+TP is set by the borrower and is a loan’s debt x 1.04 divided by the collateral. \
 NP is set at origination and when a loan is modified with respect to its debt or collateral and is usually some number above the TP. The NP acts as the effective liquidation price of the loan.\
 LUP moves freely and is defined as the lowest collateral price bucket against which someone is actively borrowing.\
 \
@@ -110,7 +110,7 @@ In Ajna the [Neutral Price (NP)](https://faqs.ajna.finance/getting-started/gloss
 
 When a loan is initiated or modified (the first debt, additional debt drawn, or collateral is removed from the loan), the neutral price is set to
 
-&#x20;                                                        <img src="../.gitbook/assets/image (10).png" alt="" data-size="original">\
+&#x20;                                                       ![](<../.gitbook/assets/image (12).png>)             \
 \
 where r is the current borrower rate of the pool. As time passes, the neutral price increases at the same rate as interest.\
 \
