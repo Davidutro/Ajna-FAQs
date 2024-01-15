@@ -87,6 +87,10 @@ Depositing too low:
 
 To learn more check out [Summer.fi's dive into this question.](https://docs.summer.fi/protocols/ajna/tutorials-and-guides/how-to-pick-the-right-level-for-lending)
 
+### How do I decide what price bucket to deposit into for short pools?
+
+The price buckets should be somewhere below _1 / market-price_. An example would be the USDC/AAVE pool where USDC is collateral in AAVE is the quote token.&#x20;
+
 ### What do I need to do after depositing quote tokens?
 
 Occasionally users may want to move their deposits to different price buckets. Monitoring the market price of the collateral token is key to making such decisions.&#x20;
