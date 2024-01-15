@@ -97,7 +97,7 @@ As collateral price increases, users may want to consider moving their deposit u
 
 ### Can I update my lending price if my assets are being utilized?
 
-Yes, as long as the utilized assets are not frozen due to an active liquidation or&#x20;
+Yes, unless the assets are frozen due to an active liquidation or if moving them results in the LUP moving below the HTP.
 
 ### What can go wrong?
 
