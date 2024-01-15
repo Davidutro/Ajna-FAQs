@@ -17,7 +17,7 @@ Reserves are a balance of funds that are collected from [Origination Fees](https
 Claimable reserves are a portion of a pool's reserves that are eligible to be claimed through a reserve auction. For a comprehensive breakdown see section 9.1 in the [whitepaper](https://www.ajna.finance/whitepaper).\
 
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Formula to calculate a pool's claimable reserves</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Formula to calculate a pool's claimable reserves</p></figcaption></figure>
 
 ### What is Net Interest Margin?
 

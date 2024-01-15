@@ -7,6 +7,7 @@
 [What are the fees?](lending.md#what-are-the-fees)\
 [How do I decide on what price bucket to deposit into?](lending.md#how-do-i-decide-what-price-bucket-to-deposit-into)\
 [What do I need to do after depositing quote tokens?](lending.md#what-do-i-need-to-do-after-depositing-quote-tokens)\
+[Can I update my lending price if my assets are being utilized?](lending.md#can-i-update-my-lending-price-if-my-assets-are-being-utilized)\
 [What can go wrong?](lending.md#what-can-go-wrong)\
 [In what scenario(s) can a lender lose their deposit?](lending.md#in-what-scenario-s-can-a-lender-lose-their-deposit)\
 [In what scenario(s) are lender deposits frozen?](lending.md#in-what-scenario-s-are-lender-deposits-frozen)\
@@ -25,8 +26,8 @@ Users choose what valuation they are willing to lend against by depositing token
 
 * Easy
   * [The Summer.Fi app](https://summer.fi/ajna)
-  * Static Open Source Frontend (soon)
-  * Other apps with Ajna integrated (soon)
+  * [The BuiltbyMom app](https://www.ajnafi.com)
+  * Other apps (soon)
 * Advanced
   * Use the SDK to build an interface or bots (soon)
   * Ether.js or Web3.py (interacts with Ethereum) & connect to your own node (soon)
@@ -93,6 +94,10 @@ Occasionally users may want to move their deposits to different price buckets. M
 As the collateral price drops, users may want to consider moving their deposit down.&#x20;
 
 As collateral price increases, users may want to consider moving their deposit up.
+
+### Can I update my lending price if my assets are being utilized?
+
+Yes, as long as the utilized assets are not frozen due to an active liquidation or&#x20;
 
 ### What can go wrong?
 

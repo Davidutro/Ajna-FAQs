@@ -124,12 +124,12 @@ NIM is a percentage of the borrow interest rate that accrues in reserves. The NI
 
 #### **Neutral Price (NP)**:&#x20;
 
-The neutral price is essentially a loan's liquidation price. It is recomputed every time the borrower draws more debt, or removes collateral. The NP is used in the liquidation bond to reward or punish kickers of liquidations. It is calculated as:\
+The neutral price is essentially a loan's liquidation price. It is recomputed every time the borrower draws more debt, or removes collateral. The NP is used in the liquidation bond to reward or punish kickers of liquidations. It is calculated as:
+
+&#x20;                        ![](<../.gitbook/assets/image (2).png>)\
 
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-#### **Oracle:**
+**Oracle:**
 
 Oracles provide external data to blockchain applications. They come in the form of price feeds and other informational feeds. The Ajna protocol is built without oracles.
 
@@ -179,7 +179,7 @@ The take penalty factor is used to compute the Take Penalty, which is the TPF ti
 The ratio of the 3.5 day EMA of system debt to 3.5 day EMA of LUP\*totalCollateral. This is able to be sampled / stored every half day (at the same time that interest rate updates become eligible) although gaps are OK. The lambda used for the EMAs is \
 
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Threshold Price (TP)**:&#x20;
 
@@ -200,7 +200,7 @@ A balance of AJNA tokens, initially 30% of the total token supply, 300,000,000 t
 The exchange rates between LPB in price bucket with price p, and quote token (deposit) and collateral token (claimable collateral) are:\
 
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Unutilized Liquidity:**
 
