@@ -6,6 +6,7 @@
 [What can I lend against?](lending.md#what-can-i-lend-against)\
 [What are the fees?](lending.md#what-are-the-fees)\
 [How do I decide on what price bucket to deposit into?](lending.md#how-do-i-decide-what-price-bucket-to-deposit-into)\
+[How do I calculate the price buckets for short pools?](lending.md#how-do-i-calculate-the-price-buckets-for-short-pools)\
 [What do I need to do after depositing quote tokens?](lending.md#what-do-i-need-to-do-after-depositing-quote-tokens)\
 [Can I update my lending price if my assets are being utilized?](lending.md#can-i-update-my-lending-price-if-my-assets-are-being-utilized)\
 [What can go wrong?](lending.md#what-can-go-wrong)\
@@ -87,7 +88,7 @@ Depositing too low:
 
 To learn more check out [Summer.fi's dive into this question.](https://docs.summer.fi/protocols/ajna/tutorials-and-guides/how-to-pick-the-right-level-for-lending)
 
-### How do I decide what price bucket to deposit into for short pools?
+### How do I calculate the price buckets for short pools?
 
 The price buckets should be somewhere below _1 / market-price_. An example would be the USDC/AAVE pool where USDC is collateral in AAVE is the quote token.&#x20;
 
