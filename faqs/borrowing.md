@@ -149,7 +149,7 @@ In Ajna the [Neutral Price (NP)](https://faqs.ajna.finance/getting-started/gloss
 
 When a loan is initiated or modified (the first debt, additional debt drawn, or collateral is removed from the loan), the neutral price is set to
 
-&#x20;                                                        <img src="../.gitbook/assets/image (10).png" alt="" data-size="original">\
+&#x20;                            ![](<../.gitbook/assets/image (14).png>)\
 \
 where r is the current borrower rate of the pool. As time passes, the neutral price increases at the same rate as interest.\
 \
@@ -159,7 +159,7 @@ Read more in section 7.3.1 of the [whitepaper.](https://www.ajna.finance/whitepa
 
 To determine whether a loan is insufficiently collateralized there are three important variables being used; the loan’s [Threshold Price (TP)](https://faqs.ajna.finance/getting-started/glossary#threshold-price-tp), the loan’s [Neutral Price(NP)](https://faqs.ajna.finance/getting-started/glossary#neutral-price-np) and the pool’s [Lowest Utilized Price (LUP)](https://faqs.ajna.finance/getting-started/glossary#lowest-utilized-price-lup). \
 \
-TP is set by the borrower and is a loan’s debt divided by the collateral. A pool’s LUP is defined as the lowest collateral price bucket against which someone is actively borrowing. If the borrower’s TP crosses above the LUP, then their position is eligible for liquidation. The NP of a loan is set at origination and acts as the liquidation price of the loan. Meaning that a loan must be both eligible and out of position with respect to the NP for it to be profitably liquidated. A loan is liquidatable when the market price of the collateral crosses below the NP.
+TP is set by the borrower and is a loan’s debt multiplied by 4%, divided by the collateral. A pool’s LUP is defined as the lowest collateral price bucket against which someone is actively borrowing. If the borrower’s TP crosses above the LUP, then their position is eligible for liquidation. The NP of a loan is set at origination and acts as the liquidation price of the loan. Meaning that a loan must be both eligible and out of position with respect to the NP for it to be profitably liquidated. A loan is liquidatable when the market price of the collateral crosses below the NP.
 
 ### In NFT-collection pools, can a borrower use multiple NFTs in a single position?
 
