@@ -30,8 +30,7 @@ Users choose what valuation they are willing to lend against by depositing token
   * [The BuiltbyMom app](https://www.ajnafi.com)
   * Other apps (soon)
 * Advanced
-  * Use the SDK to build an interface or bots (soon)
-  * Ether.js or Web3.py (interacts with Ethereum) & connect to your own node (soon)
+  * Use [the SDK](https://www.npmjs.com/package/@ajna-finance/sdk) to build an interface or bots
 
 ### What can I lend?
 

@@ -161,7 +161,7 @@ Is the max(HTP, NP) and is used in the liquidation auction starting price calcul
 
 #### **Reserves**:&#x20;
 
-Origination fees, deposit penalties, and net interest margin on loans accumulate in pool reserves. Reserves are used to provide a liquidity cushion to lenders by absorbing bad debt if some should occur. Reserves are also used to buy and burn AJNA tokens.
+Origination fees, take penalties, and net interest margin on loans accumulate in pool reserves. Reserves are used to provide a liquidity cushion to lenders by absorbing bad debt if some should occur. Reserves are also used to buy and burn AJNA tokens.
 
 #### **Screening Stage**:&#x20;
 
