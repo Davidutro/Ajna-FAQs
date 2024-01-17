@@ -124,7 +124,7 @@ NIM is a percentage of the borrow interest rate that accrues in reserves. The NI
 
 #### **Neutral Price (NP)**:&#x20;
 
-The neutral price is essentially a loan's liquidation price. It is recomputed every time the borrower draws more debt, or removes collateral. The NP is used in the liquidation bond to reward or punish kickers of liquidations. It is calculated as:
+The neutral price is essentially a loan's liquidation price. It is recomputed every time the borrower draws more debt, or removes collateral. The NP is used in the liquidation bond to reward or punish kickers of liquidations. It is calculated as `np = (debt/coll) * 1.04 * (1 + sqrt(2)/2)` or
 
 &#x20;                        ![](<../.gitbook/assets/image (2).png>)\
 
