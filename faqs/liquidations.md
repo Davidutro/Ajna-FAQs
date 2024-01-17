@@ -108,7 +108,7 @@ Bob sees Dave's loan is eligible for liquidation. The price of ETH is $1850, whi
 
 In Ajna the [Neutral Price (NP)](https://faqs.ajna.finance/getting-started/glossary#neutral-price-np) acts as the liquidation price.
 
-When a loan is initiated or modified (the first debt, additional debt drawn, or collateral is removed from the loan), the neutral price is set to
+When a loan is initiated or modified (the first debt, additional debt drawn, or collateral is removed from the loan), the neutral price is set to `np = (debt/coll) * 1.04 * (1 + sqrt(2)/2)` or
 
 &#x20;                        ![](<../.gitbook/assets/image (1).png>)             \
 \
