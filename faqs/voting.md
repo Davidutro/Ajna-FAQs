@@ -78,7 +78,9 @@ Funding stage: Voting power is based upon a snapshot of an address' voting power
 \
 Challenge stage: There is no voting during the challenge stage. Rather, anyone can submit an alternative optimal set of results from the funding stage.\
 \
-There are no quorums.
+There are no quorums.\
+\
+_Note that the Ajna tokens need to be available/delegated for the entire 33 block snapshot before in order to be eligible. Being present for one block then moving the tokens out wouldn’t include moved tokens in voting power calculations._
 
 ### Is there a minimum vote requirement for a proposal to receive funding?
 
