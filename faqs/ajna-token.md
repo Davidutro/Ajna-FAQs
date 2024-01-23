@@ -49,7 +49,7 @@ The bwAJNA tokens that are exchanged will be burned by the AJNA protocol on Poly
 
 ### How do I burn wrap AJNA to get bwAJNA?
 
-Do so by going to [ajnafi.com](https://www.ajnafi.com) and navigating to any pool's "manage pool" section, then go to the "reserves" tab, then interact with the "Wrap AJNA for L2s" widget on the bottom left.
+Do so by going to [ajnafi.com](https://www.ajnafi.com), make sure you're on Ethereum mainnet, then navigate to any pool's "manage pool" section, then go to the "reserves" tab, then interact with the "Wrap AJNA for L2s" widget on the bottom left.
 
 <figure><img src="https://lh7-us.googleusercontent.com/kFlR7WtT1lC6xgYFYO7LlNFjqhI8tQ9VS7m4hc3VTyCLA_crNz-G1RixA9meMoPKCse1TLmGJfU2ajKYXigLUNUZlgR3BtUsYBMvzgM-tNLw_mm5FXo-itINmZ4BhThlPQoHu0DUoTHOsKx0oKY1L3Q" alt=""><figcaption></figcaption></figure>
 
