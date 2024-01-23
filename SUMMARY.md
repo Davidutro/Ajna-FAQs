@@ -20,4 +20,4 @@
 
 ## Info
 
-* [⛓ Deployment Addresses](info/deployment-addresses.md)
+* [⛓ Deployment Addresses & Bridges](info/deployment-addresses-and-bridges.md)
