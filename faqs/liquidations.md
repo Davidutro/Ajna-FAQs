@@ -28,7 +28,7 @@ Liquidation is a last resort for when a borrower is unable to repay a loan. Liqu
 
 ### Where can I access a UI for liquidations?
 
-1. Go to [https://app.ajna.finance/](https://app.ajna.finance/)
+1. Go to [https://ajnafi.com/](https://ajnafi.com/)
 2. Click `Pool Details`\
    ![](../.gitbook/assets/chrome\_2023-08-07\_14-18-35.png)
 3. Click `Manage Pool`
@@ -68,7 +68,7 @@ The purchase of a [liquidation bond](https://faqs.ajna.finance/faqs/liquidations
 
 ### Where can I trigger liquidations?
 
-1. Go to [https://app.ajna.finance/](https://app.ajna.finance/)
+1. Go to [https://ajnafi.com/](https://ajnafi.com/)
 2. Click `Pool Details`\
    ![](<../.gitbook/assets/chrome\_2023-08-07\_14-18-35 (1).png>)
 3.  Click `Manage Pool`\
