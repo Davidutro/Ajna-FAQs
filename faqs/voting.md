@@ -50,7 +50,7 @@ For more detail review sections 9.2.1 in the whitepaper.
 
 ### How do I vote on a proposal?
 
-To vote on proposals visit [https://grants.ajnafi.com/overview](https://grants.ajnafi.com/overview),[ ](https://grants.ajnafi.com/)delegate to an address yourself, then vote. Another option is to delegate your votes to an address that will participate on your behalf.
+To vote on proposals visit [https://grants.ajnafi.com](https://grants.ajnafi.com/overview),[ ](https://grants.ajnafi.com/)delegate to an address yourself, then vote. Another option is to delegate your votes to an address that will participate on your behalf.
 
 ### What is the screening stage?
 
