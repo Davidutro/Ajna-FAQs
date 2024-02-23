@@ -1,4 +1,4 @@
-# 🕳 Liquidations
+# 🕳️ Liquidations
 
 [What is a liquidation?](liquidations.md#what-is-a-liquidation)\
 [Where can I access a UI for liquidations?](liquidations.md#where-can-i-access-a-ui-for-liquidations)\
@@ -90,7 +90,9 @@ This requirement creates a disincentive to liquidate loans that are sufficiently
 
 ### How much does the liquidation bond cost?
 
-A bond is priced as a percentage of the debt that is being liquidated. It can range from 1% to 30%.\
+A bond is priced as a percentage of the debt that is being liquidated. It can range from 1% to 3%.\
+\
+Bond Factor = min{3%, TP/NP Ratio - 1 / 10}\
 \
 See section _7.3.2 Sizing the Bond_ in the [whitepaper](https://www.ajna.finance/whitepaper) for full detail.
 
