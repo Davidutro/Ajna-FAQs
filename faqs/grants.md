@@ -74,11 +74,11 @@ There is a sweet spot to attract high quality contributors with competitive fund
 
 ### How do I submit a proposal?
 
-To submit a proposals post the details on [https://forum.ajna.finance/c/grant-proposals](https://forum.ajna.finance/c/grant-proposals) and submit the actual grant request on [https://app.ajna.finance/grants](https://app.ajna.finance/grants) during the screening stage of a grant cycle.
+To submit a proposals post the details on [https://forum.ajna.finance/c/grant-proposals](https://forum.ajna.finance/c/grant-proposals) and submit the actual grant request on [https://grants.ajnafi.com/overview](https://grants.ajnafi.com/overview) during the [screening stage](../getting-started/glossary.md#screening-stage) of a grant cycle.
 
 ### How do I vote on a proposal?
 
-To vote on proposals visit [https://app.ajna.finance/grants](https://app.ajna.finance/grants), delegate to an address you own, then vote. Another option is to delegate your votes to an address that will participate on your behalf.
+To vote on proposals visit [https://grants.ajnafi.com/overview](https://grants.ajnafi.com/overview), delegate to an address you own, then vote. Another option is to delegate your votes to an address that will participate on your behalf.
 
 ### How much AJNA is granted every cycle?
 
@@ -101,6 +101,6 @@ _**BEWARE**_ tokens cannot be sent to the contract address with a standard `tran
 
 ### My proposal was approved, how do I claim the grant?
 
-Grants can be claimed [here](https://app.ajna.finance/grants), or by doing a manual transaction calling `fundTreasury()` on the treasury contract
+Grants can be [claimed here](https://grants.ajnafi.com/execute), or by doing a manual transaction calling `fundTreasury()` on the treasury contract
 
 \
