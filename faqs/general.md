@@ -105,20 +105,20 @@ The protocol is written to work on any EVM (Ethereum Virtual Machine) compatible
 
 ### Has Ajna been audited?
 
-Ajna went through multiple rounds of audits.\
+The Ajna Protocol code went through 10 audits.\
 \
-The first,\
-[Trail of Bits](https://www.trailofbits.com/) - [https://github.com/ajna-finance/audits/tree/main/tob](https://github.com/ajna-finance/audits/tree/main/tob)\
-[Quantstamp](https://quantstamp.com/) - [https://github.com/ajna-finance/audits/tree/main/quantstamp](https://github.com/ajna-finance/audits/tree/main/quantstamp)\
-[Sherlock](https://www.sherlock.xyz/) - [https://github.com/ajna-finance/audits/tree/main/sherlock](https://github.com/ajna-finance/audits/tree/main/sherlock)\
-[Code4arena](https://code4rena.com/) - [https://github.com/ajna-finance/audits/tree/main/code4rena](https://github.com/ajna-finance/audits/tree/main/code4rena)\
-[Prototech labs](https://www.prototechlabs.dev/) - [https://github.com/ajna-finance/audits/tree/main/prototech](https://github.com/ajna-finance/audits/tree/main/prototech)\
+A full breakdown of all the audits can be [found here, on the Ajna Github](https://github.com/ajna-finance/audits/blob/main/README.md).\
 \
-The second (links coming soon),\
-[Sherlock](https://www.sherlock.xyz/) - \
-[Prototech Labs](https://www.prototechlabs.dev/) - \
-[Whitehat Kirill Fedoseev](https://github.com/k1rill-fedoseev) - \
-[Certora](https://www.certora.com/) -&#x20;
+1\. Sherlock 1st contest (Jan 9, 2023 - Jan 30, 2023)\
+2\. Trail Of Bits Audit (Feb 13, 2023 - April 3, 2023)\
+3\. Quantstamp Audit (April 24, 2023 - May 3, 2023)\
+4\. Prototech Audit (April 26, 2023 - June 5, 2023)\
+5\. Code4rena Audit (May 3, 2023 - May 11, 2023)\
+6\. Sherlock 2nd contest (June 5, 2023 - June 22, 2023)\
+7\. Fixed Point Solutions & Servo Farms (August 7, 2023 - August 31, 2023)\
+8\. Kirill (October 6, 2023 - December 21, 2023)\
+9\. Certora (October 6, 2023 - December 21, 2023)\
+10\. Sherlock 3rd contest (October 13, 2023 - October 27, 2023)
 
 ### Does Ajna have a bug bounty?
 
