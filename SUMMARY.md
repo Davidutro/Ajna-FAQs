@@ -22,3 +22,4 @@
 
 * [⛓️ Deployment Addresses & Bridges](info/deployment-addresses-and-bridges.md)
 * [🚢 How to Deploy](info/how-to-deploy.md)
+* [🧑‍🏫 Protocol Diagram](info/protocol-diagram.md)
