@@ -64,7 +64,10 @@ _**Current UIs for borrow/lending**_ \
 
 _**Current UIs for liquidations**_\
 [Liquidations UI](https://app.ajna.finance/markets) | https://Ajnafi.com\
-_To be a kicker or participate in auctions, click on pool details and click "manage pool"_&#x20;
+_To be a kicker or participate in auctions, click on pool details and click "manage pool"_ \
+\
+_**Access Old Pools from first deployment**_\
+[_https://retired.ajnafi.com/_](https://retired.ajnafi.com/)
 
 ### Who are the Stakeholders of the protocol?
 
