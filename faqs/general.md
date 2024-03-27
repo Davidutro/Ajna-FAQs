@@ -58,11 +58,12 @@ Lastly, Ajna can facilitate shorting markets. By designating an “XYZ” token 
 ### Where can I use the Ajna Protocol?
 
 _**Current UIs for borrow/lending**_ \
-[Summer.fi](https://summer.fi/ajna) ([Rewards active](https://blog.summer.fi/ajna-rewards-update/)) | https://summer.fi/ajna/earn \
-[BuiltbyMom UI](https://ajnafi.com) | https://Ajnafi.com
+[Summer.fi](https://summer.fi/ajna) | [https://summer.fi/ajna/earn ](https://summer.fi/ajna)\
+[BuiltbyMom UI](https://ajnafi.com) | [https://Ajnafi.com](https://ajnafi.com)\
+[Yearn Lender UI](https://twitter.com/yearnfi) | [https://juiced.yearn.fi/](https://juiced.yearn.fi/)
 
 _**Current UIs for liquidations**_\
-[Liquidations UI](https://app.ajna.finance/markets) | https://app.ajna.finance/markets\
+[Liquidations UI](https://app.ajna.finance/markets) | https://Ajnafi.com\
 _To be a kicker or participate in auctions, click on pool details and click "manage pool"_&#x20;
 
 ### Who are the Stakeholders of the protocol?
