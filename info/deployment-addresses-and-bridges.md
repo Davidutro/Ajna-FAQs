@@ -77,7 +77,9 @@ Blockchain explorer: [https://polygonscan.com/](https://polygonscan.com/)
 
 Canonical Bridge from Ethereum Mainnet: [**https://omni.gnosischain.com/bridge**](https://omni.gnosischain.com/bridge)
 
-Blockchain explorer: [https://gnosisscan.io/](https://gnosisscan.io/)
+Blockchain explorer: [https://gnosisscan.io/](https://gnosisscan.io/)\
+\
+Other: [https://github.com/gunboatsss/ajna-core/tree/gnosis-deployments/deployments](https://github.com/gunboatsss/ajna-core/tree/gnosis-deployments/deployments)
 
 <table><thead><tr><th>Contract</th><th>Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0x7fE440bC581DA8fF0173a588D3f7603814393763</td><td>2024.01.23</td><td><a href="https://mapper.polygon.technology/map">https://mapper.polygon.technology/map</a></td></tr><tr><td>ERC20 factory</td><td>0x87578E357358163FCAb1711c62AcDB5BBFa1C9ef</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0xc7Fc13Fa7B697fBE3bdC56D5b9A6586A83254126</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x2baB4c287cF33a6eC373CFE152FdbA299B653F7D</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x6A91429425Fb992A9cf300aD215e4469d0D1A75A</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x173b32A07b41296909d7972421d63BAbA5160B37</td><td>2024.01.23</td><td>deploy.s.sol</td></tr></tbody></table>
 
