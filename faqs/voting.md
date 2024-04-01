@@ -1,4 +1,4 @@
-# 🧑⚖ Voting
+# 🧑‍⚖️ Voting
 
 [What gets voted on at Ajna?](voting.md#what-gets-voted-on-at-ajna)\
 [How does the voting system work?](voting.md#how-does-the-voting-system-work)\
@@ -7,6 +7,7 @@
 [What is the funding stage?](voting.md#what-is-the-funding-stage)\
 [What proposals are voted on in the funding stage?](voting.md#what-proposals-are-voted-on-in-the-funding-stage)\
 [What is the challenge stage?](voting.md#what-is-the-challenge-stage)\
+[If an optimal slate is not submitted during the challenge stage, what happens?](voting.md#if-an-optimal-slate-is-not-submitted-during-the-challenge-stage-what-happens)\
 [How are votes counted?](voting.md#how-are-votes-counted)\
 [Is there a minimum vote requirement for a proposal to receive funding?](voting.md#is-there-a-minimum-vote-requirement-for-a-proposal-to-receive-funding)\
 [Who is eligible to participate in the voting process?](voting.md#who-is-eligible-to-participate-in-the-voting-process)\
@@ -69,6 +70,10 @@ Only the top 10 proposals from the screening stage can be voted on in the fundin
 ### What is the challenge stage?
 
 After the Funding Stage concludes, there is a one-week challenge stage where alternative sets of winning proposals can be submitted. During this time, the optimal batch of proposals is selected by considered factors such as budget constraint and votes received. If a new batch is submitted that is just as optimal as the current one, than the current one stays in place.
+
+### If an optimal slate is not submitted during the challenge stage, what happens?
+
+If no slate is submitted than no proposals can be executed and the tokens would be returned to the treasury.
 
 ### How are votes counted?
 
