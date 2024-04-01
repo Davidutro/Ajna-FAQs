@@ -69,7 +69,7 @@ Only the top 10 proposals from the screening stage can be voted on in the fundin
 
 ### What is the challenge stage?
 
-After the Funding Stage concludes, there is a one-week challenge stage where alternative sets of winning proposals can be submitted. During this time, the optimal batch of proposals is selected by considered factors such as budget constraint and votes received. If a new batch is submitted that is just as optimal as the current one, than the current one stays in place.
+After the Funding Stage concludes, there is a one-week challenge stage where alternative sets of winning proposals can be submitted. During this time, the optimal batch of proposals is selected by considered factors such as budget constraint and votes received. If a new batch is submitted that is just as optimal as the current one, than the current one stays in place. If a non-optimal configuration is submitted, anyone can challenge it with the optimal configuration.
 
 ### If an optimal slate is not submitted during the challenge stage, what happens?
 
