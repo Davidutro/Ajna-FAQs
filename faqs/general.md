@@ -60,7 +60,7 @@ Lastly, Ajna can facilitate shorting markets. By designating an “XYZ” token 
 _**Current UIs for borrow/lending**_ \
 [Summer.fi](https://summer.fi/ajna) | [https://summer.fi/ajna/earn ](https://summer.fi/ajna)\
 [BuiltbyMom UI](https://ajnafi.com) | [https://Ajnafi.com](https://ajnafi.com)\
-[Yearn Lender UI](https://twitter.com/yearnfi) | [https://juiced.yearn.fi/](https://juiced.yearn.fi/)
+[Yearn Lender UI](https://twitter.com/yearnfi) | [https://juiced.app/pools](https://juiced.app/pools)
 
 _**Current UIs for liquidations**_\
 [Liquidations UI](https://app.ajna.finance/markets) | https://Ajnafi.com\
