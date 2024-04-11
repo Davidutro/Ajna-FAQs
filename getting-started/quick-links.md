@@ -15,15 +15,27 @@ Whitepaper | [https://www.ajna.finance/whitepaper](https://www.ajna.finance/whit
 
 ### Current UIs for Borrowing and Lending
 
-Summer.fi | [https://summer.fi/ajna/earn](https://summer.fi/ajna/earn)
+Ajnafi | [https://ajnafi.com/](https://ajnafi.com/)\
+Summer.fi | [https://summer.fi/ajna/earn](https://summer.fi/ajna/earn)\
+Juiced | [https://juiced.app/pools](https://juiced.app/pools)
 
 ### Current UIs for Liquidations
 
-AjnaFi | [https://app.ajna.finance/markets](https://app.ajna.finance/markets)\
-_To be a kicker or participate in auctions, click on pool details and click "manage pool"_&#x20;
+AjnaFi | [https://ajnafi.com/](https://ajnafi.com/)\
+_To be a kicker or participate in auctions, click on pool details and click "manage pool"_ \
+\
+Find liquidation opportunities \
+[https://info.ajna.finance/ethereum/auctions](https://info.ajna.finance/ethereum/auctions)\
+[https://info.ajna.finance/base/auctions](https://info.ajna.finance/base/auctions)\
+[https://info.ajna.finance/polygon/auctions](https://info.ajna.finance/polygon/auctions)\
+[https://info.ajna.finance/arbitrum/auctions](https://info.ajna.finance/arbitrum/auctions)\
+[https://info.ajna.finance/optimism/auctions](https://info.ajna.finance/optimism/auctions)\
+[https://info.ajna.finance/blast/auctions](https://info.ajna.finance/blast/auctions)\
+[https://info.ajna.finance/gnosis/auctions](https://info.ajna.finance/gnosis/auctions)
 
 ### Community Things
 
+Ajna Alerts via Domino | [https://domino.run/explore/apps/ajna-oy238dpmiui](https://domino.run/explore/apps/ajna-oy238dpmiui)\
 Reddit | [https://www.reddit.com/r/AjnaFi/ ](https://www.reddit.com/r/AjnaFi/)
 
 ### Other Stuff
