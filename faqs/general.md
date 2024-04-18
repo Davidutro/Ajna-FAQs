@@ -12,6 +12,7 @@
 [Has Ajna been audited?](general.md#has-ajna-been-audited)\
 [Does Ajna have a bug bounty?](general.md#does-ajna-have-a-bug-bounty)\
 [What happens if the code becomes outdated?](general.md#what-happens-if-the-code-becomes-outdated)\
+[What happens if the front end sites go down?](general.md#what-happens-if-the-front-end-sites-go-down)\
 [Does Ajna labs have admin control over the protocol?](general.md#does-ajna-labs-have-admin-control-over-the-protocol)\
 [Why is it a big deal that Ajna’s design excludes price oracles?](general.md#why-is-it-a-big-deal-that-ajnas-design-excludes-price-oracles)\
 [What is the Ajna Foundation?](general.md#what-is-the-ajna-foundation)\
