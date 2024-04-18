@@ -132,6 +132,12 @@ Ajna will have a bug bounty once redeployed.
 
 The Ajna smart contracts are non-upgradable, so if something causes them to break or work sub-optimally the only remedy is to launch a newer version of Ajna in parallel that contains any needed fixes.&#x20;
 
+### What happens if the front end sites go down?
+
+Even though ajnafi.com does utilize a helper contract, in result you get a regular position, with no gotchas. Meaning it'll work in Etherscan's contracts UI or in theoretical alternative frontend.
+
+Summer.fi contracts are all executable through etherscan too, and their frontend is opensource too for anyone to be able to run it themselves (although it takes some technical understanding and you're own RPC keys etc)
+
 ### Does Ajna labs have admin control over the protocol?
 
 No, Ajna Labs has no ability to change or manipulate the smart contracts once they are deployed.
