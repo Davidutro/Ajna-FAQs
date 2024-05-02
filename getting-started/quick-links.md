@@ -5,6 +5,8 @@
 Analytics | [https://info.ajna.finance/ethereum](https://info.ajna.finance/ethereum) \
 Audits | [https://github.com/ajna-finance/audits](https://github.com/ajna-finance/audits)\
 Deployment Addresses | [https://faqs.ajna.finance/info/deployment-addresses ](https://faqs.ajna.finance/info/deployment-addresses)\
+Dev Guides | [https://ajna-by-example.org/](https://ajna-by-example.org/)\
+Discord | [https://discord.gg/F4NEtJnY2j](https://discord.gg/F4NEtJnY2j)\
 ELI5 | [https://www.ajna.finance/eli5](https://www.ajna.finance/eli5) \
 FAQs | [https://faqs.ajna.finance/ ](https://faqs.ajna.finance/)\
 GitHub | [https://github.com/ajna-finance](https://github.com/ajna-finance) \
