@@ -179,7 +179,7 @@ The take penalty factor is used to compute the Take Penalty, which is the TPF ti
 The ratio of the 3.5 day EMA of system debt to 3.5 day EMA of LUP\*totalCollateral. This is able to be sampled / stored every half day (at the same time that interest rate updates become eligible) although gaps are OK. The lambda used for the EMAs is \
 
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Threshold Price (TP)**:&#x20;
 

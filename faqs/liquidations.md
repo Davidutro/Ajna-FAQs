@@ -33,7 +33,7 @@ Liquidation is a last resort for when a borrower is unable to repay a loan. Liqu
    ![](../.gitbook/assets/chrome\_2023-08-07\_14-18-35.png)
 3. Click `Manage Pool`
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4.  Navigate and interact withh loans available to be liquidated.\
 
@@ -112,7 +112,7 @@ In Ajna the [Neutral Price (NP)](https://faqs.ajna.finance/getting-started/gloss
 
 When a loan is initiated or modified (the first debt, additional debt drawn, or collateral is removed from the loan), the neutral price is set to `np = (debt/coll) * 1.04 * (1 + sqrt(2)/2)` or
 
-&#x20;                        ![](<../.gitbook/assets/image (1).png>)             \
+&#x20;                        ![](<../.gitbook/assets/image (1) (1).png>)             \
 \
 where r is the current borrower rate of the pool. As time passes, the neutral price increases at the same rate as interest.\
 \

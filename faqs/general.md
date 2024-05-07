@@ -85,6 +85,12 @@ _**Access Old Pools from first deployment**_\
 
 <table><thead><tr><th width="135.33333333333331">Who</th><th width="225">Fee</th><th>Detail</th></tr></thead><tbody><tr><td>Lender</td><td>Deposit Fee</td><td>Charged when depositing quote tokens or moving them to lower price buckets, <br>equivalent to <em>8 hours of interest.</em></td></tr><tr><td>Borrower</td><td>Origination Fee</td><td>Charged to all debt and is <br><em>the greater of one week of interest or 0.05%.</em></td></tr><tr><td>Borrower</td><td>Variable Interest Rate </td><td>APR charged on debt, <em>may change</em> <br><em>once every 12 hours in +- 10% steps.</em></td></tr><tr><td>Borrower</td><td>Liquidation Penalty, <br>AKA the <a href="https://faqs.ajna.finance/getting-started/glossary#borrower-take-penalty">Borrower Take Penalty</a></td><td>Charged when collateral is taken from the auction at a variable rate depending on the collateral's sale price.</td></tr><tr><td>Everyone</td><td>Network transaction fees</td><td>Charged on all transactions, <br><em>varies by network and other factors.</em></td></tr></tbody></table>
 
+### How much Net Interest Margin does the Ajna Protocol earn?
+
+It depends, see the table below:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ### Can an asset be too expensive or too cheap to use in Ajna?
 
 Yes. Think carefully when you get into the 9 digit range; 100m+\
