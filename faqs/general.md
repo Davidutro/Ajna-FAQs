@@ -87,7 +87,7 @@ _**Access Old Pools from first deployment**_\
 
 ### How much Net Interest Margin does the Ajna Protocol earn?
 
-It depends, see the table below:
+The protocol earns between 3.23 and 14.95% NIM. It depends on the pool's utilization, see the table below:
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
