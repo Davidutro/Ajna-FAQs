@@ -6,6 +6,7 @@
 [Where can I use the Ajna Protocol?](general.md#where-can-i-use-the-ajna-protocol)\
 [Who are the Stakeholders of the protocol?](general.md#who-are-the-stakeholders-of-the-protocol)\
 [What are the Fees?](general.md#what-are-the-fees)\
+[How much Net Interest Margin does the Ajna Protocol earn?](general.md#how-much-net-interest-margin-does-the-ajna-protocol-earn)\
 [Can an asset be too expensive or too cheap to use in Ajna?](general.md#can-an-asset-be-too-expensive-or-too-cheap-to-use-in-ajna)\
 [Does Ajna use token governance to make changes to its smart contracts?](general.md#does-ajna-use-token-governance-to-make-changes-to-its-smart-contracts)\
 [What other networks will Ajna be deployed on?](general.md#what-other-networks-will-ajna-be-deployed-on)\
