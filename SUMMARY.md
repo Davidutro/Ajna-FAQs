@@ -21,6 +21,7 @@
 ## Info
 
 * [⛓️ Deployment Addresses & Bridges](info/deployment-addresses-and-bridges.md)
+* [🧑‍🏫 Protocol Diagram](info/protocol-diagram.md)
+* [🛣️ Roadmap](info/roadmap.md)
 * [⌨️ Builder Starter Kit](info/builder-starter-kit.md)
 * [🚢 How to Deploy](info/how-to-deploy.md)
-* [🧑‍🏫 Protocol Diagram](info/protocol-diagram.md)
