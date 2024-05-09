@@ -1,4 +1,4 @@
-# 👁 AJNA Token
+# 👁️ AJNA Token
 
 [What are AJNA tokens and what are they used for?](ajna-token.md#what-are-ajna-tokens-and-what-are-they-used-for)\
 [What is the total supply of AJNA tokens?](ajna-token.md#what-is-the-total-supply-of-ajna-tokens)\
@@ -13,7 +13,7 @@
 
 ### What are AJNA tokens and what are they used for?
 
-AJNA tokens are the Ajna Protocol's native token. They are used for voting in the grants program and are bought and burned by pools with excess reserves.
+AJNA tokens are the Ajna Protocol's native token. They are used for voting in the grants program, enabling voters to delegate to themselves and earn additional AJNA. Additionally, they are bought and burned by the protocol with excess profits.
 
 ### What is the total supply of AJNA tokens?
 
@@ -22,6 +22,10 @@ AJNA tokens are the Ajna Protocol's native token. They are used for voting in th
 ### Can new tokens be minted?
 
 No.
+
+### Where can I learn about the token distribution?
+
+[https://mirror.xyz/0xc1112dbbcA87aAE49CAfe4F3aE065E1B0dDd5bbB/J5M0GWA581YTzUdf7vHntf-N1IvLOTrKwgVi5e0DYys](https://mirror.xyz/0xc1112dbbcA87aAE49CAfe4F3aE065E1B0dDd5bbB/J5M0GWA581YTzUdf7vHntf-N1IvLOTrKwgVi5e0DYys)
 
 ### How can I get AJNA tokens?
 
