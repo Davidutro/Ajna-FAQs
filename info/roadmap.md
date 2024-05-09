@@ -23,6 +23,7 @@
 :yellow\_circle: Protocol Launch on Avalanche + Ajnafi.com support\
 :yellow\_circle: Protocol Launch on Filecoin's FVM + Ajnafi.com support\
 :yellow\_circle: Protocol Launch on Binance Smart Chain + Ajnafi.com support\
+:yellow\_circle: Protocol Launch on Linea + Summer.fi & Ajnafi.com support\
 :yellow\_circle: Passive lender UX product via Summer.fi\
 :yellow\_circle: Token Launchpad powered by Ajna\
 :yellow\_circle: [Dinobots Ajna pool incentivization tool](https://forum.ajna.finance/t/dinobots-grant-proposal/152/3) via Juiced.app\
