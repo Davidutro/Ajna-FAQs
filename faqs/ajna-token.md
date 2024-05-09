@@ -3,6 +3,7 @@
 [What are AJNA tokens and what are they used for?](ajna-token.md#what-are-ajna-tokens-and-what-are-they-used-for)\
 [What is the total supply of AJNA tokens?](ajna-token.md#what-is-the-total-supply-of-ajna-tokens)\
 [Can new tokens be minted?](ajna-token.md#can-new-tokens-be-minted)\
+[Where can I learn about the token distribution?](ajna-token.md#where-can-i-learn-about-the-token-distribution)\
 [How can I get AJNA tokens?](ajna-token.md#how-can-i-get-ajna-tokens)\
 [What is burn wrapped AJNA, bwAJNA?](ajna-token.md#what-is-burn-wrapped-ajna-bwajna)\
 [How do I burn wrap AJNA to get bwAJNA?](ajna-token.md#how-do-i-burn-wrap-ajna-to-get-bwajna)\
