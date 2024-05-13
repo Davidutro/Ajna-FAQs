@@ -22,7 +22,7 @@
 
 ### What is the Ajna Protocol?
 
-The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and borrowing system that requires no governance or external price feeds to function. The current version is built for Ethereum Virtual Machine(EVM) compatible networks.&#x20;
+The Ajna protocol is a noncustodial, peer-to-pool, permissionless lending and borrowing system that functions without governance or external price feeds. The current version is built for Ethereum Virtual Machine(EVM) compatible networks.&#x20;
 
 ### What are the key features of the Ajna Protocol?
 
