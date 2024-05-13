@@ -73,6 +73,18 @@ Blockchain explorer: [https://polygonscan.com/](https://polygonscan.com/)
 
 <table><thead><tr><th>Contract</th><th>Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0xA63b19647787Da652D0826424460D1BBf43Bf9c6</td><td>2023.08.14</td><td><a href="https://mapper.polygon.technology/map">https://mapper.polygon.technology/map</a></td></tr><tr><td>ERC20 factory</td><td>0x1f172F881eBa06Aa7a991651780527C173783Cf6</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0x8B7f874D15c25BeCC4F7c1906b3677533fe60A6e</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x519021054846cd3D9883359B593B5ED3058Fbe9f</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0xe6F4d9711121e5304b30aC2Aae57E3b085ad3c4d</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0xb8DA113516bfb986B7b8738a76C136D1c16c5609</td><td>2024.01.17</td><td>deploy.s.sol</td></tr></tbody></table>
 
+## FileCoin FVM
+
+Canonical Bridge from Ethereum Mainnet:&#x20;
+
+Blockchain explorer: [https://filfox.info/](https://filfox.info/)\
+\
+Other:
+
+<table><thead><tr><th>Contract</th><th width="261.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0xe9DfbF0d7371638dc2662672435E1A3E75D0CeF4</td><td>2024.03.18</td><td><a href="https://mapper.polygon.technology/map">https://mapper.polygon.technology/map</a></td></tr><tr><td>ERC20 factory</td><td>0x0E4a2276Ac259CF226eEC6536f2b447Fc26F2D8a</td><td>2024.03.19</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0x07Eb44ca94cddA4016cECCe7FB9C7Ae73DBD4306</td><td>2024.03.19</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0xCF7e3DABBaD8F0F3fdf1AE8a13C4be3872d06d56</td><td>2024.03.19</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x82fba8E56F7D848B0Ee598f1449185b570d9B384</td><td>2024.03.19</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x0cEfA3be6496B8Ab0A66B01aABEf05A5aE38221b</td><td>2024.03.19</td><td>deploy.s.sol</td></tr></tbody></table>
+
+
+
 ## Gnosis Chain
 
 Canonical Bridge from Ethereum Mainnet: [**https://omni.gnosischain.com/bridge**](https://omni.gnosischain.com/bridge)
@@ -81,7 +93,7 @@ Blockchain explorer: [https://gnosisscan.io/](https://gnosisscan.io/)\
 \
 Other: [https://github.com/gunboatsss/ajna-core/tree/gnosis-deployments/deployments](https://github.com/gunboatsss/ajna-core/tree/gnosis-deployments/deployments)
 
-<table><thead><tr><th>Contract</th><th>Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0x7fE440bC581DA8fF0173a588D3f7603814393763</td><td>2024.01.23</td><td><a href="https://mapper.polygon.technology/map">https://mapper.polygon.technology/map</a></td></tr><tr><td>ERC20 factory</td><td>0x87578E357358163FCAb1711c62AcDB5BBFa1C9ef</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0xc7Fc13Fa7B697fBE3bdC56D5b9A6586A83254126</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x2baB4c287cF33a6eC373CFE152FdbA299B653F7D</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x6A91429425Fb992A9cf300aD215e4469d0D1A75A</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x173b32A07b41296909d7972421d63BAbA5160B37</td><td>2024.01.23</td><td>deploy.s.sol</td></tr></tbody></table>
+<table><thead><tr><th>Contract</th><th width="261.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0x7fE440bC581DA8fF0173a588D3f7603814393763</td><td>2024.01.23</td><td><a href="https://mapper.polygon.technology/map">https://mapper.polygon.technology/map</a></td></tr><tr><td>ERC20 factory</td><td>0x87578E357358163FCAb1711c62AcDB5BBFa1C9ef</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0xc7Fc13Fa7B697fBE3bdC56D5b9A6586A83254126</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x2baB4c287cF33a6eC373CFE152FdbA299B653F7D</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x6A91429425Fb992A9cf300aD215e4469d0D1A75A</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x173b32A07b41296909d7972421d63BAbA5160B37</td><td>2024.01.23</td><td>deploy.s.sol</td></tr></tbody></table>
 
 ## Görli / Goerli
 
