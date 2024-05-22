@@ -95,6 +95,14 @@ Other: [https://github.com/gunboatsss/ajna-core/tree/gnosis-deployments/deployme
 
 <table><thead><tr><th>Contract</th><th width="261.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0x7fE440bC581DA8fF0173a588D3f7603814393763</td><td>2024.01.23</td><td><a href="https://mapper.polygon.technology/map">https://mapper.polygon.technology/map</a></td></tr><tr><td>ERC20 factory</td><td>0x87578E357358163FCAb1711c62AcDB5BBFa1C9ef</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0xc7Fc13Fa7B697fBE3bdC56D5b9A6586A83254126</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x2baB4c287cF33a6eC373CFE152FdbA299B653F7D</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x6A91429425Fb992A9cf300aD215e4469d0D1A75A</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x173b32A07b41296909d7972421d63BAbA5160B37</td><td>2024.01.23</td><td>deploy.s.sol</td></tr></tbody></table>
 
+## Mode
+
+Blockchain Explorer: [https://modescan.io/](https://modescan.io/)\
+Canonical Bridge from Ethereum Mainnet:\
+
+
+<table><thead><tr><th>Contract</th><th>Address</th><th>Date</th><th data-hidden>Deployed via</th><th data-hidden></th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0x9e1028F5F1D5eDE59748FFceE5532509976840E0</td><td>2024.03.22</td><td>forge create</td><td></td></tr><tr><td>ERC20PoolFactory</td><td>0x62Cf5d9075D1d6540A6c7Fa836162F01a264115A</td><td>2024.04.30</td><td>deploy.s.sol</td><td></td></tr><tr><td>ERC721PoolFactory</td><td>0x2189eC0743e36f2CB51BEdaf089d686BC0996e03</td><td>2024.04.30</td><td>deploy.s.sol</td><td></td></tr><tr><td>PoolInfoUtils</td><td>0x6EF483c3653907c19bDD4300087e481551880c60</td><td>2024.04.30</td><td>deploy.s.sol</td><td></td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0xF3e7fe30d939Bddd070DCCa7823DFfA8433D3Fc3</td><td>2024.04.30</td><td>deploy.s.sol</td><td></td></tr><tr><td>PositionManager</td><td>0x477b8de8De8b45fb3ecAe28fCA266A383C61Adf8</td><td>2024.04.30</td><td>deploy.s.sol</td><td></td></tr></tbody></table>
+
 ## Görli / Goerli
 
 #### rc9-2024.01.04 addresses
