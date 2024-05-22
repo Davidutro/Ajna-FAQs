@@ -53,10 +53,17 @@ Network Info: [https://docs.blast.io/building/network-information](https://docs.
 
 <table><thead><tr><th width="194">Contract</th><th width="195">Address</th><th>Date</th></tr></thead><tbody><tr><td>bwAJNA Token</td><td>TBD</td><td>2024.03.05</td></tr><tr><td>ERC20PoolFactory</td><td>0xcfCB7fb8c13c7bEffC619c3413Ad349Cbc6D5c91</td><td>2024.03.05</td></tr><tr><td>ERC721PoolFactory</td><td>0x6C046C4b072404ce7865a7c317b432B5e269822A</td><td>2024.03.05</td></tr><tr><td>PoolInfoUtils</td><td>0x6aF0363e5d2ddab4471f31Fe2834145Aea1E55Ee</td><td>2024.03.05</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x1307d1670746E6cF6377844D350DD412Ef1684E5</td><td>2024.03.05</td></tr><tr><td>PositionManager</td><td>0x2475d80b7634aC8F891a5D00c8b56AA3a40E4Cf7</td><td>2024.03.05</td></tr></tbody></table>
 
+## FileCoin FVM
+
+Canonical Bridge from Ethereum Mainnet: \
+Blockchain explorer: [https://filfox.info/](https://filfox.info/)\
+Network info: [https://docs.filecoin.io](https://docs.filecoin.io/smart-contracts/fundamentals/the-fvm)
+
+<table><thead><tr><th width="213">Contract</th><th width="400.33333333333326">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0xe9DfbF0d7371638dc2662672435E1A3E75D0CeF4</td><td>2024.03.18</td><td><a href="https://mapper.polygon.technology/map">https://mapper.polygon.technology/map</a></td></tr><tr><td>ERC20 factory</td><td>0x0E4a2276Ac259CF226eEC6536f2b447Fc26F2D8a</td><td>2024.03.19</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0x07Eb44ca94cddA4016cECCe7FB9C7Ae73DBD4306</td><td>2024.03.19</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0xCF7e3DABBaD8F0F3fdf1AE8a13C4be3872d06d56</td><td>2024.03.19</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x82fba8E56F7D848B0Ee598f1449185b570d9B384</td><td>2024.03.19</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x0cEfA3be6496B8Ab0A66B01aABEf05A5aE38221b</td><td>2024.03.19</td><td>deploy.s.sol</td></tr></tbody></table>
+
 ## Optimism
 
-Canonical bridge from Ethereum Mainnet: [https://app.optimism.io/bridge/deposit](https://app.optimism.io/bridge/deposit)
-
+Canonical bridge from Ethereum Mainnet: [https://app.optimism.io/bridge/deposit](https://app.optimism.io/bridge/deposit)\
 Blockchain explorer: [https://optimistic.etherscan.io/](https://optimistic.etherscan.io/)
 
 #### Addresses
@@ -65,32 +72,19 @@ Blockchain explorer: [https://optimistic.etherscan.io/](https://optimistic.ether
 
 ## Polygon POS
 
-Canonical Bridge from Ethereum Mainnet: [https://wallet.polygon.technology/polygon/bridge/deposit](https://wallet.polygon.technology/polygon/bridge/deposit)
-
+Canonical Bridge from Ethereum Mainnet: [https://wallet.polygon.technology/polygon/bridge/deposit](https://wallet.polygon.technology/polygon/bridge/deposit)\
 Blockchain explorer: [https://polygonscan.com/](https://polygonscan.com/)
 
 #### RC9 addresses
 
 <table><thead><tr><th>Contract</th><th>Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0xA63b19647787Da652D0826424460D1BBf43Bf9c6</td><td>2023.08.14</td><td><a href="https://mapper.polygon.technology/map">https://mapper.polygon.technology/map</a></td></tr><tr><td>ERC20 factory</td><td>0x1f172F881eBa06Aa7a991651780527C173783Cf6</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0x8B7f874D15c25BeCC4F7c1906b3677533fe60A6e</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x519021054846cd3D9883359B593B5ED3058Fbe9f</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0xe6F4d9711121e5304b30aC2Aae57E3b085ad3c4d</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0xb8DA113516bfb986B7b8738a76C136D1c16c5609</td><td>2024.01.17</td><td>deploy.s.sol</td></tr></tbody></table>
 
-## FileCoin FVM
-
-Canonical Bridge from Ethereum Mainnet:&#x20;
-
-Blockchain explorer: [https://filfox.info/](https://filfox.info/)\
-\
-Other:
-
-<table><thead><tr><th>Contract</th><th width="261.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0xe9DfbF0d7371638dc2662672435E1A3E75D0CeF4</td><td>2024.03.18</td><td><a href="https://mapper.polygon.technology/map">https://mapper.polygon.technology/map</a></td></tr><tr><td>ERC20 factory</td><td>0x0E4a2276Ac259CF226eEC6536f2b447Fc26F2D8a</td><td>2024.03.19</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0x07Eb44ca94cddA4016cECCe7FB9C7Ae73DBD4306</td><td>2024.03.19</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0xCF7e3DABBaD8F0F3fdf1AE8a13C4be3872d06d56</td><td>2024.03.19</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x82fba8E56F7D848B0Ee598f1449185b570d9B384</td><td>2024.03.19</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x0cEfA3be6496B8Ab0A66B01aABEf05A5aE38221b</td><td>2024.03.19</td><td>deploy.s.sol</td></tr></tbody></table>
-
 
 
 ## Gnosis Chain
 
-Canonical Bridge from Ethereum Mainnet: [**https://omni.gnosischain.com/bridge**](https://omni.gnosischain.com/bridge)
-
+Canonical Bridge from Ethereum Mainnet: [https://omni.gnosischain.com/bridge](https://omni.gnosischain.com/bridge)\
 Blockchain explorer: [https://gnosisscan.io/](https://gnosisscan.io/)\
-\
 Other: [https://github.com/gunboatsss/ajna-core/tree/gnosis-deployments/deployments](https://github.com/gunboatsss/ajna-core/tree/gnosis-deployments/deployments)
 
 <table><thead><tr><th>Contract</th><th width="261.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0x7fE440bC581DA8fF0173a588D3f7603814393763</td><td>2024.01.23</td><td><a href="https://mapper.polygon.technology/map">https://mapper.polygon.technology/map</a></td></tr><tr><td>ERC20 factory</td><td>0x87578E357358163FCAb1711c62AcDB5BBFa1C9ef</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0xc7Fc13Fa7B697fBE3bdC56D5b9A6586A83254126</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x2baB4c287cF33a6eC373CFE152FdbA299B653F7D</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x6A91429425Fb992A9cf300aD215e4469d0D1A75A</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x173b32A07b41296909d7972421d63BAbA5160B37</td><td>2024.01.23</td><td>deploy.s.sol</td></tr></tbody></table>
@@ -102,10 +96,3 @@ Canonical Bridge from Ethereum Mainnet:\
 
 
 <table><thead><tr><th>Contract</th><th>Address</th><th>Date</th><th data-hidden>Deployed via</th><th data-hidden></th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0x9e1028F5F1D5eDE59748FFceE5532509976840E0</td><td>2024.03.22</td><td>forge create</td><td></td></tr><tr><td>ERC20PoolFactory</td><td>0x62Cf5d9075D1d6540A6c7Fa836162F01a264115A</td><td>2024.04.30</td><td>deploy.s.sol</td><td></td></tr><tr><td>ERC721PoolFactory</td><td>0x2189eC0743e36f2CB51BEdaf089d686BC0996e03</td><td>2024.04.30</td><td>deploy.s.sol</td><td></td></tr><tr><td>PoolInfoUtils</td><td>0x6EF483c3653907c19bDD4300087e481551880c60</td><td>2024.04.30</td><td>deploy.s.sol</td><td></td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0xF3e7fe30d939Bddd070DCCa7823DFfA8433D3Fc3</td><td>2024.04.30</td><td>deploy.s.sol</td><td></td></tr><tr><td>PositionManager</td><td>0x477b8de8De8b45fb3ecAe28fCA266A383C61Adf8</td><td>2024.04.30</td><td>deploy.s.sol</td><td></td></tr></tbody></table>
-
-## Görli / Goerli
-
-#### rc9-2024.01.04 addresses
-
-<table><thead><tr><th>Contract</th><th>Address</th><th>Date</th><th data-hidden>Deployed via</th><th data-hidden></th></tr></thead><tbody><tr><td>AJNA token</td><td>0xaadebCF61AA7Da0573b524DE57c67aDa797D46c5</td><td>2022.12.06</td><td>forge create</td><td></td></tr><tr><td>ERC20PoolFactory</td><td>0xDB61f8aD0B3ed0c5522b8FE71b80023fe9188e9e</td><td>2024.01.04</td><td>deploy.s.sol</td><td></td></tr><tr><td>ERC721PoolFactory</td><td>0x8FA83D458CDbB2FCeA66d9bc31FDa80511e0AA56</td><td>2024.01.04</td><td>deploy.s.sol</td><td></td></tr><tr><td>PoolInfoUtils</td><td>0xdE8D83e069F552fbf3EE5bF04E8C4fa53a097ee5</td><td>2024.01.04</td><td>deploy.s.sol</td><td></td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x63feF8659ECdC4F909ddFB55a8B701957115B906</td><td>2024.01.04</td><td>deploy.s.sol</td><td></td></tr><tr><td>PositionManager</td><td>0x7b6C6917ACA28BA790837d41e5aA4A49c9Ad4570</td><td>2024.01.04</td><td>deploy.s.sol</td><td></td></tr><tr><td>GrantFund</td><td>0x17C7eb98aD29c8C07C2842C4B64342142C405aF4</td><td>2023.10.25</td><td>deployer using multisig</td><td></td></tr><tr><td>BurnWrapper</td><td>0xE38DFd7aB36806B882bD7332a8aE454f2273D015</td><td>2023.08.01</td><td>BurnWrapper.s.sol</td><td></td></tr></tbody></table>
-
