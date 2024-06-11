@@ -1,5 +1,7 @@
 ---
 description: Welcome to Ajna's educational docs!
+cover: .gitbook/assets/launchgraphic4.jpg
+coverY: 0
 ---
 
 # 🔔 Welcome
