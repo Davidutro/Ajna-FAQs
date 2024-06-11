@@ -28,4 +28,4 @@
 
 ## Concepts
 
-* [Inverse Pricing](concepts/inverse-pricing.md)
+* [🔄 Inverse Pricing](concepts/inverse-pricing.md)
