@@ -90,7 +90,7 @@ _**Access Old Pools from first deployment**_\
 
 The protocol earns between 3.23 and 14.95% NIM. It depends on the pool's utilization, see the table below:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Can an asset be too expensive or too cheap to use in Ajna?
 

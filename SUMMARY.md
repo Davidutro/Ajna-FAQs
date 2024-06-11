@@ -25,3 +25,7 @@
 * [🛣️ Roadmap](info/roadmap.md)
 * [⌨️ Builder Starter Kit](info/builder-starter-kit.md)
 * [🚢 How to Deploy](info/how-to-deploy.md)
+
+## Concepts
+
+* [Inverse Pricing](concepts/inverse-pricing.md)
