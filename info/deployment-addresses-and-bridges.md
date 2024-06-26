@@ -51,7 +51,7 @@ Blockchain explorer: [https://blastscan.io/](https://blastscan.io/)\
 Cannonical bridge from Ethereum mainnet: [https://blast.io/en/bridge](https://blast.io/en/bridge)\
 Network Info: [https://docs.blast.io/building/network-information](https://docs.blast.io/building/network-information)
 
-<table><thead><tr><th width="194">Contract</th><th width="195">Address</th><th>Date</th></tr></thead><tbody><tr><td>bwAJNA Token</td><td>TBD</td><td>2024.03.05</td></tr><tr><td>ERC20PoolFactory</td><td>0xcfCB7fb8c13c7bEffC619c3413Ad349Cbc6D5c91</td><td>2024.03.05</td></tr><tr><td>ERC721PoolFactory</td><td>0x6C046C4b072404ce7865a7c317b432B5e269822A</td><td>2024.03.05</td></tr><tr><td>PoolInfoUtils</td><td>0x6aF0363e5d2ddab4471f31Fe2834145Aea1E55Ee</td><td>2024.03.05</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x1307d1670746E6cF6377844D350DD412Ef1684E5</td><td>2024.03.05</td></tr><tr><td>PositionManager</td><td>0x2475d80b7634aC8F891a5D00c8b56AA3a40E4Cf7</td><td>2024.03.05</td></tr></tbody></table>
+<table><thead><tr><th width="194">Contract</th><th width="370">Address</th><th>Date</th></tr></thead><tbody><tr><td>bwAJNA Token</td><td>0x38aD23b0902D0d86c2F3949BC505194D70B762F5</td><td>2024.03.05</td></tr><tr><td>ERC20PoolFactory</td><td>0xcfCB7fb8c13c7bEffC619c3413Ad349Cbc6D5c91</td><td>2024.03.05</td></tr><tr><td>ERC721PoolFactory</td><td>0x6C046C4b072404ce7865a7c317b432B5e269822A</td><td>2024.03.05</td></tr><tr><td>PoolInfoUtils</td><td>0x6aF0363e5d2ddab4471f31Fe2834145Aea1E55Ee</td><td>2024.03.05</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x1307d1670746E6cF6377844D350DD412Ef1684E5</td><td>2024.03.05</td></tr><tr><td>PositionManager</td><td>0x2475d80b7634aC8F891a5D00c8b56AA3a40E4Cf7</td><td>2024.03.05</td></tr></tbody></table>
 
 ## FileCoin FVM
 
