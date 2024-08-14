@@ -11,7 +11,7 @@
 [How are interest rates determined?](borrowing.md#how-are-interest-rates-determined)\
 [Is there a minimum and maximum interest rate?](borrowing.md#is-there-a-minimum-and-maximum-interest-rate)\
 [How long does it take the interest rate to halve or double?](borrowing.md#how-long-does-it-take-the-interest-rate-to-halve-or-double)\
-What is the rate reset function?\
+[What is the interest rate reset function?](borrowing.md#what-is-the-interest-rate-reset-function)\
 [Can I borrow at a fixed rate?](borrowing.md#can-i-borrow-at-a-fixed-rate)\
 [When do I need to pay back the loan?](borrowing.md#when-do-i-need-to-pay-back-the-loan)\
 [Why am I being blocked from paying back a partial amount of my loan?](borrowing.md#why-am-i-being-blocked-from-paying-back-a-partial-amount-of-my-loan)\
