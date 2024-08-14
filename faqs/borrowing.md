@@ -11,6 +11,7 @@
 [How are interest rates determined?](borrowing.md#how-are-interest-rates-determined)\
 [Is there a minimum and maximum interest rate?](borrowing.md#is-there-a-minimum-and-maximum-interest-rate)\
 [How long does it take the interest rate to halve or double?](borrowing.md#how-long-does-it-take-the-interest-rate-to-halve-or-double)\
+What is the rate reset function?\
 [Can I borrow at a fixed rate?](borrowing.md#can-i-borrow-at-a-fixed-rate)\
 [When do I need to pay back the loan?](borrowing.md#when-do-i-need-to-pay-back-the-loan)\
 [Why am I being blocked from paying back a partial amount of my loan?](borrowing.md#why-am-i-being-blocked-from-paying-back-a-partial-amount-of-my-loan)\
@@ -96,6 +97,12 @@ Yes, so cannot go below 0.001% or above 400%.
 ### How long does it take the interest rate to halve or double?
 
 \~3.5 days assuming consistent interest rate updates every 12 hours.
+
+### What is the interest rate reset function?
+
+It is a special function that resets the pool's interest rate under certain conditions.\
+\
+If the pool rate becomes too high for a protracted period, all debt could eventually exit the pool. This would result in low utilization,so eventually the pool would move back to an equilibrium interest rate, but it could take a long period of time.To return the pool to a reasonable range of market interest rates quickly, there is an interest rate reset mechanism: if the debtEMA is less than 5% of the meaningfuldepositEMA and the interest rate exceeds 10%, then the rate will immediately be reset to 10%.
 
 ### Can I borrow at a fixed rate?
 

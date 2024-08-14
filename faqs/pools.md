@@ -3,7 +3,6 @@
 [How do I create a pool?](pools.md#how-do-i-create-a-pool)\
 [What are the technical pool limitations?](pools.md#what-are-the-technical-pool-limitations)\
 [What assets can be lent and borrowed?](pools.md#what-assets-can-be-lent-and-borrowed)\
-If my CT or QT earn rewards, \
 [What assets are incompatible?](pools.md#what-assets-are-incompatible)\
 [Does Ajna support rebase tokens?](pools.md#does-ajna-support-rebase-tokens)\
 [Does Ajna support NFTs which charge a fee on transfer?](pools.md#does-ajna-support-nfts-which-charge-a-fee-on-transfer)\
