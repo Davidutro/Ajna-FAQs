@@ -55,7 +55,7 @@ Network Info: [https://docs.blast.io/building/network-information](https://docs.
 
 ## FileCoin FVM
 
-Canonical Bridge from Ethereum Mainnet: \
+Canonical Bridge from Ethereum Mainnet: [https://www.axelar.network/its](https://www.axelar.network/its)\
 Blockchain explorer: [https://filfox.info/](https://filfox.info/)\
 Network info: [https://docs.filecoin.io](https://docs.filecoin.io/smart-contracts/fundamentals/the-fvm)
 
