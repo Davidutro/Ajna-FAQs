@@ -29,3 +29,4 @@
 ## Concepts
 
 * [🔄 Inverse Pricing](concepts/inverse-pricing.md)
+* [🪣 Choosing a Price Bucket](concepts/choosing-a-price-bucket.md)

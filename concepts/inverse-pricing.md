@@ -2,7 +2,7 @@
 description: Pricing lender deposits on short pools
 ---
 
-# Inverse Pricing
+# 🔄 Inverse Pricing
 
 Sometimes you may come across pricing that looks funny, something like this:
 
