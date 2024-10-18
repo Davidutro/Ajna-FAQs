@@ -28,18 +28,7 @@ Network info: [https://docs.base.org/network-information](https://docs.base.org/
 
 Chain id: 8453
 
-Canonical bridge from Ethereum Mainnet: [https://bridge.base.org/deposit](https://bridge.base.org/deposit) Since bwAJNA won’t be in their UX, can manually bridge by following steps below:
-
-1. You need to make the bwAJNA token address on the Ethereum side approve the BASE bridge contract to be able to grab your bwAJNA. For this, navigate to [bwAJNA token address](https://etherscan.io/token/0x936ab482d6bd111910a42849d3a51ff80bb0a711#writeContract) and enter `0x3154Cf16ccdb4C6d922629664174b904d80F2C35` for spender (address).
-2. Navigate to [token bridge contract](https://etherscan.io/address/0x3154Cf16ccdb4C6d922629664174b904d80F2C35#writeProxyContract#F5) on etherscan and connect wallet.
-3. Choose _Write as Proxy_ and expand 5. `depositERC20`
-4. Populate fields:
-   1. set `_l1Token` to `0x936Ab482d6bd111910a42849D3A51Ff80BB0A711`
-   2. set `_l2Token` to `0xf0f326af3b1Ed943ab95C29470730CC8Cf66ae47`
-   3. set `_amount` to however much you want to send across the bridge, in wei
-   4. set `_minGasLimit` to `100000`
-   5. set `_extraData` to 0x0 (at least this worked one time)
-5. Click _Write_ button. After TX included in L1, may take 10-30 minutes for L2 to show updated balance.
+Canonical bridge from Ethereum Mainnet: [https://superbridge.app/base](https://superbridge.app/base)
 
 ### Addresses
 
