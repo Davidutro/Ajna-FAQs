@@ -16,16 +16,18 @@
 :green\_circle: [Marketing team agreement](https://forum.ajna.finance/t/mom-grant-proposal/148) with MOM.\
 :green\_circle: The[ Ajna Perpetual Market Maker](https://forum.ajna.finance/t/the-ajna-perpetual-market-maker/162) launched.\
 :green\_circle: [Ajnamatch.com](https://ajnamatch.com) launched.\
-
+:green\_circle: Token Launchpad powered by Ajna (Moon.inc)\
+:green\_circle: Protocol Launch on Filecoin's FVM + Ajnafi.com support\
+:green\_circle:Token Launchpad powered by Ajna\
+:green\_circle: Protocol Launch on RariChain + Ajnafi.com support\
+:green\_circle: CEX Listing on Ascendex (formerly Bitmart)\
+:green\_circle: Merkl Integration — now anyone can run incentive campaigns on Ajna pools!
 
 ## Soon
 
 :yellow\_circle: Protocol Launch on Avalanche + Ajnafi.com support\
-:yellow\_circle: Protocol Launch on Filecoin's FVM + Ajnafi.com support\
 :yellow\_circle: Protocol Launch on Binance Smart Chain + Ajnafi.com support\
 :yellow\_circle: Protocol Launch on Linea + Summer.fi & Ajnafi.com support\
-:yellow\_circle: Passive lender UX product via Summer.fi\
-:yellow\_circle: Token Launchpad powered by Ajna\
-:yellow\_circle: [Dinobots Ajna pool incentivization tool](https://forum.ajna.finance/t/dinobots-grant-proposal/152/3) via Juiced.app\
-:yellow\_circle: [Contango perps](https://forum.ajna.finance/t/ajnas-perps-via-contango/177) powered by Ajna\
-:yellow\_circle: CEX Listing
+:yellow\_circle: Protocol Launch on CoreDAO+ Summer.fi & Ajnafi.com support\
+:yellow\_circle: Protocol Launch on Unichain+ Ajnafi.com support\
+:yellow\_circle: Passive lender UX product via Summer.fi
