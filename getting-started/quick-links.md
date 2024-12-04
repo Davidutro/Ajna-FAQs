@@ -24,7 +24,7 @@ Juiced | [https://juiced.app/pools](https://juiced.app/pools)
 ### Current UIs for Liquidations
 
 AjnaFi | [https://ajnafi.com/](https://ajnafi.com/)\
-_To be a kicker or participate in auctions, click on pool details and click "manage pool"_ \
+&#xNAN;_&#x54;o be a kicker or participate in auctions, click on pool details and click "manage pool"_ \
 \
 Find liquidation opportunities \
 [https://info.ajna.finance/ethereum/auctions](https://info.ajna.finance/ethereum/auctions)\
@@ -39,7 +39,8 @@ Find liquidation opportunities \
 
 AjnaMatch | [https://ajnamatch.com/](https://ajnamatch.com/) \
 Discord Ajna Notifications Tool | [https://domino.run/explore/apps/ajna-oy238dpmiui](https://domino.run/explore/apps/ajna-oy238dpmiui) \
-Telegram Notification Tool | [https://t.me/Ajna\_notiferBot](https://t.me/Ajna\_notiferBot)
+Telegram Notification Tool | [https://t.me/Ajna\_notiferBot](https://t.me/Ajna_notiferBot)\
+Threshold Price Calculator | [https://docs.google.com/spreadsheets/d/11ieSAIUDOWgHBOmzGXXC7cDcbAFxAD3bAPcE9DBx6gY/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11ieSAIUDOWgHBOmzGXXC7cDcbAFxAD3bAPcE9DBx6gY/edit?usp=sharing)
 
 ### Info Sites
 
@@ -67,10 +68,10 @@ Ajna Burning Secrets (01-30-24) \
 [https://medium.com/@poolpitako/ajna-burning-secrets-7e9f53993880](https://medium.com/@poolpitako/ajna-burning-secrets-7e9f53993880) \
 Ajna on summerfi tutorial (02-02-24) \
 [https://youtu.be/2WtWinp-9eA?feature=shared](https://youtu.be/2WtWinp-9eA?feature=shared) \
-f(x) Protocol x Ajna Twitter Space (02-14-2024) [https://x.com/protocol\_fx/status/1757864851995509065](https://x.com/protocol\_fx/status/1757864851995509065) \
+f(x) Protocol x Ajna Twitter Space (02-14-2024) [https://x.com/protocol\_fx/status/1757864851995509065](https://x.com/protocol_fx/status/1757864851995509065) \
 Revelo Lending Roundtable Twitter Space (03-21-24) [https://x.com/ReveloIntel/status/1770772804423598295](https://x.com/ReveloIntel/status/1770772804423598295) \
 X Space: Meet the Ajna Protocol Grantees Cycle 1 (04-18-24) \
-[https://youtu.be/8lmRpFs39x8?si=EfbCX53F\_H13YA\_v](https://youtu.be/8lmRpFs39x8?si=EfbCX53F\_H13YA\_v)
+[https://youtu.be/8lmRpFs39x8?si=EfbCX53F\_H13YA\_v](https://youtu.be/8lmRpFs39x8?si=EfbCX53F_H13YA_v)
 
 ### Listings
 
