@@ -183,7 +183,9 @@ The ratio of the 3.5 day EMA of system debt to 3.5 day EMA of LUP\*totalCollater
 
 #### **Threshold Price (TP)**:&#x20;
 
-The price at which the value of the collateral equals the value of the debt, inflated by 4%, for the purposes of loan collateralization. By taking a loan’s debt and dividing it by the amount of collateral pledged, the loan’s threshold price, TP, can be calculated.
+The price at which the value of the collateral equals the value of the debt, inflated by 4%, for the purposes of loan collateralization. TP is the collateral price at which the borrower would be at effectively 100% LTV.\
+\
+By taking a loan’s debt and dividing it by the amount of collateral pledged, the loan’s threshold price, TP, can be calculated:
 
 <figure><img src="../.gitbook/assets/image (13).png" alt="" width="226"><figcaption></figcaption></figure>
 
