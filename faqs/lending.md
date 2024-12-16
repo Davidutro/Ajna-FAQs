@@ -69,6 +69,9 @@ The following types of tokens are incompatible with Ajna, and countermeasures ex
 
 ### How do I decide what price bucket to deposit into?
 
+Check out this short video tutorial:\
+[https://youtu.be/Pu3mnV4NBJc?si=LigZJsf8z1G048Uy](https://youtu.be/Pu3mnV4NBJc?si=LigZJsf8z1G048Uy)\
+\
 Deciding on a price depends on the lender's risk tolerance. Both depositing too high and too low have risks.\
 \
 Depositing too high:

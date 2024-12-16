@@ -4,9 +4,12 @@ description: Lender Guide
 
 # 🪣 Choosing a Price Bucket
 
+Read below and check out this short video tutorial:\
+[https://youtu.be/Pu3mnV4NBJc?si=LigZJsf8z1G048Uy](https://youtu.be/Pu3mnV4NBJc?si=LigZJsf8z1G048Uy)\
+\
 When lending, a price bucket for the deposit of Quote Token must be selected. \
 \
-_Tip: Pools are always described as **Collateral Token / Quote Token**_
+&#xNAN;_&#x54;ip: Pools are always described as **Collateral Token / Quote Token**_
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>LFIX / USDC Lender Interface Example</p></figcaption></figure>
 
