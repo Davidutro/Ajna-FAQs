@@ -35,12 +35,9 @@ Contract Deployer - 0x3eF294905C8D8c12aE66B3f80a7D7008439d30FF
 
 ## Base
 
-Blockchain explorer: [https://basescan.org/](https://basescan.org/)
-
-Network info: [https://docs.base.org/network-information](https://docs.base.org/network-information)
-
-Chain id: 8453
-
+Blockchain explorer: [https://basescan.org/](https://basescan.org/)\
+Network info: [https://docs.base.org/network-information](https://docs.base.org/network-information)\
+Chain id: 8453\
 Canonical bridge from Ethereum Mainnet: [https://superbridge.app/base](https://superbridge.app/base)
 
 ### Addresses
