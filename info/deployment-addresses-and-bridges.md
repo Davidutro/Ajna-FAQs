@@ -18,7 +18,20 @@ Block explorer: [https://arbiscan.io/](https://arbiscan.io/)
 
 ### Addresses
 
-<table><thead><tr><th>Contract</th><th>Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0xA98c94d67D9dF259Bee2E7b519dF75aB00E3E2A8</td><td>2024.01.04</td><td>Sent across <a href="https://bridge.arbitrum.io/">https://bridge.arbitrum.io/</a></td></tr><tr><td>ERC20 factory</td><td>0xA3A1e968Bd6C578205E11256c8e6929f21742aAF</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0x6ae3324612bEfD4AE460244c369f30Ab9CB8cAE2</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x8a7F5aFb7E3c3fD1f3Cc9D874b454b6De11EBbC9</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0xCcaf0542c78A3A5e55f99630a2B126A5BAA44FC3</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x9A0BE971530Ed2B53597AC9155AC050ca1Bab7A3</td><td>2024.01.17</td><td>deploy.s.sol</td></tr></tbody></table>
+<table><thead><tr><th>Contract</th><th width="439.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0xA98c94d67D9dF259Bee2E7b519dF75aB00E3E2A8</td><td>2024.01.04</td><td>Sent across <a href="https://bridge.arbitrum.io/">https://bridge.arbitrum.io/</a></td></tr><tr><td>ERC20 factory</td><td>0xA3A1e968Bd6C578205E11256c8e6929f21742aAF</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0x6ae3324612bEfD4AE460244c369f30Ab9CB8cAE2</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x8a7F5aFb7E3c3fD1f3Cc9D874b454b6De11EBbC9</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0xCcaf0542c78A3A5e55f99630a2B126A5BAA44FC3</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x9A0BE971530Ed2B53597AC9155AC050ca1Bab7A3</td><td>2024.01.17</td><td>deploy.s.sol</td></tr></tbody></table>
+
+## Avalanche
+
+Chain: AVAX\
+ChainID: 43114\
+Explorer: https://snowtrace.io\
+Bridge: [https://portalbridge.com/](https://portalbridge.com/) (powered by Wormhole)\
+RPC Used: [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc)\
+Contract Deployer - 0x3eF294905C8D8c12aE66B3f80a7D7008439d30FF
+
+### Addresses
+
+<table><thead><tr><th width="168">Contract</th><th width="439.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td><a href="https://snowtrace.io/token/0xE055Ee581c637C419e55B8d5fFBA84375546f70f?chainid=43114">0xE055Ee581c637C419e55B8d5fFBA84375546f70f</a></td><td>2024.12.018</td><td>Sent across <a href="https://bridge.arbitrum.io/">https://bridge.arbitrum.io/</a></td></tr><tr><td>ERC20 factory</td><td><a href="https://snowtrace.io/address/0x2aA2A6e6B4b20f496A4Ed65566a6FD13b1b8A17A/contract/43114/code">0x2aA2A6e6B4b20f496A4Ed65566a6FD13b1b8A17A</a></td><td>2024.12.018</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td><a href="https://snowtrace.io/address/0xB3d773147A086A23fB72dcc03828C66DcE5D6627/contract/43114/code">0xB3d773147A086A23fB72dcc03828C66DcE5D6627</a></td><td>2024.12.018</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td><a href="https://snowtrace.io/address/0x9e407019C07b50e8D7C2d0E2F796C4eCb0F485b3/contract/43114/code">0x9e407019C07b50e8D7C2d0E2F796C4eCb0F485b3</a></td><td>2024.12.018</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td><a href="https://snowtrace.io/address/0xD2b45DD650141a42fF948EC5B99D9E8DF6799B8f/contract/43114/code">0xD2b45DD650141a42fF948EC5B99D9E8DF6799B8f</a></td><td>2024.12.018</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td><a href="https://snowtrace.io/address/0x0bf183a32614b3Cd11C0268441D96047D05967e0/contract/43114/code">0x0bf183a32614b3Cd11C0268441D96047D05967e0</a></td><td>2024.12.018</td><td>deploy.s.sol</td></tr></tbody></table>
 
 ## Base
 
