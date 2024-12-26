@@ -52,6 +52,17 @@ Network Info: [https://docs.blast.io/building/network-information](https://docs.
 
 <table><thead><tr><th width="194">Contract</th><th width="370">Address</th><th>Date</th></tr></thead><tbody><tr><td>bwAJNA Token</td><td>0x38aD23b0902D0d86c2F3949BC505194D70B762F5</td><td>2024.03.05</td></tr><tr><td>ERC20PoolFactory</td><td>0xcfCB7fb8c13c7bEffC619c3413Ad349Cbc6D5c91</td><td>2024.03.05</td></tr><tr><td>ERC721PoolFactory</td><td>0x6C046C4b072404ce7865a7c317b432B5e269822A</td><td>2024.03.05</td></tr><tr><td>PoolInfoUtils</td><td>0x6aF0363e5d2ddab4471f31Fe2834145Aea1E55Ee</td><td>2024.03.05</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x1307d1670746E6cF6377844D350DD412Ef1684E5</td><td>2024.03.05</td></tr><tr><td>PositionManager</td><td>0x2475d80b7634aC8F891a5D00c8b56AA3a40E4Cf7</td><td>2024.03.05</td></tr></tbody></table>
 
+## Binance Smart Chain
+
+Chain: BSC\
+ChainID: 56\
+Explorer: [https://bscscan.com](https://bscscan.com)\
+Bridge: [https://portalbridge.com/](https://portalbridge.com/) (powered by Wormhole) \
+RPC Used: [https://bscrpc.com/](https://bscrpc.com/) \
+Contract Deployer - 0x77763d44A18a80de1a09A5DC57Ac766034B031D3
+
+<table><thead><tr><th width="194">Contract</th><th width="370">Address</th><th>Date</th></tr></thead><tbody><tr><td>bwAJNA Token</td><td><a href="https://bscscan.com/address/0x35ca6c5b02b2f0955c1a1584dd81071888c517e2">0x35Ca6c5b02B2F0955c1a1584DD81071888C517E2</a></td><td>2024.11.05</td></tr><tr><td>ERC20PoolFactory</td><td><a href="https://bscscan.com/address/0x86ee95085f204b525b590f21dec55e2373f6da69#code">0x86eE95085F204B525b590f21dec55e2373F6da69</a></td><td>2024.11.05</td></tr><tr><td>ERC721PoolFactory</td><td><a href="https://bscscan.com/address/0x8a4daf211979f60339d26b9eb1407d74fa36a52a">0x8A4DaF211979f60339D26b9Eb1407D74fA36a52a</a></td><td>2024.11.05</td></tr><tr><td>PoolInfoUtils</td><td><a href="https://bscscan.com/address/0x81557781862d3e0ff7559080c2a9ae1f08ee8421">0x81557781862D3e0FF7559080C2A9AE1F08Ee8421</a></td><td>2024.11.05</td></tr><tr><td>PoolInfoUtilsMulticall</td><td><a href="https://bscscan.com/address/0x56a08a72197f86625b0ec64ca675b2b0568ad613#code">0x56A08a72197f86625B0Ec64cA675b2b0568AD613</a></td><td>2024.11.05</td></tr><tr><td>PositionManager</td><td><a href="https://bscscan.com/address/0x2db531409656b4e1711ee89e6cb9a4a09ac0aad7">0x2DB531409656B4E1711EE89E6cB9A4a09aC0AAD7</a></td><td>2024.11.05</td></tr></tbody></table>
+
 ## FileCoin FVM
 
 Canonical Bridge from Ethereum Mainnet: [https://www.axelar.network/its](https://www.axelar.network/its)\
