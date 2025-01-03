@@ -24,7 +24,7 @@ Block explorer: [https://arbiscan.io/](https://arbiscan.io/)
 
 Chain: AVAX\
 ChainID: 43114\
-Explorer: https://snowtrace.io\
+Explorer: [https://snowtrace.io](https://snowtrace.io)\
 Bridge: [https://portalbridge.com/](https://portalbridge.com/) (powered by Wormhole)\
 RPC Used: [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc)\
 Contract Deployer - 0x3eF294905C8D8c12aE66B3f80a7D7008439d30FF
