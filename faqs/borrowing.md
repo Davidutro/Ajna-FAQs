@@ -23,7 +23,7 @@
 [What is the penalty for getting liquidated?](borrowing.md#what-is-the-penalty-for-getting-liquidated)\
 [How do I know my loan's liquidation price?](borrowing.md#how-do-i-know-my-loans-liquidation-price)\
 [How is the liquidation price set?](borrowing.md#how-is-the-liquidation-price-set)\
-[How does Ajna determine if my loan is insufficiently collateralized?](borrowing.md#how-does-ajna-determine-if-my-loan-is-insufficiently-collateralized)\
+[How does Ajna determine if my loan is insufficiently collateralized or will be liquidated?](borrowing.md#how-does-ajna-determine-if-my-loan-is-insufficiently-collateralized)\
 [In NFT-collection pools, can a borrower use multiple NFTs in a single position?](borrowing.md#in-nft-collection-pools-can-a-borrower-use-multiple-nfts-in-a-single-position)
 
 ### How do I borrow?
@@ -162,11 +162,13 @@ where r is the current borrower rate of the pool. As time passes, the neutral pr
 \
 Read more in section 7.3.1 of the [whitepaper.](https://www.ajna.finance/whitepaper)
 
-### How does Ajna determine if my loan is insufficiently collateralized?
+### How does Ajna determine if my loan is insufficiently collateralized or will be liquidated?
 
 To determine whether a loan is insufficiently collateralized there are three important variables being used; the loan’s [Threshold Price (TP)](https://faqs.ajna.finance/getting-started/glossary#threshold-price-tp), the loan’s [Neutral Price(NP)](https://faqs.ajna.finance/getting-started/glossary#neutral-price-np) and the pool’s [Lowest Utilized Price (LUP)](https://faqs.ajna.finance/getting-started/glossary#lowest-utilized-price-lup). \
 \
-TP is set by the borrower and is a loan’s debt multiplied by 4%, divided by the collateral. A pool’s LUP is defined as the lowest collateral price bucket against which someone is actively borrowing. If the borrower’s TP crosses above the LUP, then their position is eligible for liquidation. The NP of a loan is set at origination and acts as the liquidation price of the loan. Meaning that a loan must be both eligible and out of position with respect to the NP for it to be profitably liquidated. A loan is liquidatable when the market price of the collateral crosses below the NP.
+TP is set by the borrower and is a loan’s debt multiplied by 4%, divided by the collateral. A pool’s LUP is defined as the lowest collateral price bucket against which someone is actively borrowing. If the borrower’s TP crosses above the LUP, then their position is **eligible for liquidation**. The NP of a loan is set at origination and acts as the liquidation price of the loan. Meaning that a loan must be both **eligible and out of position with respect to the NP for it to be profitably liquidated**. A loan is liquidatable when the market price of the collateral crosses below the NP.\
+\
+If **TP is above LUP**, you are **eligible** for **liquidation**, but realistically the **market price** of collateral needs to be **below liquidation price (Neutral Price)** for **KICKER** to be **financially motivated to send Borrower to liquidation.**
 
 ### In NFT-collection pools, can a borrower use multiple NFTs in a single position?
 
