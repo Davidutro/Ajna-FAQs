@@ -8,6 +8,7 @@
 [How do I decide on what price bucket to deposit into?](lending.md#how-do-i-decide-what-price-bucket-to-deposit-into)\
 [How do I calculate the price buckets for short pools?](lending.md#how-do-i-calculate-the-price-buckets-for-short-pools)\
 [What do I need to do after depositing quote tokens?](lending.md#what-do-i-need-to-do-after-depositing-quote-tokens)\
+[How do you calculate the value of an LP token?](lending.md#how-do-you-calculate-the-value-of-an-lp-token)\
 [Can I update my lending price if my assets are being utilized?](lending.md#can-i-update-my-lending-price-if-my-assets-are-being-utilized)\
 [What can go wrong?](lending.md#what-can-go-wrong)\
 [In what scenario(s) can a lender lose their deposit?](lending.md#in-what-scenario-s-can-a-lender-lose-their-deposit)\
@@ -101,6 +102,10 @@ Occasionally users may want to move their deposits to different price buckets. M
 As the collateral price drops, users may want to consider moving their deposit down.&#x20;
 
 As collateral price increases, users may want to consider moving their deposit up.
+
+### How do you calculate the value of an LP token?&#x20;
+
+Theres a method in ‘PoolInfoUtils.sol’ lpToQuoteTokens which will convert the lp tokens into the equivalent amount of quote tokens so you could then use thre quote token price
 
 ### Can I update my lending price if my assets are being utilized?
 
