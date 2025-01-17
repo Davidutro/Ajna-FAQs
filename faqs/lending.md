@@ -105,7 +105,7 @@ As collateral price increases, users may want to consider moving their deposit u
 
 ### How do you calculate the value of an LP token?&#x20;
 
-Theres a method in ‘PoolInfoUtils.sol’ lpToQuoteTokens which will convert the lp tokens into the equivalent amount of quote tokens so you could then use thre quote token price
+Theres a method in ‘PoolInfoUtils.sol’  lpToQuoteTokens which will convert the lp tokens into the equivalent amount of quote tokens so you could then use the quote token price multiplied by the number of quote tokens in your LP token.
 
 ### Can I update my lending price if my assets are being utilized?
 
