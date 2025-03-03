@@ -77,7 +77,21 @@ Canonical Bridge from Ethereum Mainnet: [https://omni.gnosischain.com/bridge](ht
 Blockchain explorer: [https://gnosisscan.io/](https://gnosisscan.io/)\
 Other: [https://github.com/gunboatsss/ajna-core/tree/gnosis-deployments/deployments](https://github.com/gunboatsss/ajna-core/tree/gnosis-deployments/deployments)
 
-<table><thead><tr><th>Contract</th><th width="371.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0x7fE440bC581DA8fF0173a588D3f7603814393763</td><td>2024.01.23</td><td><a href="https://mapper.polygon.technology/map">https://mapper.polygon.technology/map</a></td></tr><tr><td>ERC20 factory</td><td>0x87578E357358163FCAb1711c62AcDB5BBFa1C9ef</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0xc7Fc13Fa7B697fBE3bdC56D5b9A6586A83254126</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x2baB4c287cF33a6eC373CFE152FdbA299B653F7D</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x6A91429425Fb992A9cf300aD215e4469d0D1A75A</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x173b32A07b41296909d7972421d63BAbA5160B37</td><td>2024.01.23</td><td>deploy.s.sol</td></tr></tbody></table>
+<table><thead><tr><th width="252">Contract</th><th width="371.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0x7fE440bC581DA8fF0173a588D3f7603814393763</td><td>2024.01.23</td><td><a href="https://mapper.polygon.technology/map">https://mapper.polygon.technology/map</a></td></tr><tr><td>ERC20 factory</td><td>0x87578E357358163FCAb1711c62AcDB5BBFa1C9ef</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0xc7Fc13Fa7B697fBE3bdC56D5b9A6586A83254126</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x2baB4c287cF33a6eC373CFE152FdbA299B653F7D</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x6A91429425Fb992A9cf300aD215e4469d0D1A75A</td><td>2024.01.23</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x173b32A07b41296909d7972421d63BAbA5160B37</td><td>2024.01.23</td><td>deploy.s.sol</td></tr></tbody></table>
+
+## Hemi
+
+Chain: HEMI\
+ChainID: 43111\
+Explorer: [ https://explorer.hemi.xyz/](https://explorer.hemi.xyz/)\
+Bridge: [https://app.hemi.xyz/](https://app.hemi.xyz/)\
+RPC Used: [https://rpc.hemi.network/rpc](https://rpc.hemi.network/rpc)
+
+Network info: [https://docs.hemi.xyz/main/network-details](https://docs.hemi.xyz/main/network-details)
+
+
+
+<table><thead><tr><th width="252">Contract</th><th width="371.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0x63D367531B460Da78a9EBBAF6c1FBFC397E5d40A</td><td>2025.01.15</td><td><a href="https://mapper.polygon.technology/map">https://mapper.polygon.technology/map</a></td></tr><tr><td>ERC20 factory</td><td>0x4200000000000000000000000000000000000012</td><td>2024.01.08</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0x4200000000000000000000000000000000000017</td><td>2025.01.26</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0xab57F608c37879360D622C32C6eF3BBa79AA667D</td><td>2024.10.29</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x165fd403FC5709293B78E5A2C8f36A47187BBde0</td><td>2024.10.29</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0xCD7496b83D92c5e4F2CD9C90ccC5A5B3a578cF95</td><td>2024.10.29</td><td>deploy.s.sol</td></tr></tbody></table>
 
 ## Linea
 
