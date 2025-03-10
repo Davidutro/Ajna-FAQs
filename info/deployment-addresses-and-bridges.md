@@ -84,7 +84,7 @@ Other: [https://github.com/gunboatsss/ajna-core/tree/gnosis-deployments/deployme
 Chain: HEMI\
 ChainID: 43111\
 Explorer: [ https://explorer.hemi.xyz/](https://explorer.hemi.xyz/)\
-Bridge: [https://app.hemi.xyz/](https://app.hemi.xyz/)\
+Bridge: [https://app.hemi.xyz/en/tunnel/](https://app.hemi.xyz/en/tunnel/)\
 RPC Used: [https://rpc.hemi.network/rpc](https://rpc.hemi.network/rpc)
 
 Network info: [https://docs.hemi.xyz/main/network-details](https://docs.hemi.xyz/main/network-details)
