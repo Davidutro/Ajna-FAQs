@@ -12,7 +12,7 @@ description: This page tracks Ajna contract deployments on various networks.
 
 ## Arbitrum One
 
-Canonical bridge from Ethereum mainnet: [https://bridge.arbitrum.io/](https://bridge.arbitrum.io/)
+Canonical bridge from Ethereum mainnet: [https://bridge.arbitrum.io](https://bridge.arbitrum.io/)/
 
 Block explorer: [https://arbiscan.io/](https://arbiscan.io/)
 
@@ -31,7 +31,7 @@ Contract Deployer - 0x3eF294905C8D8c12aE66B3f80a7D7008439d30FF
 
 ### Addresses
 
-<table><thead><tr><th width="168">Contract</th><th width="439.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td><a href="https://snowtrace.io/token/0xE055Ee581c637C419e55B8d5fFBA84375546f70f?chainid=43114">0xE055Ee581c637C419e55B8d5fFBA84375546f70f</a></td><td>2024.12.018</td><td>Sent across <a href="https://bridge.arbitrum.io/">https://bridge.arbitrum.io/</a></td></tr><tr><td>ERC20 factory</td><td><a href="https://snowtrace.io/address/0x2aA2A6e6B4b20f496A4Ed65566a6FD13b1b8A17A/contract/43114/code">0x2aA2A6e6B4b20f496A4Ed65566a6FD13b1b8A17A</a></td><td>2024.12.018</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td><a href="https://snowtrace.io/address/0xB3d773147A086A23fB72dcc03828C66DcE5D6627/contract/43114/code">0xB3d773147A086A23fB72dcc03828C66DcE5D6627</a></td><td>2024.12.018</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td><a href="https://snowtrace.io/address/0x9e407019C07b50e8D7C2d0E2F796C4eCb0F485b3/contract/43114/code">0x9e407019C07b50e8D7C2d0E2F796C4eCb0F485b3</a></td><td>2024.12.018</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td><a href="https://snowtrace.io/address/0xD2b45DD650141a42fF948EC5B99D9E8DF6799B8f/contract/43114/code">0xD2b45DD650141a42fF948EC5B99D9E8DF6799B8f</a></td><td>2024.12.018</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td><a href="https://snowtrace.io/address/0x0bf183a32614b3Cd11C0268441D96047D05967e0/contract/43114/code">0x0bf183a32614b3Cd11C0268441D96047D05967e0</a></td><td>2024.12.018</td><td>deploy.s.sol</td></tr></tbody></table>
+<table><thead><tr><th width="168">Contract</th><th width="439.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0xE055Ee581c637C419e55B8d5fFBA84375546f70f</td><td>2024.12.018</td><td>Sent across <a href="https://bridge.arbitrum.io/">https://bridge.arbitrum.io/</a></td></tr><tr><td>ERC20 factory</td><td>0x2aA2A6e6B4b20f496A4Ed65566a6FD13b1b8A17A</td><td>2024.12.018</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0xB3d773147A086A23fB72dcc03828C66DcE5D6627</td><td>2024.12.018</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x9e407019C07b50e8D7C2d0E2F796C4eCb0F485b3</td><td>2024.12.018</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0xD2b45DD650141a42fF948EC5B99D9E8DF6799B8f</td><td>2024.12.018</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x0bf183a32614b3Cd11C0268441D96047D05967e0</td><td>2024.12.018</td><td>deploy.s.sol</td></tr></tbody></table>
 
 ## Base
 
@@ -61,7 +61,7 @@ Bridge: [https://portalbridge.com/](https://portalbridge.com/) (powered by Wormh
 RPC Used: [https://bscrpc.com/](https://bscrpc.com/) \
 Contract Deployer - 0x77763d44A18a80de1a09A5DC57Ac766034B031D3
 
-<table><thead><tr><th width="194">Contract</th><th width="370">Address</th><th>Date</th></tr></thead><tbody><tr><td>bwAJNA Token</td><td><a href="https://bscscan.com/address/0x35ca6c5b02b2f0955c1a1584dd81071888c517e2">0x35Ca6c5b02B2F0955c1a1584DD81071888C517E2</a></td><td>2024.11.05</td></tr><tr><td>ERC20PoolFactory</td><td><a href="https://bscscan.com/address/0x86ee95085f204b525b590f21dec55e2373f6da69#code">0x86eE95085F204B525b590f21dec55e2373F6da69</a></td><td>2024.11.05</td></tr><tr><td>ERC721PoolFactory</td><td><a href="https://bscscan.com/address/0x8a4daf211979f60339d26b9eb1407d74fa36a52a">0x8A4DaF211979f60339D26b9Eb1407D74fA36a52a</a></td><td>2024.11.05</td></tr><tr><td>PoolInfoUtils</td><td><a href="https://bscscan.com/address/0x81557781862d3e0ff7559080c2a9ae1f08ee8421">0x81557781862D3e0FF7559080C2A9AE1F08Ee8421</a></td><td>2024.11.05</td></tr><tr><td>PoolInfoUtilsMulticall</td><td><a href="https://bscscan.com/address/0x56a08a72197f86625b0ec64ca675b2b0568ad613#code">0x56A08a72197f86625B0Ec64cA675b2b0568AD613</a></td><td>2024.11.05</td></tr><tr><td>PositionManager</td><td><a href="https://bscscan.com/address/0x2db531409656b4e1711ee89e6cb9a4a09ac0aad7">0x2DB531409656B4E1711EE89E6cB9A4a09aC0AAD7</a></td><td>2024.11.05</td></tr></tbody></table>
+<table><thead><tr><th width="194">Contract</th><th width="370">Address</th><th>Date</th></tr></thead><tbody><tr><td>bwAJNA Token</td><td>0x35Ca6c5b02B2F0955c1a1584DD81071888C517E2</td><td>2024.11.05</td></tr><tr><td>ERC20PoolFactory</td><td>0x86eE95085F204B525b590f21dec55e2373F6da69</td><td>2024.11.05</td></tr><tr><td>ERC721PoolFactory</td><td>0x8A4DaF211979f60339D26b9Eb1407D74fA36a52a</td><td>2024.11.05</td></tr><tr><td>PoolInfoUtils</td><td>0x81557781862D3e0FF7559080C2A9AE1F08Ee8421</td><td>2024.11.05</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x56A08a72197f86625B0Ec64cA675b2b0568AD613</td><td>2024.11.05</td></tr><tr><td>PositionManager</td><td>0x2DB531409656B4E1711EE89E6cB9A4a09aC0AAD7</td><td>2024.11.05</td></tr></tbody></table>
 
 ## FileCoin FVM
 
