@@ -38,11 +38,18 @@ Contract Deployer - 0x3eF294905C8D8c12aE66B3f80a7D7008439d30FF
 Blockchain explorer: [https://basescan.org/](https://basescan.org/)\
 Network info: [https://docs.base.org/network-information](https://docs.base.org/network-information)\
 Chain id: 8453\
-Canonical bridge from Ethereum Mainnet: [https://superbridge.app/base](https://superbridge.app/base)
+Canonical bridge from Ethereum Mainnet: [https://superbridge.app/base](https://superbridge.app/base)\
+Ajna Token Bridged : [https://basescan.org/token/0x7f05a7a9af2f5a07d1e64877c8dc37a64a22508e](https://basescan.org/token/0x7f05a7a9af2f5a07d1e64877c8dc37a64a22508e)
 
 ### Addresses
 
-<table><thead><tr><th>Contract</th><th width="366.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>bwAJNA token</td><td>0xf0f326af3b1Ed943ab95C29470730CC8Cf66ae47</td><td>2023.08.24</td><td><a href="https://basescan.org/address/0xf23d369d7471bd9f6487e198723eea023389f1d4#writeContract">https://basescan.org/address/0xf23d369d7471bd9f6487e198723eea023389f1d4#writeContract</a></td></tr><tr><td>ERC20 factory</td><td>0x214f62B5836D83f3D6c4f71F174209097B1A779C</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0xeefEC5d1Cc4bde97279d01D88eFf9e0fEe981769</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x97fa9b0909C238D170C1ab3B5c728A3a45BBEcBa</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x249BCE105719Ae4183204371697c2743800C225d</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x59710a4149A27585f1841b5783ac704a08274e64</td><td>2024.01.17</td><td>deploy.s.sol</td></tr></tbody></table>
+<table><thead><tr><th>Contract</th><th width="366.3333333333333">Address</th><th>Date</th><th data-hidden>Deployed via</th></tr></thead><tbody><tr><td>Ajna Token Bridged</td><td>0x7F05a7A9AF2f5a07D1e64877C8dC37a64a22508E</td><td>2025.05.11</td><td></td></tr><tr><td>bwAJNA token</td><td>0xf0f326af3b1Ed943ab95C29470730CC8Cf66ae47</td><td>2023.08.24</td><td><a href="https://basescan.org/address/0xf23d369d7471bd9f6487e198723eea023389f1d4#writeContract">https://basescan.org/address/0xf23d369d7471bd9f6487e198723eea023389f1d4#writeContract</a></td></tr><tr><td>ERC20 factory</td><td>0x214f62B5836D83f3D6c4f71F174209097B1A779C</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>ERC721 factory</td><td>0xeefEC5d1Cc4bde97279d01D88eFf9e0fEe981769</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtils</td><td>0x97fa9b0909C238D170C1ab3B5c728A3a45BBEcBa</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PoolInfoUtilsMulticall</td><td>0x249BCE105719Ae4183204371697c2743800C225d</td><td>2024.01.17</td><td>deploy.s.sol</td></tr><tr><td>PositionManager</td><td>0x59710a4149A27585f1841b5783ac704a08274e64</td><td>2024.01.17</td><td>deploy.s.sol</td></tr></tbody></table>
+
+
+
+
+
+
 
 ## Blast
 
