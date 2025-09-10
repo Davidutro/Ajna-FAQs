@@ -1,9 +1,10 @@
 # 🌐 General
 
 [What is the Ajna Protocol?](general.md#what-is-the-ajna-protocol)\
-[What are the key features of the Ajna Protocol?](general.md#what-are-the-key-features-of-the-ajna-protocol)\
+[What are the key features of the Ajna Protocol?](general.md#what-wallets-can-i-use-with-ajna)\
 [What are some of the use cases?](general.md#what-are-some-of-the-use-cases)\
 [Where can I use the Ajna Protocol?](general.md#where-can-i-use-the-ajna-protocol)\
+[What wallets can I use with Ajna?](general.md#what-wallets-can-i-use-with-ajna)\
 [Who are the Stakeholders of the protocol?](general.md#who-are-the-stakeholders-of-the-protocol)\
 [What are the Fees?](general.md#what-are-the-fees)\
 [How much Net Interest Margin does the Ajna Protocol earn?](general.md#how-much-net-interest-margin-does-the-ajna-protocol-earn)\
@@ -66,10 +67,14 @@ _**Current UIs for borrow/lending**_ \
 
 _**Current UIs for liquidations**_\
 [Liquidations UI](https://app.ajna.finance/markets) | https://Ajnafi.com\
-_To be a kicker or participate in auctions, click on pool details and click "manage pool"_ \
+&#xNAN;_&#x54;o be a kicker or participate in auctions, click on pool details and click "manage pool"_ \
 \
-_**Access Old Pools from first deployment**_\
+&#xNAN;_**Access Old Pools from first deployment**_\
 [_https://retired.ajnafi.com/_](https://retired.ajnafi.com/)
+
+### What wallets can I use with Ajna?
+
+Typically any regular wallet with 12 seed phrase or 24 seed phrase should work cleanly. We have seen "newer" wallets like erc-4337 standard have issues when connecting with Ajna (use these new wallets at your own risk).  Note regular wallets like Rabby, Metamask, Ledger, Gnosis safe wallet seem to work with out issue but they are based on older battle tested ERC standards.
 
 ### Who are the Stakeholders of the protocol?
 
@@ -97,7 +102,7 @@ The protocol earns between 3.23 and 14.95% NIM. It depends on the pool's utiliza
 Yes. Think carefully when you get into the 9 digit range; 100m+\
 Quote Tokens with very small unit sizes are dangerous as well.\
 \
-_Limits_\
+&#xNAN;_&#x4C;imits_\
 max auction bid = 50b\
 auction starting price is 256x reference price (capped at 50B)
 
