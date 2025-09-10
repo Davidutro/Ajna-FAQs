@@ -74,7 +74,7 @@ _**Current UIs for liquidations**_\
 
 ### What wallets can I use with Ajna?
 
-Typically any regular wallet with 12 seed phrase or 24 seed phrase should work cleanly. We have seen "newer" wallets like erc-4337 standard have issues when connecting with Ajna (use these new wallets at your own risk).  Note regular wallets like Rabby, Metamask, Ledger, Gnosis safe wallet seem to work with out issue but they are based on older battle tested ERC standards.
+Typically any regular wallet with 12 seed phrase or 24 seed phrase should work cleanly. We have seen "newer" wallets like erc-4337 standard have issues when connecting with Ajna (use these new wallets at your own risk).  Note regular wallets like Rabby, Metamask, Ledger, Gnosis safe wallet work with out issue and are based on older battle tested ERC standards.
 
 ### Who are the Stakeholders of the protocol?
 
